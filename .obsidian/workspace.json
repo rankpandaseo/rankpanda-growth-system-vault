@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-Curso-PM-com-IA/pepitas-de-ouro.md",
+                "file": "01-Clientes/pilot-vibradores/FASE-0-KICKOFF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pepitas-de-ouro"
+              "title": "FASE-0-KICKOFF"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-Curso-PM-com-IA/pepitas-de-ouro.md",
+                "file": "01-Clientes/pilot-vibradores/FASE-0-KICKOFF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks para pepitas-de-ouro"
+              "title": "Backlinks para FASE-0-KICKOFF"
             }
           },
           {
@@ -185,10 +185,16 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "05-Curso-PM-com-IA/pepitas-de-ouro.md",
+    "01-Clientes/pilot-vibradores/FASE-3-VALIDATION.md",
+    "01-Clientes/pilot-vibradores/FASE-2-EXECUTION.md",
+    "01-Clientes/pilot-vibradores/FASE-1-DIAGNOSTIC.md",
+    "01-Clientes/pilot-vibradores/FASE-0-KICKOFF.md",
+    "01-Clientes/pilot-vibradores",
+    "01-Clientes",
     "05-Curso-PM-com-IA/00-STRUCTURE.md",
     "05-Curso-PM-com-IA/COURSE_STATUS.md",
     "05-Curso-PM-com-IA/M01-Fundamentos/1.1-O-que-e-45D-Sprint.md",
-    "05-Curso-PM-com-IA/pepitas-de-ouro.md",
     "05-Curso-PM-com-IA/M10-Bonus-Infraestrutura/README.md",
     "05-Curso-PM-com-IA/M10-Bonus-Infraestrutura",
     "05-Curso-PM-com-IA/M09-Scaling-e-Sistemas/README.md",
@@ -206,12 +212,10 @@
     "05-Curso-PM-com-IA/M03-Integrações/README.md",
     "05-Curso-PM-com-IA/M03-Integrações",
     "05-Curso-PM-com-IA/M02-Memoria-e-Contexto/README.md",
-    "05-Curso-PM-com-IA/M02-Memoria-e-Contexto",
     "05-Curso-PM-com-IA/M01-Fundamentos/1.4-Por-que-vence-agencias-tradicionais.md",
     "05-Curso-PM-com-IA/M01-Fundamentos/1.3-Papeis-e-responsabilidades.md",
     "05-Curso-PM-com-IA/M01-Fundamentos/1.2-As-4-fases-em-detalhe.md",
     "05-Curso-PM-com-IA/M01-Fundamentos/README.md",
-    "05-Curso-PM-com-IA/M01-Fundamentos",
     "00-README.md",
     "03-Automações/claude-scheduled-tasks.md",
     "03-Automações/vault-sync-setup.md",
