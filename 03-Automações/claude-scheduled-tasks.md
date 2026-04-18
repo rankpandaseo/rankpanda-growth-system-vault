@@ -51,7 +51,7 @@ Compile these into pepita format:
 **How to apply:** [actionable next time]
 ---
 
-Add to: /vault/05-Curso-PM-com-IA/pepitas-de-ouro.md
+Add to: /vault/05-Curso-45D/pepitas-de-ouro.md
 Max 10 pepitas per week.
 Organize by category (KW research, collections, products, technical, client, etc).
 ```
@@ -87,7 +87,7 @@ Format:
 **Practical exercise:**
 [what to do to practice this]
 
-Add to: /vault/05-Curso-PM-com-IA/M0X/
+Add to: /vault/05-Curso-45D/M0X/
 
 Update MODULE_STATUS in 00-STRUCTURE.md
 ```

@@ -7,8 +7,8 @@ Vault único para toda a operação do sistema 45D: projetos, SOPs, automações
 - **01-Clientes/** — Pastas por cliente (loja), com memory files por sprint
 - **02-SOPs/** — Procedimentos operacionais estruturados em 3 camadas (auditoria, formativo, template ClickUp)
 - **03-Automações/** — Scripts, webhooks, integrações (Discord, ClickUp, Vault sync)
-- **04-Templates/** — Templates reutilizáveis (formas, briefings, relatórios)
-- **05-Curso PM com IA/** — Módulos de aprendizagem estruturados + pepitas de ouro
+- **04-Templates/** — Templates reutilizáveis (formas, briefings, relatórios, atualizações semanais)
+- **05-Curso-45D/** — Módulos de aprendizagem estruturados (45D system framework) + pepitas de ouro
 - **memory/** — Gerenciado por Claude Code para context awareness
 - **todo.md** — Rastreador inteligente de prioridades e dependências
 

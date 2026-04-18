@@ -3,6 +3,11 @@
 **Timeline:** Dia 6-12 do 45D Sprint  
 **Objetivo:** Entender site, concorrência, oportunidades, gap analysis.
 
+**Using Templates & References:** 
+- Master SOP: `/02-SOPs/FASE-1-DIAGNOSTIC.md`
+- Templates: See `/04-Templates/` for weekly-update-template.md and before-after-report-template.md
+- Course: See `/05-Curso-45D/` for relevant lessons
+
 ---
 
 ## 🎯 CAMADA 1 — AUDITORIA

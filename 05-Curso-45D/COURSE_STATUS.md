@@ -1,7 +1,9 @@
-# Course Status — PM RankPanda com IA
+# Course Status — 45D Sprint System Course
 
 Generated: 2026-04-18  
 Current Phase: **M01 Complete, M02-M10 Skeleton Ready**
+
+This course teaches the **45D Sprint Framework** — the operational system for transforming Shopify stores into organic traffic machines in 45 days.
 
 ---
 

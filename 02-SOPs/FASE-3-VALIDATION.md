@@ -143,6 +143,8 @@ Based on diagnostic + execution learnings:
 
 **Project:** `[Loja] — 45D Sprint → FASE 3 Validation`
 
+**Using Templates:** See `/04-Templates/` for before-after-report-template.md and pepita-capture-template.md
+
 **Folders:**
 
 1. **METRICS COLLECTION**
@@ -179,7 +181,7 @@ Based on diagnostic + execution learnings:
    - [ ] Client sign-off obtained
    - [ ] Celebration 🎉
 
-### Tarefas Específicas
+### Tarefas Específicas (9 Tasks)
 
 #### Task 1 — Collect Metrics
 - **Assignee:** [RankPanda analytics]

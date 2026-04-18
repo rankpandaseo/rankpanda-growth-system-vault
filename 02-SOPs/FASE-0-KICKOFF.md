@@ -98,6 +98,8 @@ Dados obrigatórios:
 
 **Project Name:** `[Loja] — 45D Sprint`
 
+**Using Templates:** See `/04-Templates/` for kickoff-briefing-form.md and weekly-update-template.md
+
 **Folders:**
 1. **KICKOFF** (3-5 dias)
    - [ ] Kickoff call agendada
@@ -113,7 +115,7 @@ Dados obrigatórios:
    - [ ] Briefing aprovado
    - [ ] Go/No-go decision
 
-### Tarefas Específicas
+### Tarefas Específicas (7 Tasks)
 
 #### Task 1 — Agendar Kickoff Call
 - **Assignee:** [RankPanda owner]

@@ -179,6 +179,8 @@ Semana 4:
 
 **Project:** `[Loja] — 45D Sprint → FASE 2 Execution`
 
+**Using Templates:** See `/04-Templates/` for approval-gate-keywords.md, approval-gate-collections.md, approval-gate-products.md, and weekly-update-template.md
+
 **Folders:**
 
 1. **KW RESEARCH**

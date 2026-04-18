@@ -9,11 +9,19 @@ Priority tracker with dependency awareness. Auto-updates from execution + learni
 **Status:** 85% Complete (Week 2 → Week 3 transition)
 
 ### Vault Infrastructure
-- [x] Vault folder structure created (01-Clientes, 02-SOPs, 03-Automações, 04-Templates, 05-Curso)
-- [x] FASE 0 SOP (3-layer structure) documented
-- [x] FASE 1 SOP (3-layer structure) documented
-- [x] FASE 2 SOP (3-layer structure) documented
-- [x] FASE 3 SOP (3-layer structure) documented
+- [x] Vault folder structure created (01-Clientes, 02-SOPs, 03-Automações, 04-Templates, 05-Curso-45D)
+- [x] FASE 0 SOP (3-layer structure) documented with ClickUp task templates
+- [x] FASE 1 SOP (3-layer structure) documented with 7 ClickUp tasks
+- [x] FASE 2 SOP (3-layer structure) documented with multi-stream tasks
+- [x] FASE 3 SOP (3-layer structure) documented with 9 ClickUp tasks
+- [x] 04-Templates folder created with 7 essential templates
+  - [x] kickoff-briefing-form.md
+  - [x] approval-gate-keywords.md
+  - [x] approval-gate-collections.md
+  - [x] approval-gate-products.md
+  - [x] weekly-update-template.md
+  - [x] before-after-report-template.md
+  - [x] pepita-capture-template.md
 - [ ] Vault sync automation setup (MAC ↔ VPS ↔ GitHub)
   - [ ] Git hooks for auto-commit
   - [ ] Cron job for VPS pull
@@ -63,17 +71,18 @@ Priority tracker with dependency awareness. Auto-updates from execution + learni
   - [ ] Client Communication SOP (detailed)
 
 ### ClickUp Templates
-- [ ] FASE 0 task template (3-5 tasks)
-- [ ] FASE 1 task template (parallel streams)
-- [ ] FASE 2 task template (KW + Collections + Products + Technical)
-- [ ] FASE 3 task template (metrics + reporting)
+- [x] FASE 0 task template (7 specific tasks documented)
+- [x] FASE 1 task template (7 parallel analysis tasks documented)
+- [x] FASE 2 task template (KW + Collections + Products + Technical streams with multiple tasks each)
+- [x] FASE 3 task template (9 tasks: metrics collection, analysis, reporting, learnings)
 
 ### Approval Gates Documentation
-- [ ] Kickoff approval form template
-- [ ] KW research approval form template
-- [ ] Collection draft approval form template
-- [ ] Product batch approval form template
-- [ ] Final roadmap approval form template
+- [x] Kickoff briefing form template (kickoff-briefing-form.md)
+- [x] KW research approval form template (approval-gate-keywords.md)
+- [x] Collection draft approval form template (approval-gate-collections.md)
+- [x] Product batch approval form template (approval-gate-products.md)
+- [x] Weekly update template (weekly-update-template.md)
+- [x] Before/After report template (before-after-report-template.md)
 
 ---
 

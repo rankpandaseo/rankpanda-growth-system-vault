@@ -3,6 +3,11 @@
 **Timeline:** Dia 41-45 do 45D Sprint  
 **Objetivo:** Validar resultados, criar roadmap continuidade, apresentar ROI.
 
+**Using Templates & References:** 
+- Master SOP: `/02-SOPs/FASE-3-VALIDATION.md`
+- Templates: See `/04-Templates/` for before-after-report-template.md and pepita-capture-template.md
+- Course: See `/05-Curso-45D/` for relevant lessons
+
 ---
 
 ## 🎯 CAMADA 1 — AUDITORIA

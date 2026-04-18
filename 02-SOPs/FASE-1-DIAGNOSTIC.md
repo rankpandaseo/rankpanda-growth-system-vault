@@ -120,6 +120,8 @@ Sem diagnóstico claro:
 
 **Project:** `[Loja] — 45D Sprint → FASE 1 Diagnostic`
 
+**Using Templates:** See `/04-Templates/` for weekly-update-template.md and before-after-report-template.md
+
 **Folders:**
 
 1. **GSC ANALYSIS**
@@ -148,7 +150,7 @@ Sem diagnóstico claro:
    - [ ] Loom video recording (optional)
    - [ ] Client presentation ready
 
-### Tarefas Específicas
+### Tarefas Específicas (7 Tasks)
 
 #### Task 1 — GSC Coverage Analysis
 - **Assignee:** [RankPanda analytics]

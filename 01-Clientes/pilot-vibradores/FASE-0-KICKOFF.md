@@ -4,6 +4,11 @@
 **Cliente:** Pilot-Vibradores (Internal Test)  
 **Objetivo:** Preparar loja para 45D sprint, validar setup técnico, definir baseline.
 
+**Using Templates & References:** 
+- Master SOP: `/02-SOPs/FASE-0-KICKOFF.md`
+- Templates: See `/04-Templates/` for kickoff-briefing-form.md and weekly-update-template.md
+- Course: See `/05-Curso-45D/` for relevant lessons
+
 ---
 
 ## 🎯 CAMADA 1 — AUDITORIA

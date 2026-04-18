@@ -3,6 +3,11 @@
 **Timeline:** Dia 13-40 do 45D Sprint  
 **Objetivo:** Implementar 4 streams em paralelo: KW Research, Collections, Products, Technical.
 
+**Using Templates & References:** 
+- Master SOP: `/02-SOPs/FASE-2-EXECUTION.md`
+- Templates: See `/04-Templates/` for approval-gate-keywords.md, approval-gate-collections.md, approval-gate-products.md, and weekly-update-template.md
+- Course: See `/05-Curso-45D/` for relevant lessons
+
 ---
 
 ## 🎯 CAMADA 1 — AUDITORIA (Parallel Streams)

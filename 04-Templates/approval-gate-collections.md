@@ -1,0 +1,167 @@
+# Approval Gate — Collections Optimization Samples Template
+
+Client approval form for collection optimization samples. Present 2-3 optimized collection examples to get client feedback before bulk implementation.
+
+---
+
+## 📦 Collection Optimization Samples
+
+**Sprint:** _________________ | **Phase:** FASE 2 - Execução | **Date:** ___________
+
+**Total Collections in Store:** _____ | **Samples for Review:** _____ (typically 2-3)
+
+**Optimization Focus:** Title + Description + Schema + Internal Linking
+
+---
+
+## 🎯 Sample Collection 1: ___________________________________
+
+### Current State
+
+**Current Title:** ___________________________________
+
+**Current Description (First 160 chars):** 
+___________________________________________________________________
+
+**Current Meta Tags:** ___________________________________
+
+### Optimized Version
+
+**New Title:** ___________________________________
+
+**New Description (First 160 chars):** 
+___________________________________________________________________
+
+**New Meta Tags:** ___________________________________
+
+**Schema Markup Added:** [ ] Product [ ] BreadcrumbList [ ] FAQPage
+
+### Changes Explained
+
+**Why This Title:** _________________________________________________
+
+**Why This Description:** _________________________________________________
+
+**Expected Impact:** _________________________________________________
+
+---
+
+## 🎯 Sample Collection 2: ___________________________________
+
+### Current State
+
+**Current Title:** ___________________________________
+
+**Current Description (First 160 chars):** 
+___________________________________________________________________
+
+**Current Meta Tags:** ___________________________________
+
+### Optimized Version
+
+**New Title:** ___________________________________
+
+**New Description (First 160 chars):** 
+___________________________________________________________________
+
+**New Meta Tags:** ___________________________________
+
+**Schema Markup Added:** [ ] Product [ ] BreadcrumbList [ ] FAQPage
+
+### Changes Explained
+
+**Why This Title:** _________________________________________________
+
+**Why This Description:** _________________________________________________
+
+**Expected Impact:** _________________________________________________
+
+---
+
+## 🎯 Sample Collection 3: ___________________________________
+
+### Current State
+
+**Current Title:** ___________________________________
+
+**Current Description (First 160 chars):** 
+___________________________________________________________________
+
+**Current Meta Tags:** ___________________________________
+
+### Optimized Version
+
+**New Title:** ___________________________________
+
+**New Description (First 160 chars):** 
+___________________________________________________________________
+
+**New Meta Tags:** ___________________________________
+
+**Schema Markup Added:** [ ] Product [ ] BreadcrumbList [ ] FAQPage
+
+### Changes Explained
+
+**Why This Title:** _________________________________________________
+
+**Why This Description:** _________________________________________________
+
+**Expected Impact:** _________________________________________________
+
+---
+
+## 💡 Optimization Approach
+
+**Total Collections to Optimize:** _____ (across store)
+
+**Time to Apply to All:** _____ hours
+
+**Timeline:** Week _____ to Week _____
+
+**Testing:** [ ] Yes, A/B test before full rollout [ ] No, apply to all
+
+---
+
+## ✅ Client Approval Section
+
+**Do you approve this collection optimization approach?**
+
+[ ] ✅ **APPROVED** — Proceed with bulk implementation
+
+[ ] ⚠️ **APPROVED WITH CHANGES** — Details below:
+_________________________________________________________
+_________________________________________________________
+
+[ ] ❌ **REJECTED** — Please revise. Feedback:
+_________________________________________________________
+_________________________________________________________
+
+---
+
+**Client Name:** _________________________ | **Date:** ___________
+
+**Client Signature/Approval:** _________________________
+
+**RankPanda Manager:** _________________________ | **Date:** ___________
+
+---
+
+## 📌 Implementation Details
+
+**Execution Schedule:**
+- Day 1: Implement samples (3 collections)
+- Day 2-3: Monitor GSC (check indexation)
+- Day 4: Apply to remaining collections (_____ total)
+- Week 1: GSC monitoring and refinement
+
+**Metrics We'll Track:**
+- Google Search Console indexed pages
+- Click impressions (2-4 weeks for trends)
+- Ranking position changes
+- Weekly reports (Friday)
+
+---
+
+**Template Version:** 1.0  
+**Last Updated:** 2026-04-18  
+**Owner:** RankPanda Growth System
