@@ -1,212 +1,129 @@
----
-name: Sprint 001 — Pilot Vibradores
-description: Internal test sprint for 45D framework validation in adult dropshipping niche
-type: project
-originSessionId: 80552ca4-c1b5-4fc4-8869-2c5521f70eb8
----
-# Sprint 001 — Pilot Vibradores
+# Projeto: Pilot-Vibradores | Sprint 001
 
-**Project Type:** Internal Pilot / Reference Case  
-**Status:** ⏳ Preparing FASE 0  
-**Timeline:** 2026-04-18 to 2026-06-02 (45 days)  
-**Goal:** Validate 45D Sprint framework and generate real course material
+| Campo | Valor |
+|-------|-------|
+| **Cliente** | Pilot-Vibradores (Internal Test) |
+| **Data Início** | 2026-04-18 |
+| **Sprint** | 001 — Vibradores |
+| **Duração** | 45 dias (Dia 1-45) |
+| **Status** | ⏳ FASE 0: Kickoff |
 
 ---
 
-## 📋 Project Context
+## IDs de Ferramentas (Obrigatório)
 
-**Niche:** Dropshipping (Vibradores / Masturbadores — adult category)  
-**Platform:** Shopify  
-**Business Model:** Dropshipping with Shopify collections + SEO
-
-**Why This Niche:**
-- Real market with search volume
-- Complex category (adult, multiple subcategories)
-- High AOV potential (€35-50 average)
-- Good test for category-specific SEO challenges
-
-**Success Metrics:**
-- ✅ Complete 45D execution without blockers
-- ✅ Generate 3-5 new pepitas from real execution
-- ✅ Create 2-3 real course lessons from execution
-- ✅ Document before/after metrics
-- ✅ Build foundation for future clients
+| Ferramenta | ID / URL | Status |
+|---|---|---|
+| **ClickUp List** | 901522878325 | ✅ Criada |
+| **Shopify Store** | [URL loja] | ⏳ A definir |
+| **Google Search Console** | [GSC property ID] | ⏳ A definir |
+| **Google Analytics 4** | [GA4 measurement ID] | ⏳ A definir |
+| **SE Ranking Project** | [Project ID] | ⏳ A definir |
+| **Discord Channel** | #growth-system-pilot | ✅ Criado |
 
 ---
 
-## 👥 Team Assignments
+## Baseline (Estado quando começámos)
 
-| Role | Person | Responsibility |
-|------|--------|-----------------|
-| Project Owner | Rui | Overall strategy, approval gates, client communication |
-| AI Assistant | Claude | Execution automation, monitoring, documentation |
-| Analytics | Claude | GSC, GA4 tracking, baseline metrics |
-| Technical | Claude | Shopify setup, integrations, schema markup |
+### GSC (Google Search Console)
 
----
+| Métrica | Valor | Data |
+|---------|-------|------|
+| Indexed Pages | [TBD] | 2026-04-18 |
+| 30D Impressions | [TBD] | 2026-04-18 |
+| 30D Clicks | [TBD] | 2026-04-18 |
+| Avg Position (Top 10) | [TBD] | 2026-04-18 |
 
-## 📊 Baseline Metrics (To Capture in FASE 0)
+### GA4 (Google Analytics 4)
 
-**GSC:**
-- [ ] Total indexed pages
-- [ ] Impressions (30D)
-- [ ] Clicks (30D)
-- [ ] Average position (top keywords)
+| Métrica | Valor | Data |
+|---------|-------|------|
+| Organic Sessions (30D) | [TBD] | 2026-04-18 |
+| Organic Conversions (30D) | [TBD] | 2026-04-18 |
+| AOV by Organic | [TBD] | 2026-04-18 |
+| Bounce Rate | [TBD] | 2026-04-18 |
 
-**GA4:**
-- [ ] Organic sessions (30D)
-- [ ] Organic conversions (30D)
-- [ ] AOV by source
-- [ ] Entry/exit pages
+### Shopify
 
-**SE Ranking:**
-- [ ] Keyword rankings (top 100)
-- [ ] Difficulty scores
-- [ ] Volume data
+| Métrica | Valor | Data |
+|---------|-------|------|
+| Total Products | [TBD] | 2026-04-18 |
+| Total Collections | [TBD] | 2026-04-18 |
+| Monthly Orders (avg) | [TBD] | 2026-04-18 |
+| AOV | [TBD] | 2026-04-18 |
 
----
+### SE Ranking
 
-## 🔗 Integration Points
-
-**Tools Connected:**
-- **Shopify:** Admin API for collections/products
-- **Google Search Console:** Search performance data
-- **Google Analytics 4:** User behavior tracking
-- **SE Ranking:** Keyword tracking
-- **Discord:** #growth-system-pilot channel
-- **ClickUp:** "Sprint 001 — Vibradores" list
-
-**Discord Channel:** #growth-system-pilot (private)  
-**ClickUp Space:** Shopify Sprint 45D | Template / "Sprint 001 — Vibradores"  
-**Vault Folder:** `/vault/01-Clientes/pilot-vibradores/`
+| Métrica | Valor | Data |
+|---------|-------|------|
+| Keywords Tracked | [TBD] | 2026-04-18 |
+| Avg Ranking Position | [TBD] | 2026-04-18 |
+| Keywords in Top 10 | [TBD] | 2026-04-18 |
 
 ---
 
-## 📈 FASE Timeline
+## Métricas Diárias (Atualizar a cada sessão)
 
-### FASE 0 — Kickoff (Dia 1-5)
-**Status:** ⏳ Pronto para iniciar  
-**Deliverables:**
-- Briefing completo
-- Setup técnico validado
-- Baseline metrics capturados
+### Última Atualização: [DATA]
 
-### FASE 1 — Diagnostic (Dia 6-12)
-**Status:** ⏳ Bloqueado por FASE 0  
-**Deliverables:**
-- GSC deep dive analysis
-- GA4 funnel analysis
-- Technical audit
-- Competitive analysis
-- Top 3-5 opportunities
+#### GSC (Últimas 7 dias)
 
-### FASE 2 — Execution (Dia 13-40)
-**Status:** ⏳ Bloqueado por FASE 1  
-**Deliverables:**
-- 5-10 optimized collections
-- 50-100+ optimized products
-- Technical improvements
-- Weekly updates
+| Dia | Impressions | Clicks | Avg Position |
+|-----|-------------|--------|--------------|
+| [DATA] | [N] | [N] | [N] |
 
-### FASE 3 — Validation (Dia 41-45)
-**Status:** ⏳ Bloqueado por FASE 2  
-**Deliverables:**
-- Before/after metrics
-- ROI calculation
-- Case study
-- 90D roadmap
+#### GA4 (Últimas 7 dias)
+
+| Dia | Organic Sessions | Organic Conversions | Revenue |
+|-----|------------------|-------------------|---------|
+| [DATA] | [N] | [N] | €[N] |
+
+#### Shopify (Últimas 7 dias)
+
+| Dia | Orders | Revenue | AOV |
+|-----|--------|---------|-----|
+| [DATA] | [N] | €[N] | €[N] |
 
 ---
 
-## 📚 Course Material Generated
+## Estado Actual da FASE
 
-**From FASE 0:**
-- M02 Lesson: "How to Structure Project Memory" (real example)
-- M04 Lesson: "Stakeholder Setup for Smooth Execution"
+### FASE Atual: 0 (Kickoff)
 
-**From FASE 1:**
-- M03 Lesson: "GSC Analysis for Opportunity Discovery"
-- M03 Lesson: "GA4 Funnel Analysis"
-
-**From FASE 2:**
-- M04 Lesson: "Parallelizing 4 Streams Without Chaos"
-- M05 Lesson: "Automation: KW Research → Approval → Scale"
-
-**From FASE 3:**
-- M07 Lesson: "ROI Metrics That Matter"
-- M07 Lesson: "Before/After Case Study Structure"
-
-**Pepitas Expected:** 5-8 from this pilot
+| Task | Status | Due | Owner |
+|------|--------|-----|-------|
+| Briefing Form & Business Validation | ⏳ | Day 1 | Rui |
+| Setup Técnico — Shopify | ⏳ | Day 2 | Claude |
+| Setup Técnico — GSC + GA4 | ⏳ | Day 2 | Claude |
+| Setup Técnico — SE Ranking | ⏳ | Day 3 | Claude |
+| Baseline Metrics Recolhidos | ⏳ | Day 4 | Claude |
+| Approval Gate — Go/No-go FASE 1 | ⏳ | Day 5 | Rui |
 
 ---
 
-## 🎓 Learning Objectives
+## Descobertas & Insights
 
-What we want to learn from this pilot:
+### Sessão [DATA]
 
-1. **Framework Validation**
-   - Does 45D framework work with real store?
-   - Are timelines realistic?
-   - Do approval gates prevent scope creep?
+**Key Findings:**
+- [Insight 1]
+- [Insight 2]
 
-2. **Adult Niche Insights**
-   - What's different about adult category SEO?
-   - Are there search volume issues?
-   - Do keyword strategies change?
-
-3. **Automation Patterns**
-   - Which tasks can Claude fully automate?
-   - Which need human approval?
-   - What's the approval → execution cycle time?
-
-4. **Course Material Quality**
-   - Are real examples better than hypothetical?
-   - How much of the course can emerge from execution?
-   - Are pepitas capturing the right insights?
+**Blockers:**
+- [Blocker 1]
 
 ---
 
-## 📝 Important Notes
+## Histórico de FASES
 
-**Scope:**
-- This is a real execution (not a simulation)
-- Results should be documented transparently (successes and failures)
-- Timeline is fixed: 45 days, no extensions
-- Learnings drive course material, not theory
-
-**Constraints:**
-- Single niche (dropshipping vibradores)
-- Internal client (Rui as stakeholder)
-- Focus on methodology validation, not maximizing client revenue
-
-**Expectations:**
-- Organic traffic improvement expected: 10-30% in 45 days
-- Keyword rankings improvement: 2-5 position average
-- New keywords in top 100: 10-20 keywords
+| FASE | Timeline | Status | Deliverable |
+|------|----------|--------|-------------|
+| **FASE 0** | Dia 1-5 | ⏳ Em Progresso | Baseline + Approval Gate |
+| **FASE 1** | Dia 6-12 | ⏳ Waiting | Diagnostic Report |
+| **FASE 2** | Dia 13-40 | ⏳ Pending | 4 Streams de Execução |
+| **FASE 3** | Dia 41-45 | ⏳ Pending | ROI + Roadmap 90D |
 
 ---
 
-## 🔄 Update Cadence
-
-- **Daily:** Tasks progress updated in ClickUp
-- **Weekly:** Status updated in this memory file
-- **End of FASE:** Metrics captured and documented
-- **Post-Sprint:** Pepitas synthesized, course lessons written
-
----
-
-## ✅ FASE 0 Checklist
-
-Before starting, confirm:
-- [ ] Discord channel created ✅
-- [ ] ClickUp list created (Sprint 001 — Vibradores)
-- [ ] Memory file created ✅
-- [ ] Vault folder created ✅
-- [ ] FASE 0-3 templates prepared ✅
-- [ ] Scheduled tasks deployed ✅
-
----
-
-**Created:** 2026-04-18  
-**Owner:** RankPanda AI System  
-**Status:** ⏳ Pronto para FASE 0 kickoff
+**Última atualização:** 2026-04-18  
+**Próxima revisão:** Dia 2 (setup técnico completado)

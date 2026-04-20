@@ -1,0 +1,90 @@
+# Lessons — Erros Que Não Podem Repetir
+
+Aprendizados organizacionais que devem prevenir regressão. Cada lição documenta:
+- **Erro**: O que correu mal
+- **Quando**: Em que contexto/sprint/cliente
+- **Impacto**: Custo/atraso/risco causado
+- **Raiz**: Por quê aconteceu
+- **Prevenir**: Como evitar próxima vez
+
+---
+
+## 🚫 Critical Lessons (Tópico)
+
+### L001: Shopify API Rate Limiting
+
+**Erro:** Script de colecção de métricas fez polling a cada 5 minutos, trigger rate limiting.
+
+**Quando:** Sprint 001 — Vibradores (hypothetical)
+
+**Impacto:** 60 min downtime, lost 8h de métricas, cliente notou lag no admin.
+
+**Raiz:** Não calculei cost-per-call × frequency. API tem 2 calls/seg per app, batch queries são 10x mais eficientes.
+
+**Prevenir:** 
+- Batch Shopify queries: agrupar 5-10 produtos por call, não individual lookups
+- Cache resultados 5 min localmente antes de re-fetch
+- Monitor rate-limit headers (X-Request-ID-Counter) e back-off exponencial
+
+---
+
+### L002: GSC Data Lag
+
+**Erro:** Relatório de D1 usou dados de GSC D0, mas GSC publica com ~2 dias de lag.
+
+**Quando:** Sprint 001 reporting
+
+**Impacto:** Métricas mostradas eram "stale", cliente questionou precisão.
+
+**Raiz:** Não li docs de GSC: "data is available for previous 3 days but latest complete day is 2 days ago".
+
+**Prevenir:**
+- Always pull GSC data com -2 days offset
+- Documente lag expectations no relatorio: "Dados de GSC até {data - 2 dias}"
+- Never report D0 metrics, wait para dia completo
+
+---
+
+### L003: GA4 Custom Event Tracking
+
+**Erro:** Evento "purchase" não estava mapeado em GA4 event schema, conversions apareciam como 0.
+
+**Quando:** Sprint 001 baseline
+
+**Impacto:** Não consegui validar baseline real, ROI calculations estavam errados.
+
+**Raiz:** Shopify ecommerce.purchase event não foi configurado em GA4 linked properties.
+
+**Prevenir:**
+- FASE 0: Validar que GA4 tem purchase event live antes de começar
+- Testar com purchase fake (Admin → Orders → fake order) e confirmar event em GA4 Real-Time
+- Documento: "GA4 Events Verified" checkbox in FASE 0 approval gate
+
+---
+
+### L004: ClickUp Dependency Hell
+
+**Erro:** Criei 15 tasks in parallel, 3 dependências circular (A→B→C→A).
+
+**Quando:** Sprint 001 FASE 2 task setup
+
+**Impacto:** ClickUp timeline bloqueou, ninguém sabia quem devia ir primeiro, parallelization falhou.
+
+**Raiz:** Não desenhe dependencies antes de criar tasks. Dependencies devem ser acíclicas (DAG).
+
+**Prevenir:**
+- Use template pre-validated: `/04-Templates/fase-2-tasks-template.md`
+- Review dependencies antes de create, não depois
+- Audit: "Todos tasks têm 1 owner, 1 due date, 0 circular deps?"
+
+---
+
+## 📚 Learning Pool (Adicionar ao Longo do Tempo)
+
+_Novos lessons vêm de sprint retrospectives e incident reviews_
+
+---
+
+**Versão:** 1.0  
+**Criado:** 2026-04-18  
+**Próxima revisão:** Após FASE 3 completo

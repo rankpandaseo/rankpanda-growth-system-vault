@@ -19,10 +19,9 @@ Persistent context that enables Claude to maintain project awareness and become 
 ## 🔗 Quick Links
 
 ### Context (How We Work)
-- `context/business-context.md` — 45D Sprint model, philosophy, tools
-- `context/decisions.md` — Inviolable architectural decisions
-- `context/people.md` — Team members and preferences
-- `context/lessons.md` — Org learnings (grows with sprints)
+- `context/decisions.md` — Inviolable architectural decisions (APIs diretas, 45D Sprint, Vault como fonte, Auto-scaffold)
+- `context/people.md` — Squad members, responsibilities, communication cadence, authority matrix
+- `context/lessons.md` — Critical learnings that can't repeat (Shopify rate limiting, GSC data lag, GA4 tracking, ClickUp dependencies)
 
 ### Projects (What We're Building)
 - `projects/pilot-vibradores.md` — Sprint 001: Vibradores dropshipping pilot
@@ -32,8 +31,13 @@ Persistent context that enables Claude to maintain project awareness and become 
 - `feedback/minimalism.md` — Use ClickUp + Discord, not complex dashboards
 
 ### Integrations (Where Things Live)
-- `integrations/external-systems.md` — ClickUp, Discord, Shopify, GSC, GA4, SE Ranking
+- `integrations/external-systems.md` — ClickUp, Discord, Shopify, GSC, GA4, SE Ranking API endpoints
 - `integrations/vault-map.md` — Where files live in the vault
+
+### Automations (Scripts in /03-Automações/)
+- `onboarding-scaffold.py` — Processes kickoff-briefing-form.md → creates memory/projects/[cliente].md + pending.md
+- `metrics-aggregator.py` — Daily metric collection orchestrator (calls all API clients)
+- `api_clients.py` — Base classes for GSC, GA4, Shopify, SE Ranking clients (credentials from GitHub vault)
 
 ---
 

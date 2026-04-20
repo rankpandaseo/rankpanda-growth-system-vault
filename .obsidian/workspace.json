@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Memory/projects/pilot-vibradores.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pilot-vibradores"
+              "title": "todo"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Memory/projects/pilot-vibradores.md",
+                "file": "todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks para pilot-vibradores"
+              "title": "Backlinks para todo"
             }
           },
           {
@@ -185,6 +185,21 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "00-Memory/sessions/2026-04-18.md",
+    "00-Memory/sessions/estado-atual.md",
+    "00-Memory/sessions",
+    "00-README.md",
+    "00-Memory/context/lessons.md",
+    "00-Memory/context/decisions.md",
+    "00-Memory/projects/pilot-vibradores.md",
+    "00-Memory/MEMORY.md",
+    "05-Curso-45D/M04-Gestao-de-Equipa/README.md",
+    "05-Curso-45D/M01-Fundamentos/1.4-Por-que-vence-agencias-tradicionais.md",
+    "03-Automações/README.md",
+    "03-Automações/api_clients.py",
+    "03-Automações/metrics-aggregator.py",
+    "03-Automações/onboarding-scaffold.py",
+    "00-Memory/context/people.md",
     "04-Templates/pepita-capture-template.md",
     "04-Templates/before-after-report-template.md",
     "04-Templates/weekly-update-template.md",
@@ -198,28 +213,13 @@
     "05-Curso-45D/M08-Qualidade-e-Anti-Padroes/README.md",
     "05-Curso-45D/M07-Reporting-e-Dashboards/README.md",
     "05-Curso-45D/M06-Vault-e-Sync/README.md",
-    "05-Curso-45D/M04-Gestao-de-Equipa/README.md",
     "05-Curso-45D/M05-Automacoes-e-Agents/README.md",
     "05-Curso-45D/M02-Memoria-e-Contexto/README.md",
     "05-Curso-45D/M01-Fundamentos/README.md",
-    "05-Curso-45D/M01-Fundamentos/1.4-Por-que-vence-agencias-tradicionais.md",
-    "05-Curso-45D/M01-Fundamentos/1.3-Papeis-e-responsabilidades.md",
-    "05-Curso-45D/M01-Fundamentos/1.2-As-4-fases-em-detalhe.md",
-    "05-Curso-45D/M01-Fundamentos/1.1-O-que-e-45D-Sprint.md",
-    "05-Curso-45D/M03-Integrações/README.md",
-    "05-Curso-45D/pepitas-de-ouro.md",
     "05-Curso-45D/M10-Bonus-Infraestrutura",
     "05-Curso-45D/M09-Scaling-e-Sistemas",
     "05-Curso-45D/M08-Qualidade-e-Anti-Padroes",
     "05-Curso-45D/M07-Reporting-e-Dashboards",
-    "05-Curso-45D/M06-Vault-e-Sync",
-    "05-Curso-45D/M05-Automacoes-e-Agents",
-    "05-Curso-45D/M04-Gestao-de-Equipa",
-    "05-Curso-45D/M03-Integrações",
-    "05-Curso-45D/M02-Memoria-e-Contexto",
-    "05-Curso-45D/COURSE_STATUS.md",
-    "05-Curso-45D/00-STRUCTURE.md",
-    "00-Memory/MEMORY.md",
-    "todo.md"
+    "05-Curso-45D/M06-Vault-e-Sync"
   ]
 }
