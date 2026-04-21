@@ -1,85 +1,265 @@
 ---
 name: course-status
-description: Course Status — 45D Sprint System Course Generated: 2026-04-18 Current Phase: **M01 Complete, M02-M10 Skeleton Ready** This course teaches the **45D Sprint Framework** — the operational system for transforming Shopify stores into organic traffic machines in 45 days. --- ## Overview | Metric | Status |
+description: Course status tracker - progress on 45D Sprint Framework course completion
 type: course
 status: active
 foco: course
-tags: [course, reference]
-wikilinks: []
+tags: [course, status, progress, tracking]
+wikilinks: [[COURSE-00-STRUCTURE]], [[COURSE-PEPITAS-DE-OURO]]
 ---
 
-# Course Status — 45D Sprint System Course Generated: 2026-04-18 Current Phase: **M01 Complete, M02-M10 Skeleton Ready** This course teaches the **45D Sprint Framework** — the operational system for transforming Shopify stores into organic traffic machines in 45 days. --- ## Overview | Metric | Status |
+# COURSE — Status: 45D Sprint System Course Progress
 
-**Resumo:** Course Status — 45D Sprint System Course Generated: 2026-04-18 Current Phase: **M01 Complete, M02-M10 Skeleton Ready** This course teaches the **45D Sprint Framework** — the operational system for transforming Shopify stores into organic traffic machines in 45 days. --- ## Overview | Metric | Status |
+**Resumo:** Tracking document para progresso do curso. Status de cada módulo (M01-M10), lições completas vs. em progresso, pepitas capturadas. Atualizado semanalmente durante execução de sprints.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Transparência de progresso:** Cliente/team vê exatamente qual é % do curso completo (4/61 lições = 7%). Sem isto, "quando fica o curso pronto?" fica nebuloso.
+- **Dependency tracking:** M01 (Fundamentos) DEVE estar 100% antes de M02-M10 fazerem sentido. Status doc mostra blocking dependencies.
+- **Pepita-to-lesson conversion:** Cada pepita aprovada = 1 lição. Status doc mostra quantas pepitas ainda faltam ser convertidas em lições.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] M02-M04 lesson writing (12 lessons, 175 min)
-- [ ] First pilot sprint execution begins
-- [ ] Real pepitas capture from pilot ### Short-term (Week 2-3)
-- [ ] M05-M07 lesson writing (12 lessons, 155 min)
-- [ ] Pilot sprint continues (FASE 1-2)
-- [ ] More pepitas captured ### Medium-term (Week 4+)
-- [ ] M08-M10 lesson writing (12 lessons, 146 min)
-- [ ] Pilot sprint FASE 3 validation
-- [ ] Final pepitas compilation
-- [ ] Course goes live --- ## Quality Checklist (Per Lesson) Every lesson includes: - ✅ Metadata (Nível, Duração, Pré-requisito, Status)
+- [ ] Todos os módulos M01-M10 têm README (estrutura skeleton)
+- [ ] M01 — 4 lições completas (100%)
+- [ ] M02-M10 — 57 lições planned, 0 written (skeleton phase)
+- [ ] Pepitas M01 capturadas (10 aprovadas)
+- [ ] Roadmap para M02-M10 writing (triggered by sprints)
+- [ ] Quality checklist por lição (metadata, duração, conteúdo, exemplos)
+- [ ] Status doc atualizado semanalmente (% progresso)
 
 ---
 
 ## 📖 Conteúdo Principal
 
-|--------|--------|
-| **Modules Planned** | 10 ✅ |
-| **Modules With README** | 10 ✅ |
-| **Lessons Planned** | 61 |
-| **Lessons Written** | 4 (M01 only) |
-| **Total Duration** | 570 min (9.5 hours) |
-| **Pepitas Captured** | 10 (M01) / 38 planned | --- ## M01 — Fundamentos: O que é 45D Sprint? (100% Complete) **Module Duration:** 80 minutes (4 lessons) | Lesson | Status | Duration | Deliverable |
-|--------|--------|----------|-------------|
-| 1.1 — O que é 45D Sprint | ✅ Complete | 20 min | Full lesson with timeline comparison, 3 pillars |
-| 1.2 — As 4 Fases em Detalhe | ✅ Complete | 25 min | Detailed phase breakdown, weekly timeline, deliverables |
-| 1.3 — Papéis e Responsabilidades | ✅ Complete | 15 min | 5 roles, 3 scenarios, communication cadence |
-| 1.4 — Por que Vence Agências Tradicionais | ✅ Complete | 20 min | 5 factors, ROI analysis, decision framework | **Pepitas Extracted:**
-|--------|---------|----------|--------|
-| **M02 — Memória e Contexto** | 4 | 60 min | ⏳ Ready to write |
-| **M03 — Integrações** | 4 | 60 min | ⏳ Ready to write |
-| **M04 — Gestão de Equipa** | 4 | 55 min | ⏳ Ready to write |
-| **M05 — Automações e Agents** | 4 | 55 min | ⏳ Ready to write |
-| **M06 — Vault e Sync** | 4 | 50 min | ⏳ Ready to write |
-| **M07 — Reporting e Dashboards** | 4 | 50 min | ⏳ Ready to write |
-| **M08 — Qualidade e Anti-Padrões** | 4 | 45 min | ⏳ Ready to write |
-| **M09 — Scaling e Sistemas** | 4 | 54 min | ⏳ Ready to write |
-| **M10 — BONUS Infraestrutura** | 4 | 47 min | ⏳ Ready to write | --- ## Pepitas System **File Location:** `pepitas-de-ouro.md` ### Captured (M01): 10 pepitas
-1. Weekly: Learnings captured in vault
-2. End of Phase: Claude synthesizes 2-3 new pepitas
-3. Post-Sprint: Pepitas compiled and lessons updated --- ## Writing Roadmap ###
-Immediate (Week 1)
-2. **This week:** Begin M02-M04 writing (leverage pilot sprint execution)
-3. **Next week:** Deploy pilot sprint FASE 0 and capture real learnings
-4. **Week 3:** M02-M04 complete, M05-M07 writing starts
-5. **Week 4:** Pilot sprint FASE 3 validation, all lessons drafted
-6. **Week 5:** Final edits, course goes live in Obsidian vault
-7. **Ongoing:** Pepitas capture continues with every sprint --- ## Notes - This
-is **NOT** a theoretical course. Every lesson must validate against real
-execution.
+### Overall Course Status
+
+```
+📚 COURSE COMPLETION OVERVIEW
+
+Total Planned:
+  • Modules: 10
+  • Lessons: 61
+  • Duration: 570+ minutes (9.5+ hours)
+  
+Current State (2026-04-21):
+  • Modules Complete: 1 (M01)
+  • Lessons Complete: 4 (M01 only)
+  • Completion: 7% (4 of 61 lessons)
+  • Total Duration Available: 80 minutes (M01 only)
+
+Roadmap Status:
+  • Foundation (M01): ✅ 100% Complete
+  • Specialty Modules (M02-M10): 🔄 Skeleton Phase (README only)
+  • Pepitas System: ✅ Approved & Active
+  • Live Deployment: ⏳ Week 5 (estimated)
+```
+
+---
+
+### Module-by-Module Breakdown
+
+#### ✅ M01 — Fundamentos: O que é 45D Sprint? (100% Complete)
+
+```
+Module Duration: 80 minutes (4 lessons)
+Status: ✅ ALL LESSONS COMPLETE
+Pepitas Extracted: 10 approved
+Quality Review: ✅ Passed
+```
+
+| # | Título | Duration | Status | Pepitas |
+|---|--------|----------|--------|---------|
+| 1.1 | O que é 45D Sprint (e por que funciona) | 20 min | ✅ Complete | #1, #2 |
+| 1.2 | As 4 Fases em Detalhe (Kickoff, Diagnostic, Execution, Validation) | 25 min | ✅ Complete | #3, #4 |
+| 1.3 | Papéis e Responsabilidades (RankPanda team + cliente) | 15 min | ✅ Complete | #5 |
+| 1.4 | Por que isto vence agências tradicionais | 20 min | ✅ Complete | #6-#10 |
+
+---
+
+#### 🔄 M02 — Memória e Contexto: Como Claude Sempre Sabe (0% — Skeleton Phase)
+
+```
+Module Duration: 60 minutes (4 lessons planned)
+Current Status: 🔄 README ONLY
+Estimated Start: Week 2 (post M01 validation)
+Trigger: Pilot sprint execution → capture real memory patterns
+Expected Pepitas: 10 planned
+```
+
+| # | Título | Duration | Status | Notes |
+|---|--------|----------|--------|-------|
+| 2.1 | O Problema: Cada Sessão Começa do Zero | 12 min | ⏳ Planned | Capture from pilot sprint session transitions |
+| 2.2 | A Solução: MEMORY.md e Vault de Contexto | 18 min | ⏳ Planned | Use pilot sprint memory captures as examples |
+| 2.3 | Padrões de Memória: Quatro Tipos Que Importam | 15 min | ⏳ Planned | From real memory usage in FASE-1, FASE-2 |
+| 2.4 | Evitando Alucinações com Contexto Estruturado | 15 min | ⏳ Planned | Real failures/recovery from pilot |
+
+---
+
+#### 🔄 M03 — Integrações: Qual Ferramenta Usar Quando (0% — Skeleton Phase)
+
+```
+Module Duration: 60 minutes (4 lessons planned)
+Current Status: 🔄 README ONLY
+Estimated Start: Week 2 (with M02)
+Trigger: Pilot sprint API integrations + decisions
+Expected Pepitas: 10 planned (#21-#30)
+```
+
+---
+
+#### 🔄 M04–M10 Modules (0% Each — Skeleton Phase)
+
+```
+| Module | Duration | Lessons | Status | Pepitas |
+|--------|----------|---------|--------|---------|
+| M04 — Gestão de Equipa | 55 min | 4 | 🔄 Skeleton | #24-#26 |
+| M05 — Automações e Agents | 55 min | 4 | 🔄 Skeleton | #27-#29 |
+| M06 — Vault e Sync | 50 min | 4 | 🔄 Skeleton | #30-#32 |
+| M07 — Reporting | 50 min | 4 | 🔄 Skeleton | #33-#35 |
+| M08 — Qualidade | 45 min | 4 | 🔄 Skeleton | #36-#38 |
+| M09 — Scaling | 54 min | 4 | 🔄 Skeleton | #39-#41 |
+| M10 — Infraestrutura | 47 min | 4 | 🔄 Skeleton | #42-#44 |
+
+Total Remaining: 356 minutes (57 lessons)
+Estimated Completion Timeline: 8-10 weeks (with concurrent pepita capture)
+```
+
+---
+
+### Pepitas System Status
+
+```
+📚 PEPITAS TO LESSONS PIPELINE
+
+Pepitas Captured by Module:
+  M01: 10 ✅ Approved → Lessons drafted
+  M02: 0 ⏳ Planned (start Week 2)
+  M03-M10: 0 ⏳ Planned (start Week 2-3)
+
+Total Pipeline:
+  Approved & In Lessons: 10 (M01)
+  In Draft: 0
+  Pending Capture: 28 (M02-M10)
+
+Conversion Rate (Pepita → Lesson):
+  Current: 10/10 captured pepitas → 4 lessons (100% drafted)
+  Target: 38 pepitas → 61 lessons (100% complete by Week 5)
+
+Quality Gate:
+  ✅ All pepitas must be based on real execution (not theory)
+  ✅ All pepitas must be actionable (not vague observations)
+  ✅ All pepitas must be surprising or non-obvious
+  ✅ All pepitas must be reusable across multiple sprints
+```
+
+---
+
+### Writing Roadmap
+
+```
+📅 LESSON WRITING TIMELINE
+
+Week 1 (Apr 21-27):
+  ✅ M01 lesson refinement + quality review
+  🔄 M02-M04 skeleton planning + pepita prep
+  🔄 Pilot sprint FASE-0 kickoff
+
+Week 2-3 (Apr 28-May 10):
+  🔄 M02-M04 lesson writing (12 lessons)
+  🔄 Pilot sprint FASE-1 execution → pepita capture
+  🔄 M02-M04 pepitas approved (goal: 10)
+
+Week 3-4 (May 5-17):
+  🔄 M05-M07 lesson writing (12 lessons)
+  🔄 Pilot sprint FASE-1 → FASE-2 transition
+  🔄 M05-M07 pepitas captured
+
+Week 4+ (May 18 onwards):
+  🔄 M08-M10 lesson writing (12 lessons)
+  🔄 Pilot sprint FASE-3 validation
+  🔄 Final pepitas compilation
+
+Week 5+ (End-May onwards):
+  ✅ All 61 lessons drafted
+  ✅ Quality review complete
+  ✅ Course live in Obsidian vault
+  ⏳ Continuous pepita capture on all future sprints
+```
+
+---
+
+### Quality Gates Per Lesson
+
+```
+✅ LESSON QUALITY CHECKLIST (Template):
+
+Every lesson in COURSE includes:
+
+Metadata:
+  ✅ Level (Beginner / Intermediate / Advanced)
+  ✅ Duration (est. mins + actual)
+  ✅ Prerequisites (which lessons to take first)
+  ✅ Status (Draft / Review / Live)
+
+Content:
+  ✅ Learning objectives (3-5 bullet points)
+  ✅ Real example (from actual sprint execution, not theory)
+  ✅ Step-by-step breakdown
+  ✅ Common mistakes (anti-patterns)
+  ✅ Actionable takeaway
+
+Validation:
+  ✅ Reviewed by pilot sprint team
+  ✅ Tested in real context (not just written)
+  ✅ Linked to relevant SOPs/FASEs
+  ✅ Cross-referenced with pepitas
+
+Completion Criteria:
+  ✅ 100% metadata filled
+  ✅ Example is real (not hypothetical)
+  ✅ Someone could learn & apply this in 1-2 hours
+  ✅ Q&A section ready (common questions)
+```
+
+---
+
+### Notes & Principles
+
+```
+📋 PHILOSOPHY (Non-Negotiable):
+
+1. NOT theoretical course
+   ├─ Every lesson comes from real sprint execution
+   ├─ Pepitas drive lesson creation (not the reverse)
+   └─ If something didn't happen in a sprint, don't teach it
+
+2. Grows continuously
+   ├─ Each sprint = 3-5 new pepitas
+   ├─ Each pepita = 1 new lesson (eventually)
+   └─ Course gets better, not older
+
+3. Stays in sync with operations
+   ├─ M01 complete because 45D framework is proven (10 sprints)
+   ├─ M02-M10 start after first paid sprint execution
+   └─ No lessons written before real execution proves the pattern
+
+4. Replicability is the goal
+   ├─ Purpose: teach 100+ people to execute 45D identically
+   ├─ Not to get individual people "trained up"
+   └─ Success = someone takes this course and runs successful sprint
+```
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-00-STRUCTURE]] — Master curriculum index
+- [[COURSE-PEPITAS-DE-OURO]] — Pepitas that feed lesson creation
+- [[TEMPLATE-PEPITA-CAPTURE]] — How to submit new pepitas for lesson conversion
 
 ---
