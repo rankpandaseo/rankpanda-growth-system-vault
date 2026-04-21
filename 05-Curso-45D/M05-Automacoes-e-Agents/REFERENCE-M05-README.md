@@ -1,6 +1,6 @@
 ---
 name: reference-m05-readme
-description: M05 — Automações e Agents: Claude no Piloto Automático > Scheduled
+description: M05 — Automações e Agents — Claude no piloto automático (4 aulas)
 tasks que correm sozinhos enquanto o PM dorme. ## Objectivo Ao final deste
 módulo, o aluno compreende:
 type: reference

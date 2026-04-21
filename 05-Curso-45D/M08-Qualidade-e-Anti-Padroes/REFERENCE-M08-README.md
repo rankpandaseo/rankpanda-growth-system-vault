@@ -1,6 +1,6 @@
 ---
 name: reference-m08-readme
-description: M08 — Qualidade e Anti-Padrões: Erros que Destroem Sprints > O que
+description: M08 — Qualidade e Anti-Padrões — Erros que destroem sprints (4 aulas)
 NÃO fazer, aprendido do lado duro. ## Objectivo Ao final deste módulo, o aluno
 compreende:
 type: reference

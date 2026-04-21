@@ -1,8 +1,6 @@
 ---
 name: reference-m10-readme
-description: M10 — BONUS: De MAC Mini para Servidor (Infraestrutura Robusta) >
-Quando o vault precisa correr 24/7, não só no laptop do PM. ## Objectivo Ao
-final deste módulo, o aluno compreende:
+description: M10 — BONUS Infraestrutura — MAC mini vs. servidor (4 aulas)
 type: reference
 status: active
 foco: operational

@@ -1,37 +1,33 @@
 ---
 name: reference-m04-readme
-description: M04 — Gestão de Equipa: Coordenação Paralela com IA > Como Claude
-Code coordena 4+ pessoas a trabalhar em paralelo sem meetings desnecessárias. ##
-Objectivo Ao final deste módulo, o aluno compreende:
+description: M04 — Gestão de Equipa — Coordenação paralela (4 aulas, 55 min)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, course, team-management]
+wikilinks: [[COURSE-00-STRUCTURE]], [[COURSE-STATUS]]
 ---
 
-# M04 — Gestão de Equipa: Coordenação Paralela com IA > Como Claude Code coordena 4+ pessoas a trabalhar em paralelo sem meetings desnecessárias. ## Objectivo Ao final deste módulo, o aluno compreende:
+# M04 — Gestão de Equipa: Coordenação Paralela
 
-**Resumo:** M04 — Gestão de Equipa: Coordenação Paralela com IA > Como Claude
-Code coordena 4+ pessoas a trabalhar em paralelo sem meetings desnecessárias. ##
-Objectivo Ao final deste módulo, o aluno compreende:
+**Resumo:** Como coordenar 4+ pessoas em paralelo sem meetings desnecessárias. Handoffs, async communication, bottleneck detection.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **4 streams paralelos:** Gargalos matam sprints.
+- **Overhead de meetings:** Async-first = velocidade.
+- **Padrões de handoff:** Saber QUANDO passar a bola.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Completar lições M04 (55 minutos)
+- [ ] Mapear os 4 streams
+- [ ] Dominar cadência de comunicação
+- [ ] Reconhecer bottlenecks
 
 ---
 

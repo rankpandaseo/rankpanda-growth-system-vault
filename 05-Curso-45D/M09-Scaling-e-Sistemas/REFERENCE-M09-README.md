@@ -1,6 +1,6 @@
 ---
 name: reference-m09-readme
-description: M09 — Scaling e Sistemas: De 1 Sprint para 10 Sprints > Como
+description: M09 — Scaling e Sistemas — De 1 sprint para 10 (4 aulas)
 escalar o modelo 45D sem quebrar. ## Objectivo Ao final deste módulo, o aluno
 compreende:
 type: reference

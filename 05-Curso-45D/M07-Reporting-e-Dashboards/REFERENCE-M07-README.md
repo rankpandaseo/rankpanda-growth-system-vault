@@ -1,6 +1,6 @@
 ---
 name: reference-m07-readme
-description: M07 — Reporting e Dashboards: Contando a História dos Dados > Como
+description: M07 — Reporting e Dashboards — Contando a história (4 aulas)
 estruturar reports que convençam clientes sem dashboards complexos. ## Objectivo
 Ao final deste módulo, o aluno compreende:
 type: reference

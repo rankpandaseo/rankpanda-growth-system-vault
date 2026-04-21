@@ -1,6 +1,6 @@
 ---
 name: reference-m06-readme
-description: M06 — Vault e Sync: A Realidade Sempre Sincronizada > Sistema que
+description: M06 — Vault e Sync — Realidade sempre sincronizada (4 aulas)
 mantém Obsidian, GitHub, e VPS em perfeita harmonia. ## Objectivo Ao final deste
 módulo, o aluno compreende:
 type: reference
