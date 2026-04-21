@@ -542,6 +542,10 @@ vibrador recargável,600,30,comercial,22,easy_quick_win,FASE 1,10.5,"Acessórios
 - [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] → **Output:** Keywords finalizadas alimentam clustering (keywords → collections Shopify)
 - [[FASE-2-EXECUTION]] → **Validação:** Keywords aprovadas por cliente em approval gate antes de execução
 
+**Conceitos Transversais (Hubs):**
+- [[CONCEITO-Keyword-Research]] ↔ **Hub Agregador:** Toda metodologia de KW research centralizada
+- [[CONCEITO-Client-Approval]] ↔ **Gate de Aprovação:** Cliente aprova keywords via sampling
+
 **Contexto Transversal:**
 - [[FASE-1-DIAGNOSTIC]] ↔ **Insights:** Análise competitiva alimenta priorização de keywords gap analysis
 

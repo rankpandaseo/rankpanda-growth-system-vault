@@ -604,6 +604,10 @@ Vibradores especializados para a estimulação e prazer clitoriano. Todos os nos
 - [[FASE-2-EXECUTION]] → **Output:** Collections mapeadas são implementadas em Shopify (bulk operations)
 - [[SOP-1-STORE-CONTEXT-SETUP]] ↔ **Conceito Transversal:** Target Categories de SOP-1 alimentam cluster structure de SOP-3
 
+**Conceitos Transversais (Hubs):**
+- [[CONCEITO-Shopify-Collections]] ↔ **Hub Agregador:** Implementação técnica de collections em Shopify
+- [[CONCEITO-Client-Approval]] ↔ **Gate de Aprovação:** Cliente aprova clustering de collections
+
 **Referência Estrutural:**
 - `vault/01-Clientes/pilot-vibradores/` → **Caso Real:** Clustering real com 5 categorias + 7 cluster types implementados
 

@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: execução
 tags: [execution, keyword-research, collections, products, parallelization]
-wikilinks: [[[fase-1-diagnostic]], [[sop-2-keyword-research]], [[sop-3-clustering-collection-mapping]], [[fase-3-validation]]]
+wikilinks: [[[fase-1-diagnostic]], [[sop-2-keyword-research-v2]], [[sop-3-clustering-collection-mapping]], [[fase-3-validation]], [[pilot-vibradores]]]
 ---
 
 # SOP FASE 2 — Execução Cirúrgica (Semana 2-4)
@@ -23,6 +23,15 @@ wikilinks: [[[fase-1-diagnostic]], [[sop-2-keyword-research]], [[sop-3-clusterin
 - **Weekly communication:** Cliente vê progresso (Loom videos, relatórios). Mantém confiança, permite feedback rápido.
 
 **Sem FASE 2 bem estruturada:** Fazemos tudo sequencial, publicamos tudo ao mesmo tempo, descobrimos problemas em mass, 5 dias perdidos em refactoring.
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de começar FASE-2:
+- ← [[FASE-1-DIAGNOSTIC]] — **Input Obrigatório:** Diagnóstico completo (gaps identificados, oportunidades priorizadas)
+- ← [[SOP-2-KEYWORD-RESEARCH-V2]] — **Input:** Keywords aprovadas por cliente
+- ← [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — **Input:** Clusters e mapping de collections definidos
 
 ---
 
@@ -393,17 +402,24 @@ Semana 4:
 
 ## 🔗 Relacionados
 
-- [[fase-1-diagnostic]] — Anterior: Diagnosis que orienta o scope de FASE 2
-- [[sop-2-keyword-research]] — KW research baseado em insights de FASE 1
-- [[sop-3-clustering-collection-mapping]] — Collection structure referência para otimização
-- [[fase-3-validation]] — Próximo: Validar rankings, tráfego, conversão
-- `/vault/04-Templates/approval-gate-keywords.md` — Template de aprovação KW
-- `/vault/04-Templates/approval-gate-collections.md` — Template de aprovação collections
-- `/vault/04-Templates/approval-gate-products.md` — Template de aprovação products
+**Dependências & Fluxo Sequencial:**
+- [[FASE-1-DIAGNOSTIC]] ← **Input:** Diagnóstico orienta priorização de FASE 2
+- [[SOP-2-KEYWORD-RESEARCH-V2]] ← **Input:** Keywords aprovadas
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] ← **Input:** Mapping de collections
+- [[FASE-3-VALIDATION]] → **Próximo:** Validação de rankings, tráfego, conversão
+
+**Conceitos Transversais (Hubs):**
+- [[CONCEITO-Keyword-Research]] ↔ **Implementação:** Keywords research metodologia
+- [[CONCEITO-Shopify-Collections]] ↔ **Implementação:** Estrutura + metafields + schema de collections
+- [[CONCEITO-Client-Approval]] ↔ **Governança:** Approval gates para keywords, collections, products
+- [[API-REGISTRY]] ↔ **Integração:** Shopify API bulk operations + GSC submissions
+
+**Exemplos & Referência:**
+- [[pilot-vibradores]] → **Caso Real:** Execução ao vivo com 3 streams paralelos
 
 ---
 
 **Versão:** 2.0  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
-**Próximo:** [[fase-3-validation]] (após indexação estabilizar, ~FASE 3)
+**Próximo:** [[FASE-3-VALIDATION]] (após indexação)

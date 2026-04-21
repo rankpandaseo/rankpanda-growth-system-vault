@@ -26,6 +26,16 @@ wikilinks: [[[sop-1-store-context-setup]], [[fase-1-diagnostic]], [[pilot-vibrad
 
 ---
 
+## 📋 Pré-requisitos
+
+Antes de começar FASE-0:
+- ↔ Contrato assinado (oficial)
+- ↔ Cliente tem acesso administrativo a Shopify
+- ↔ Cliente tem conta Google (para GSC + GA4)
+- ↔ Paralelo com [[SOP-1-STORE-CONTEXT-SETUP]] — podem correr em simultâneo após kickoff inicial
+
+---
+
 ## ⚡ Quick Checklist
 
 - [ ] Kickoff call agendada e concluída (1h)
@@ -205,15 +215,25 @@ Dados obrigatórios:
 
 ## 🔗 Relacionados
 
-- [[sop-1-store-context-setup]] — Próximo: Recolher context da loja após kickoff
-- [[fase-1-diagnostic]] — Fases seguinte: Análise de keywords + GSC baseline
-- `/vault/01-Clientes/[loja]/` — Project memory para cliente específico
-- `/vault/04-Templates/kickoff-briefing-form.md` — Form de briefing para preencher
-- `/vault/04-Templates/weekly-update-template.md` — Template para comunicação semanal com cliente
+**Fluxo Sequencial:**
+- [[SOP-1-STORE-CONTEXT-SETUP]] → **Output:** Setup técnico e baseline metrics alimentam SOP-1 (contexto da loja)
+- [[FASE-1-DIAGNOSTIC]] → **Próximo:** Diagnóstico estratégico com dados de GSC e GA4 capturados aqui em FASE-0
+
+**Conceitos Técnicos (Hubs):**
+- [[API-REGISTRY]] ↔ **Referência:** Validar que todas APIs (Shopify, GSC, GA4, SE Ranking, ClickUp) estão funcionando
+
+**Contexto Paralelo:**
+- ↔ [[SOP-1-STORE-CONTEXT-SETUP]] — pode correr em paralelo com FASE-0 após kickoff inicial
+
+**Exemplos & Referência:**
+- [[pilot-vibradores]] → **Caso Real:** Kickoff do projeto pilot com vibradores
 
 ---
 
 **Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** [[SOP-1-STORE-CONTEXT-SETUP]] + [[FASE-1-DIAGNOSTIC]]  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
 **Próximo:** [[fase-1-diagnostic]] (após aprovação go/no-go)
