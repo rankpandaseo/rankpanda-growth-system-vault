@@ -62,14 +62,57 @@
 
 ## Próximas Pepitas (M02-M10)
 
-### Do M02 — Memória e Contexto
+### Do M02 — Memória e Knowledge Graph (21 abr 2026)
 
-*A preencher durante pilot execution e implementação de memory system*
+**#11: "Interlinking Bidirecional é o alicerce da arquitetura de conhecimento"**
+- *Contexto:* SOPs criados isoladamente. Desenvolvedor confuso: "De onde venho? Para onde vou? Que conceito isto implementa?"
+- *Aprendizado:* Explicitar ← (Input), → (Output), ↔ (Conceito), 📘 (Caso Real) transforma navegação de "adivinha" para "mapeia"
+- *Como Aplicar:* Todo documento novo: seção "Pré-requisitos" com ← links + seção "Relacionados" com → / ↔ / 📘. Wikilinks obrigatórios.
 
-- #11: Cada sessão começa ONDE A ANTERIOR PAROU — e isto muda tudo
-- #12: Contexto estruturado = decisões melhores em 30% menos tempo
-- #13: Memória falha quando é muito genérica
-- #14: O vault é o backup da realidade — quando a ferramenta mente, o vault é verdade
+**#12: "Concept Hubs como agregadores semânticos resolvem fragmentação"**
+- *Contexto:* Tema "Keyword Research" estava espalhado (SOP-2, FASE-1, FASE-2, FASE-3). Developer tinha que ler 4 documentos para entender fluxo.
+- *Aprendizado:* CONCEITO-Keyword-Research centraliza metodologia + fluxo + padrões. Reduz 4 leituras para 1 + referências.
+- *Como Aplicar:* Cria CONCEITO-*.md hub quando tema aparece em 3+ SOPs/FASES. Hub agrega + fornece navegação clara.
+
+**#13: "Wikilink case sensitivity quebra o grafo — normalização é crítica"**
+- *Contexto:* Filenames em CamelCase (SOP-1-STORE-CONTEXT-SETUP-v2) mas wikilinks em lowercase. 66 broken links detectadas.
+- *Aprendizado:* Case sensitivity é detalhe = impacto gigante. Validator.py detecta. fix-wikilinks.sh normaliza.
+- *Como Aplicar:* Padrão: filenames CamelCase, wikilinks EXATAMENTE CamelCase. Validator antes de cada commit.
+
+**#14: "Validator script detecta problema antes de caos — automação > inspeção"**
+- *Contexto:* Inspecção manual de 50 ficheiros para encontrar orphaned files = 2h, imperfeito. Validator.py encontra 27 em 30s.
+- *Aprendizado:* Grafo de conhecimento é código. Merece validação automática. Broken links, orphaned files, imbalances = detectable
+- *Como Aplicar:* Cria validator para cada transformação estrutural. Executa antes de commitar. Falha se não passa.
+
+**#15: "Zero Duplicação é lei, não sugestão"**
+- *Contexto:* Conteúdo RankPanda espalhado: exemplos em SOP-1, repetidos em CONCEITO-KW, fragmentos em templates.
+- *Aprendizado:* Duplicação = manutenção exponencial. Quando algo muda, qual versão é verdade? Entropia mata sistemas.
+- *Como Aplicar:* Antes de criar novo documento, grep por conteúdo similar. Se existe >80% match, centraliza + linkifica. Não duplica.
+
+**#16: "Automação de memory sync remove fricção de persistence"**
+- *Contexto:* estado-atual.md atualizado manualmente = risco de perda entre sessões, Rui tem que "relembrar"
+- *Aprendizado:* heartbeat-memory-sync automático (hourly CCR) sincroniza estado + MEMORY.md index. Zero fricção.
+- *Como Aplicar:* Identifica processos de manutenção repetitivos (memory sync, audit, validation) e schedula como background tasks CCR.
+
+**#17: "YAML Frontmatter como metadata obrigatória evita caos documental"**
+- *Contexto:* Documentação sem padrão: alguns ficheiros tinham descrição, outros não. Wikilinks às vezes, às vezes não.
+- *Aprendizado:* Frontmatter é contrato. name, description, type, status, foco, tags, wikilinks. Ficheiro sem = não-conforme.
+- *Como Aplicar:* Validator falha se YAML incompleto. Ferramentas podem grep/normalize automaticamente.
+
+**#18: "Bidirectionality > Linear references para navegação"**
+- *Contexto:* Tradicional: SOP-1 → SOP-2 → SOP-3. Cliente confuso: "Estou na SOP-2, de onde venho? Qual conceito isto implementa?"
+- *Aprendizado:* Roadmap = grafo, não cadeia linear. Cada doc = nó. Explicitação de ← / → / ↔ clareia navegação.
+- *Como Aplicar:* Documentação bidirecional. Cada link tem tipo. Navegação = mapeia, não "adivinha"
+
+**#19: "Incremental standardization (FASE A → B → C → ...) vence big bang refactor"**
+- *Contexto:* 50 docs não-conformes. Podia tentar "refactorizar tudo". Impossível em 1 sessão.
+- *Aprendizado:* FASE A (enrich SOPs) → FASE B (create hubs) → FASE C (validate) → PHASE 2-6. Progressivo = espaço para feedback.
+- *Como Aplicar:* Quebra grandes refactors em fases. Executa sequencialmente. Commit cada fase. Não tentes tudo ao mesmo tempo.
+
+**#20: "Scheduled automation de background tasks (CCR) liberta foco estratégico"**
+- *Contexto:* Antes: "preciso verificar memory, preciso validar wikilinks". Agora: heartbeat + validator rodam automático.
+- *Aprendizado:* Tarefas de manutenção sistemáticas = scheduled CCR. Rui pensa estratégia, não "foi gravar?"
+- *Como Aplicar:* Identifica 3-5 background tasks críticas (memory sync, validator, audit, link-fixer) e schedula como remote triggers.
 
 ### Do M03 — Integrações
 
@@ -142,15 +185,15 @@
 | Módulo | Pepitas | Aplicação |
 |--------|---------|-----------|
 | **M01 — Fundamentos** | #1-#10 | Estratégia e framework |
-| **M02 — Memória** | #11-#14 | Contexto persistente |
-| **M03 — Integrações** | #15-#17 | Ferramenta-wise decisions |
-| **M04 — Equipa** | #18-#20 | Coordenação paralela |
-| **M05 — Automações** | #21-#23 | Leverage via automation |
-| **M06 — Vault/Sync** | #24-#26 | Infraestrutura de informação |
-| **M07 — Reporting** | #27-#29 | Data storytelling |
-| **M08 — Qualidade** | #30-#32 | QA e recuperação |
-| **M09 — Scaling** | #33-#35 | Growth playbook |
-| **M10 — Infraestrutura** | #36-#38 | Operações 24/7 |
+| **M02 — Memória & Knowledge Graph** | #11-#20 | Arquitetura de conhecimento |
+| **M03 — Integrações** | #21-#23 | Ferramenta-wise decisions |
+| **M04 — Equipa** | #24-#26 | Coordenação paralela |
+| **M05 — Automações** | #27-#29 | Leverage via automation |
+| **M06 — Vault/Sync** | #30-#32 | Infraestrutura de informação |
+| **M07 — Reporting** | #33-#35 | Data storytelling |
+| **M08 — Qualidade** | #36-#38 | QA e recuperação |
+| **M09 — Scaling** | #39-#41 | Growth playbook |
+| **M10 — Infraestrutura** | #42-#44 | Operações 24/7 |
 
 ---
 
@@ -182,8 +225,8 @@
 
 ---
 
-**Total Pepitas Capturadas:** 10 (M01)  
-**Meta:** 38 pepitas end-of-course  
+**Total Pepitas Capturadas:** 20 (M01 + M02)  
+**Meta:** 44 pepitas end-of-course  
 **Status:** 📝 Growing with execution  
-**Last Updated:** [hoje]  
+**Last Updated:** 2026-04-21  
 **Owner:** RankPanda AI System

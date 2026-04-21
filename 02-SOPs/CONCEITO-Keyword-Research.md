@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: seo
 tags: [keyword-research, methodology, data-sources, analysis, intent-mapping]
-wikilinks: [[[sop-2-keyword-research-v2]], [[fase-1-diagnostic]], [[fase-2-execution]], [[sop-3-clustering-collection-mapping]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[pilot-vibradores]]]
 ---
 
 # CONCEITO — Keyword Research (Hub Agregador)

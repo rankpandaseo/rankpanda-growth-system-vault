@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: análise
 tags: [diagnostic, gsc-analysis, ga4, competitive, technical-audit]
-wikilinks: [[[fase-0-kickoff]], [[sop-2-keyword-research]], [[fase-2-execution]]]
+wikilinks: [[[FASE-0-KICKOFF]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
 ---
 
 # SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2)
@@ -26,6 +26,13 @@ wikilinks: [[[fase-0-kickoff]], [[sop-2-keyword-research]], [[fase-2-execution]]
 
 ---
 
+## 📋 Pré-requisitos
+
+Antes de começar FASE-1:
+- ← [[FASE-0-KICKOFF]] — **Input Obrigatório:** Setup técnico (Shopify access, GSC, GA4 configurados) + baseline metrics capturados (indexed, impressions, clicks, position)
+
+---
+
 ## ⚡ Quick Checklist
 
 - [ ] GSC coverage report analisado (indexed vs discovered vs errors)
@@ -37,7 +44,7 @@ wikilinks: [[[fase-0-kickoff]], [[sop-2-keyword-research]], [[fase-2-execution]]
 - [ ] Top 5 competitors mapeados
 - [ ] Competitive keywords gap análisado (eles rankiam, nós não)
 - [ ] 3-5 maiores oportunidades identificadas + prioridades
-- [ ] Client presentation aprovada → Ready for [[fase-2-execution]]
+- [ ] Client presentation aprovada → Ready for [[FASE-2-EXECUTION]]
 
 ---
 
@@ -241,14 +248,22 @@ _Preencher durante FASE 1:_
 
 ## 🔗 Relacionados
 
-- [[fase-0-kickoff]] — Anterior: Setup e baseline metrics
-- [[sop-2-keyword-research]] — Próximo: Baseado em gaps identificados em diagnóstico
-- [[fase-2-execution]] — Execução: Implementar recomendações de FASE 1
-- `/vault/04-Templates/before-after-report-template.md` — Template de relatorio diagnostic
+**Dependências & Fluxo Sequencial:**
+- [[FASE-0-KICKOFF]] ← **Input:** Setup técnico + baseline metrics
+- [[SOP-2-KEYWORD-RESEARCH-V2]] → **Output:** Insights competitivos alimentam priorização de keywords
+- [[FASE-2-EXECUTION]] → **Próximo:** Diagnóstico orienta scope e priorização de execução
+
+**Exemplos & Referência:**
+- [[pilot-vibradores]] → **Caso Real:** Diagnóstico real do projeto
 
 ---
 
 **Versão:** 2.0  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
-**Próximo:** [[fase-2-execution]] (após client sign-off de diagnóstico)
+**Próximo:** [[SOP-2-KEYWORD-RESEARCH-V2]] (baseado em diagnóstico)
+
+**Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** [[FASE-2-EXECUTION]] (após client sign-off de diagnóstico)

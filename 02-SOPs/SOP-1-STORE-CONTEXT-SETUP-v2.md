@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: operacional
 tags: [onboarding, store-context, baseline, phase-0]
-wikilinks: [[[sop-2-keyword-research]], [[sop-3-clustering-collection-mapping]], [[fase-0-kickoff]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-0-KICKOFF]], [[pilot-vibradores]]]
 ---
 
 # SOP 1 — Store Context Setup

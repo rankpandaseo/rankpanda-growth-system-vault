@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: operational
 tags: [client-approval, sampling, feedback-loop, decision-gate, governance]
-wikilinks: [[[sop-2-keyword-research-v2]], [[sop-3-clustering-collection-mapping]], [[fase-2-execution]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
 ---
 
 # CONCEITO — Client Approval (Hub Agregador)

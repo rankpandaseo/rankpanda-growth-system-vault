@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: validação
 tags: [validation, metrics, impact-analysis, growth-roadmap, continuity]
-wikilinks: [[[fase-2-execution]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-2-EXECUTION]], [[pilot-vibradores]]]
 ---
 
 # SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5)

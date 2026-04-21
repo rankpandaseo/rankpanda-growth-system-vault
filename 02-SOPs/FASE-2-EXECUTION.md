@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: execução
 tags: [execution, keyword-research, collections, products, parallelization]
-wikilinks: [[[fase-1-diagnostic]], [[sop-2-keyword-research-v2]], [[sop-3-clustering-collection-mapping]], [[fase-3-validation]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-1-DIAGNOSTIC]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-3-VALIDATION]], [[pilot-vibradores]]]
 ---
 
 # SOP FASE 2 — Execução Cirúrgica (Semana 2-4)
@@ -50,7 +50,7 @@ Antes de começar FASE-2:
 - [ ] Todas as colecções e produtos publicados no Shopify
 - [ ] GSC submissions completos
 - [ ] Monitorização iniciada (impressões, clicks, indexação)
-- [ ] Ready for [[fase-3-validation]]
+- [ ] Ready for [[FASE-3-VALIDATION]]
 
 ---
 

@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: operacional
 tags: [kickoff, setup, baseline, alignment]
-wikilinks: [[[sop-1-store-context-setup]], [[fase-1-diagnostic]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[FASE-1-DIAGNOSTIC]], [[pilot-vibradores]]]
 ---
 
 # SOP FASE 0 — Kickoff (3-5 dias)
@@ -47,7 +47,7 @@ Antes de começar FASE-0:
 - [ ] Obsidian vault `/memory/projects/[loja]/` inicializado
 - [ ] Baseline metrics capturados (indexed, impressions, clicks, avg position)
 - [ ] Roadmap visual de 45 dias aprovado com cliente
-- [ ] Go/No-go decision tomada → Pronto para [[fase-1-diagnostic]]
+- [ ] Go/No-go decision tomada → Pronto para [[FASE-1-DIAGNOSTIC]]
 
 ---
 
@@ -236,4 +236,4 @@ Dados obrigatórios:
 **Próximo:** [[SOP-1-STORE-CONTEXT-SETUP]] + [[FASE-1-DIAGNOSTIC]]  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
-**Próximo:** [[fase-1-diagnostic]] (após aprovação go/no-go)
+**Próximo:** [[FASE-1-DIAGNOSTIC]] (após aprovação go/no-go)

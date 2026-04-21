@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: seo
 tags: [keyword-research, semrush, dataforseo, api-first]
-wikilinks: [[[sop-1-store-context-setup]], [[sop-3-clustering-collection-mapping]], [[fase-1-diagnostic]], [[fase-2-execution]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
 ---
 
 # SOP 2 — Keyword Research v2 (API-First Pipeline)
@@ -47,7 +47,7 @@ Antes de começar SOP-2:
 - [ ] Revenue potential + effort scoring calculado
 - [ ] Outputs gerados: keywords.json + keywords.csv + clusters_for_sop3.json
 - [ ] Validações passed (>200 keywords, relevance gate <40% rejeição, effort distributed)
-- [ ] Ready for [[sop-3-clustering-collection-mapping]]
+- [ ] Ready for [[SOP-3-CLUSTERING-COLLECTION-MAPPING]]
 
 ---
 

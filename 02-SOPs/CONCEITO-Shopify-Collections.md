@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: technical
 tags: [shopify, collections, metafields, schema-org, api, technical-seo]
-wikilinks: [[[sop-3-clustering-collection-mapping]], [[fase-2-execution]], [[sop-1-store-context-setup]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[pilot-vibradores]]]
 ---
 
 # CONCEITO — Shopify Collections (Hub Agregador)
