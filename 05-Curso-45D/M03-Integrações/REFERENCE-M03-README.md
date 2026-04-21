@@ -1,37 +1,33 @@
 ---
 name: reference-m03-readme
-description: M03 — Integrações: Qual Ferramenta Usar Quando > Mapa das
-integrações que fazem Claude Code operacional na realidade. ## Objectivo Ao
-final deste módulo, o aluno compreende:
+description: M03 — Integrações — Qual ferramenta usar quando (9 APIs + decision tree)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, course, integrations, api]
+wikilinks: [[COURSE-00-STRUCTURE]], [[COURSE-STATUS]], [[API-REGISTRY]]
 ---
 
-# M03 — Integrações: Qual Ferramenta Usar Quando > Mapa das integrações que fazem Claude Code operacional na realidade. ## Objectivo Ao final deste módulo, o aluno compreende:
+# M03 — Integrações: Qual Ferramenta Usar Quando
 
-**Resumo:** M03 — Integrações: Qual Ferramenta Usar Quando > Mapa das
-integrações que fazem Claude Code operacional na realidade. ## Objectivo Ao
-final deste módulo, o aluno compreende:
+**Resumo:** Mapa das 9 integrações externas (Shopify, GSC, GA4, SE Ranking, ClickUp, GitHub, Gmail, Discord, Leexi) — quando chamar cada uma, rate limits, decisão tree para escolher ferramenta certa.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Decision paralysis avoided:** Sem mapa claro, gasta-se horas em "qual API devo usar?". Com mapa, em 10 segundos sabe-se.
+- **Rate limits respected:** Cada API tem limites. ClickUp = 100 calls/min, GSC = 600 requests/min. Violar isto = bloqueio.
+- **Offline-first mindset:** Não todas integrações são on-demand. Algumas são cached, outras são webhooks. Saber a diferença = eficiência.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Mapear as 9 integrações + rate limits
+- [ ] Compreender 3 padrões: on-demand, cached, webhook
+- [ ] Completar lições 3.1-3.4 (9 integrações em detalhe)
+- [ ] Criar "decision tree" pessoal para escolher API
 
 ---
 
@@ -47,7 +43,9 @@ final deste módulo, o aluno compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-00-STRUCTURE]] — Índice completo do curso
+- [[COURSE-STATUS]] — Status de progresso
+- [[API-REGISTRY]] — Documentação técnica de cada API
+- [[COURSE-PEPITAS-DE-OURO]] — Pepitas M03 (#21-#23)
 
 ---
