@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-Curso-45D/M01-Fundamentos/1.2-As-4-fases-em-detalhe.md",
+                "file": "05-Curso-45D/pepitas-de-ouro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2-As-4-fases-em-detalhe"
+              "title": "pepitas-de-ouro"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "05-Curso-45D/M01-Fundamentos/1.2-As-4-fases-em-detalhe.md",
     "05-Curso-45D/pepitas-de-ouro.md",
     "05-Curso-45D/M06-Vault-e-Sync/README.md",
     "00-Estratégia/WIKILINK-STRATEGY.md",
@@ -214,7 +215,6 @@
     "00-Memory/sessions/2026-04-18.md",
     "00-Memory/sessions/estado-atual.md",
     "00-Memory/sessions",
-    "00-README.md",
     "03-Automações/api_clients.py",
     "03-Automações/metrics-aggregator.py",
     "03-Automações/onboarding-scaffold.py",

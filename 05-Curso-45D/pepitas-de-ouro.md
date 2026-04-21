@@ -114,6 +114,11 @@
 - *Aprendizado:* Tarefas de manutenção sistemáticas = scheduled CCR. Rui pensa estratégia, não "foi gravar?"
 - *Como Aplicar:* Identifica 3-5 background tasks críticas (memory sync, validator, audit, link-fixer) e schedula como remote triggers.
 
+**#21: "Nomes de ficheiros padronizados são alicerce do grafo de conhecimento"** (21 abr 2026 — Rui)
+- *Contexto:* Wikilinks quebradas porque ficheiros em lowercase (sop-1-store), com espaços (SOP 1 Store), underscore mixes. 66 broken links, orphaned files.
+- *Aprendizado:* Nomenclatura inconsistente = wikilink failure em cascata = fragmentação de grafo. Padrão [TYPE]-[NAME]-[VERSION] em CamelCase é NON-NEGOTIABLE.
+- *Como Aplicar:* Padrão desde dia 1. filename-validator.py detecta desvios. Refactora todo vault em paralelo com phases. Não deixar filename debt acumular.
+
 ### Do M03 — Integrações
 
 *A preencher durante integração com ferramentas*
@@ -225,8 +230,8 @@
 
 ---
 
-**Total Pepitas Capturadas:** 20 (M01 + M02)  
+**Total Pepitas Capturadas:** 21 (M01 + M02)  
 **Meta:** 44 pepitas end-of-course  
 **Status:** 📝 Growing with execution  
-**Last Updated:** 2026-04-21  
+**Last Updated:** 2026-04-21 (15:30 PT — Rui feedback on filename standardization)  
 **Owner:** RankPanda AI System
