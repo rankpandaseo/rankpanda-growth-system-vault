@@ -11,22 +11,17 @@ wikilinks: [[FASE-1-DIAGNOSTIC]], [[SOP-2-KEYWORD-RESEARCH-V2]],
 [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP FASE 2 — Execução Cirúrgica (Semana 2-4) **Resumo:** Implementar keyword research, otimizar collections e produtos em paralelo (3 streams independentes) com approval gates estruturados e sincronização via ClickUp. --- ## 🎯 Por Que Isto Importa **Impacto na velocidade e qualidade da implementação:**
+# SOP FASE 2 — Execução Cirúrgica (Semana 2-4)
 
-**Resumo:** SOP FASE 2 — Execução Cirúrgica (Semana 2-4) **Resumo:** Implementar
-keyword research, otimizar collections e produtos em paralelo (3 streams
-independentes) com approval gates estruturados e sincronização via ClickUp. ---
-## 🎯 Por Que Isto Importa **Impacto na velocidade e qualidade da
-implementação:**
+**Resumo:** Implementar keyword research, otimizar collections e produtos em paralelo (3 streams independentes) com approval gates estruturados e sincronização via ClickUp.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Parallelização real:** 3 streams (keywords, collections, products) correm em simultâneo. Sem isto, tudo corre sequencial (3x mais lento).
+- **Approval gates estruturados:** Antes de cada grande passo (coleções, product descriptions), cliente aprova. Evita retrabalho.
+- **Sincronização via ClickUp:** Todos na mesma página. Não há "eu pensava que fazíamos X".
 
 ---
 
@@ -124,7 +119,9 @@ Prepare metrics, learnings
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[FASE-1-DIAGNOSTIC]] — Pré-requisito: diagnóstico concluído + oportunidades identificadas
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Stream 1: keyword research em paralelo
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Stream 2: collection optimization
+- [[FASE-3-VALIDATION]] — Próxima fase: validação + go-live
 
 ---
