@@ -11,31 +11,28 @@ wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-1-DIAGNOSTIC]],
 [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# CONCEITO — Keyword Research (Hub Agregador) **Resumo:** Central hub para toda a metodologia, fontes de dados, padrões de análise e decisões de keyword research. Agrupa conceitos de SOP-2, insights de FASE-1, e aplicação prática em FASE-2. --- ## 🎯 Propósito deste Hub Este documento é um **aggregator** para todo o conhecimento de keyword research transversal. Quando perguntas:
+# CONCEITO — Keyword Research (Hub Agregador)
 
-**Resumo:** CONCEITO — Keyword Research (Hub Agregador) **Resumo:** Central hub
-para toda a metodologia, fontes de dados, padrões de análise e decisões de
-keyword research. Agrupa conceitos de SOP-2, insights de FASE-1, e aplicação
-prática em FASE-2. --- ## 🎯 Propósito deste Hub Este documento é um
-**aggregator** para todo o conhecimento de keyword research transversal. Quando
-perguntas:
+**Resumo:** Central hub para toda a metodologia, fontes de dados, padrões de análise e decisões de keyword research. Agrupa conceitos de SOP-2, insights de FASE-1, e aplicação prática em FASE-2.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Coesão entre fases:** Keyword research não é isolado. FASE-1 (diagnóstico) alimenta SOP-2 (pipeline), que alimenta SOP-3 (clustering), que alimenta FASE-2 (execução). Hub liga tudo.
+- **Decision framework consistente:** "High volume + low difficulty = P0" é critério objectivo que evita bias. Mesma regra aplica-se a todos os clientes.
+- **Padrões replicáveis:** Quick Wins, Strategic Clusters, Long-tail Accumulation são 3 estratégias que funcionam em 90%+ dos casos. Documentado aqui, executado em todo o sprint.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] SE Ranking data de keywords disponível (volume, difficulty, trends)
+- [ ] GSC baseline extraído (keywords que já rankeiam)
+- [ ] Cliente definiu intent match (quais keywords fazem sentido para o negócio)
+- [ ] SOP-2 pipeline aplicado (Claude gate → DataForSEO → Crawl4AI)
+- [ ] Clustering definido por SOP-3 (keywords agrupadas por intent)
+- [ ] 3 padrões replicáveis mapeados (Quick Wins, Strategic Clusters, Long-tail)
 
 ---
 
@@ -102,7 +99,9 @@ potencial mas baixo tráfego individual **Como:**
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Pipeline API-first que operacionaliza este conceito
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Clustering de keywords por intent
+- [[FASE-1-DIAGNOSTIC]] — Competitive analysis que alimenta priorização
+- [[FASE-2-EXECUTION]] — Aplicação prática de keywords em collections + products
 
 ---
