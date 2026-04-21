@@ -1,41 +1,38 @@
 ---
 name: course-m01-1.4-por-que-vence-agencias-tradicionais
-description: Aula 1.4 — Por Que Este Framework Vence os 6 Meses de Agência
-Tradicional > **Nível:** Iniciante > **Duração estimada:** 20 minutos >
-**Pré-requisito:** Aulas 1.1, 1.2, 1.3 > **Status:** Em produção --- ## 🎯
-Objetivo da Aula Ao final desta aula, o aluno será capaz de: 1. Articular PORQUE
-é que 45D Sprint bate 6-mês tradicional
+description: Aula 1.4 — Por que 45D Sprint vence agências tradicionais (5 fatores científicos)
 type: course
 status: active
 foco: course
-tags: [course, learning]
-wikilinks: []
+tags: [course, learning, 45d-sprint, competitive-advantage]
+wikilinks: [[COURSE-M01-1.1-O-Que-E-45D-Sprint]], [[COURSE-M01-1.2-As-4-Fases-Em-Detalhe]], [[COURSE-M01-1.3-Papeis-E-Responsabilidades]], [[CONCEITO-45D-Framework]]
 ---
 
-# Aula 1.4 — Por Que Este Framework Vence os 6 Meses de Agência Tradicional > **Nível:** Iniciante > **Duração estimada:** 20 minutos > **Pré-requisito:** Aulas 1.1, 1.2, 1.3 > **Status:** Em produção --- ## 🎯 Objetivo da Aula Ao final desta aula, o aluno será capaz de: 1. Articular PORQUE é que 45D Sprint bate 6-mês tradicional
+# Aula 1.4 — Por Que Este Framework Vence os 6 Meses de Agência Tradicional
 
-**Resumo:** Aula 1.4 — Por Que Este Framework Vence os 6 Meses de Agência
-Tradicional > **Nível:** Iniciante > **Duração estimada:** 20 minutos >
-**Pré-requisito:** Aulas 1.1, 1.2, 1.3 > **Status:** Em produção --- ## 🎯
-Objetivo da Aula Ao final desta aula, o aluno será capaz de: 1. Articular PORQUE
-é que 45D Sprint bate 6-mês tradicional
+**Nível:** Iniciante  
+**Duração estimada:** 20 minutos  
+**Pré-requisito:** Aulas 1.1, 1.2, 1.3  
+**Status:** Em produção
+
+**Resumo:** 5 fatores científicos por que 45D Sprint bate agências tradicionais — feedback loop, focus vs. scope creep, parallelização, custo/benefício, e continuidade. Análise de casos reais com métricas antes/depois.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Vender com confiança:** Saber que 45D bate tradicionais com 85%+ taxa sucesso vs. 40% = argumento de venda irrefutável baseado em dados reais.
+- **Reconhecer a falácia:** Entender POR QUÊ 6 meses falha (feedback loop longo, scope creep, serial execution) permite evitar cair nas mesmas armadilhas.
+- **Rentabilidade:** Cliente que vê 45D como 5x melhor custo/benefício dispõe-se a pagar premium vs. agência tradicional barata — e continua connosco após sprint.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Assistir aula completa (20 min)
+- [ ] Anotar: 5 fatores científicos + exemplos de cada
+- [ ] Comparar tabela final (6M Traditional vs. 45D Sprint) — qual é a diferença maior?
+- [ ] Memorizar a sequência de engagement cliente: Entusiasmado → Envolvido → Convencido → Comprometido → Renovação
 
 ---
 
@@ -164,7 +161,10 @@ Mais provável: Resultados em 3 semanas, 85% continuidade, sucesso
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-M01-1.1-O-Que-E-45D-Sprint]] — Introdução ao framework (pré-requisito)
+- [[COURSE-M01-1.2-As-4-Fases-Em-Detalhe]] — As 4 fases em detalhé (pré-requisito)
+- [[COURSE-M01-1.3-Papeis-E-Responsabilidades]] — Papéis e fluxo de trabalho (pré-requisito)
+- [[CONCEITO-45D-Framework]] — Documentação operacional completa do framework
+- [[COURSE-PEPITAS-DE-OURO]] — 10 pepitas de ouro M01 (lições #1-#10)
 
 ---
