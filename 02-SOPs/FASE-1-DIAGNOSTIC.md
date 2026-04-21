@@ -10,35 +10,43 @@ wikilinks: [[FASE-0-KICKOFF]], [[SOP-2-KEYWORD-RESEARCH-V2]],
 [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2) **Resumo:** Analisar dados de GSC, GA4, performance técnica e landscape competitivo para identificar 3-5 oportunidades de maior impacto. Não é auditoria completa — é diagnóstico focado. --- ## 🎯 Por Que Isto Importa **Impacto na eficácia do sprint:**
+# SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2)
 
-**Resumo:** SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2) **Resumo:**
-Analisar dados de GSC, GA4, performance técnica e landscape competitivo para
-identificar 3-5 oportunidades de maior impacto. Não é auditoria completa — é
-diagnóstico focado. --- ## 🎯 Por Que Isto Importa **Impacto na eficácia do
-sprint:**
+**Resumo:** Analisar dados de GSC, GA4, performance técnica e landscape competitivo para identificar 3-5 oportunidades de maior impacto. Não é auditoria completa — é diagnóstico focado.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Priorização baseada em dados:** Data over assumption. Sempre verificar GSC, GA4, PageSpeed. Nunca recomendar baseado em feeling. Isto identifica os 3-5 maiores impactos, não os 100.
+- **Identificação de gaps:** Competitive analysis mostra keywords que eles rankeiam e nós não, content que falta, diferenças estruturais.
+- **Baseline para iteração:** FASE 2 é execução, mas executa quê? FASE 1 diz "isto, isto e isto".
 
 ---
 
 ## ⚡ Quick Checklist
 
-- ← [[FASE-0-KICKOFF]] — **Input Obrigatório:** Setup técnico (Shopify access, GSC, GA4 configurados) + baseline metrics capturados (indexed, impressions, clicks, position) --- ## ⚡ Quick Checklist - [ ] GSC coverage report analisado (indexed vs discovered vs errors)
+**GSC Analysis:**
+- [ ] Coverage report analisado (indexed vs discovered vs errors)
 - [ ] Indexation gaps por tipo identificados (product, collection, blog)
-- [ ] GA4 organic traffic trends (90 dias) extraídos
+- [ ] Canonical issues documentados
+
+**GA4 Analysis:**
+- [ ] Organic traffic trends (90 dias) extraídos
 - [ ] Top 10 landing pages (por sessões, conversão, bounce rate) documentadas
+- [ ] Conversion funnel analisado
+
+**Technical Audit:**
 - [ ] Core Web Vitals medidos (LCP, FID, CLS)
 - [ ] Mobile usability testado
+- [ ] Page speed benchmarks documentados
+
+**Competitive Landscape:**
 - [ ] Top 5 competitors mapeados
-- [ ] Competitive keywords gap análisado (eles rankiam, nós não)
+- [ ] Keywords gap analisado (eles rankiam, nós não)
+- [ ] Content strategy deles documentada
+
+**Output & Approval:**
 - [ ] 3-5 maiores oportunidades identificadas + prioridades
 - [ ] Client presentation aprovada → Ready for [[FASE-2-EXECUTION]] --- ## 🔑 Key Principles 1. **Data Over Assumption:** Sempre verificar GSC, GA4, PageSpeed. Nunca recomendar baseado em feeling.
 - [ ] Coverage report analisado (descobertas, rastreadas, indexadas)
@@ -82,14 +90,15 @@ Específicas (7 Tasks) #### Task 1 — GSC Coverage Analysis
 
 ## 📖 Conteúdo Principal
 
-2. **Pareto Focus:** 80% do impacto vem de 20% das oportunidades. Diagnóstico
-encontra esse 20%.
-3. **Competitive Context:** Entender onde competitors rankiam ajuda-nos a atacar
-gaps reais.
-4. **Quick Wins First:** FASE 1 identifica o que pode ser fixado em 3 dias
-(canonical, robots.txt) vs 21 dias (novo conteúdo).
-5. **Documentation for Reuse:** Cada diagnóstico alimenta o playbook. Patterns
-recorrentes = novos SOPs. --- ## Operacional: ANÁLISE (Weak Points Detection)
+### 🔑 Key Principles
+
+1. **Data Over Assumption:** Sempre verificar GSC, GA4, PageSpeed. Nunca recomendar baseado em feeling.
+2. **Pareto Focus:** 80% do impacto vem de 20% das oportunidades. Diagnóstico encontra esse 20%.
+3. **Competitive Context:** Entender onde competitors rankiam ajuda-nos a atacar gaps reais.
+4. **Quick Wins First:** FASE 1 identifica o que pode ser fixado em 3 dias (canonical, robots.txt) vs 21 dias (novo conteúdo).
+5. **Documentation for Reuse:** Cada diagnóstico alimenta o playbook. Patterns recorrentes = novos SOPs.
+
+### 📋 Análise Detalhada (Weak Points Detection)
 ### Checklist de Diagnóstico **GSC Analysis:**
 **Gap 2:** [descrição + impacto]
 **Gap 3:** [descrição + impacto]
@@ -133,7 +142,8 @@ Específicas (7 Tasks) #### Task 1 — GSC Coverage Analysis
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[FASE-0-KICKOFF]] — Pré-requisito: setup técnico e baseline metrics
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Usa insights de FASE 1 para keyword research
+- [[FASE-2-EXECUTION]] — Próxima fase: implementação das oportunidades identificadas
 
 ---
