@@ -11,30 +11,30 @@ wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]],
 [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# CONCEITO — Client Approval (Hub Agregador) **Resumo:** Central hub para toda a estratégia de aprovação de cliente no 45D Sprint. Agrupa sampling patterns, feedback loops, decision gates e governance workflows que ocorrem em múltiplas FASEs. --- ## 🎯 Propósito deste Hub Este documento é um **aggregator** para todo o conhecimento de client approval transversal. Quando perguntas:
+# CONCEITO — Client Approval (Hub Agregador)
 
-**Resumo:** CONCEITO — Client Approval (Hub Agregador) **Resumo:** Central hub
-para toda a estratégia de aprovação de cliente no 45D Sprint. Agrupa sampling
-patterns, feedback loops, decision gates e governance workflows que ocorrem em
-múltiplas FASEs. --- ## 🎯 Propósito deste Hub Este documento é um **aggregator**
-para todo o conhecimento de client approval transversal. Quando perguntas:
+**Resumo:** Central hub para toda a estratégia de aprovação de cliente no 45D Sprint. Agrupa sampling patterns, feedback loops, decision gates e governance workflows que ocorrem em múltiplas FASEs.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Sampling não é aprovação de 100%:** Aprovamos amostra de 5-10 items de 100. Cliente valida padrão, não cada detalhe. Isto acelera 10x: 2 dias em vez de 20.
+- **2-round max, depois lock-in:** Iteração 1, feedback; Iteração 2, final. Terceira ronda? Não existe. RankPanda locks-in padrão e bulk-applies. Impacto: sprint fica on-track, não negociação infinita.
+- **Escalation path clara:** Se cliente rejeita padrão, síncrono call (30 min), alinha direção, re-testa uma amostra, procede. Impacto: evita impasse, resolve em 3-4 dias.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Approval form template (Google Form) preparado
+- [ ] Amostra de 5-10 items pronta (representativa do padrão)
+- [ ] Feedback form enviado ao cliente
+- [ ] Turnaround esperado: 48h (cliente comenta)
+- [ ] Iteração 1: feedback incorporado, new amostra enviada
+- [ ] Iteração 2: cliente aprova ou rejeita padrão
+- [ ] Se rejeição: escalation call (30 min) para alinhar direção
+- [ ] Padrão locked-in → bulk apply autorizado
 
 ---
 
@@ -141,7 +141,8 @@ Aprovações:**
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Keyword approval é gate 1 em FASE-2
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Collection approval é gate 2 em FASE-2
+- [[FASE-2-EXECUTION]] — Product approval é gate 3 (com sampling)
 
 ---
