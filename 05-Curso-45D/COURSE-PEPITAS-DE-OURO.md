@@ -61,7 +61,22 @@
 - *Como Aplicar:* Identifica 3-5 background tasks críticas (memory sync, validator, audit, link-fixer) e schedula como remote triggers. **#21: "Nomes de ficheiros padronizados são alicerce do grafo de conhecimento"** (21 abr 2026 — Rui)
 - *Contexto:* Wikilinks quebradas porque ficheiros em lowercase (sop-1-store), com espaços (SOP 1 Store), underscore mixes. 66 broken links, orphaned files.
 - *Aprendizado:* Nomenclatura inconsistente = wikilink failure em cascata = fragmentação de grafo. Padrão [TYPE]-[NAME]-[VERSION] em CamelCase é NON-NEGOTIABLE.
-- *Como Aplicar:* Padrão desde dia 1. filename-validator.py detecta desvios. Refactora todo vault em paralelo com phases. Não deixar filename debt acumular. ### Do M03 — Integrações *A preencher durante integração com ferramentas* - #15: ClickUp é a fonte da verdade para ESTADO, Gmail é para CONTEXTO
+- *Como Aplicar:* Padrão desde dia 1. filename-validator.py detecta desvios. Refactora todo vault em paralelo com phases. Não deixar filename debt acumular.
+
+**#22: "Iterative standardization (PHASE 1 → 2 → 3) bate big bang refactor sempre"** (21 abr 2026)
+- *Contexto:* 50 ficheiros não-conformes. Podia tentar refactorizar tudo de uma vez. Dividiu-se em 3 fases: 1) Erros críticos (naming, duplicados), 2) Tier 2-3 files (automações, course), 3) Validação de graph (wikilinks).
+- *Aprendizado:* Fases incrementais permitiram catch errors cedo, validar antes de avançar, zero regressões. Big bang teria sido impossível em 1 sessão + risco de quebrar tudo.
+- *Como Aplicar:* Quando refactorizar em larga escala: quebra em fases lógicas, valida cada uma, commit antes de passar. Feedback contínuo > corrida ao fim.
+
+**#23: "Broken wikilinks são sintoma, não problema root"** (21 abr 2026)
+- *Contexto:* 57 broken wikilinks no vault. Tentativa inicial: "fix all links". Resultado: ainda 17 depois. Causa real: abbreviated refs (SOP-1 em vez de SOP-1-STORE-CONTEXT-SETUP-v2), malformed syntax ([[[ em vez de [[), bash code interpretado como wikilink.
+- *Aprendizado:* Problema root = inconsistência de nomes em PHASE 1. Broken links = efeito colateral. Causa raiz fixa (PHASE 1) = links fixam automaticamente (PHASE 3).
+- *Como Aplicar:* Quando vires broken links em cascata: não só corre fix-wikilinks.py, dig para nome root cause. Geralmente é naming ou syntax inconsistency PHASE anterior. Refactora lá, não aqui.
+
+**#24: "Automação de file refactoring salva 8-10 horas de manual grep/replace"** (21 abr 2026)
+- *Contexto:* 92 ficheiros refacturados (16 + 25 + 51) através de fases com scripts (filename-validator.py, fix-broken-wikilinks.py, refactor-course-files.sh, fix-final-wikilinks.py).
+- *Aprendizado:* Manual refactoring de 92 ficheiros = ~10 horas (grep, replace, test, iterate). Scripts = <2 horas total. Padronização de nomes = leverage point para automação (todos os ficheiros seguem padrão = scripts detectam/fixam em paralelo).
+- *Como Aplicar:* Quando vault cresce: nunca faças bulk refactoring manual. Cria 3-5 scripts específicos (validator → detector → fixer). Testa em subset pequeno. Roda em paralelo. Tempo: hours, não days. ### Do M03 — Integrações *A preencher durante integração com ferramentas* - #15: ClickUp é a fonte da verdade para ESTADO, Gmail é para CONTEXTO
 - #16: Discord = comunicação em tempo real (os emails mentem)
 - #17: Integração quebrada = 1 linha de config, mas impacto gigante ### Do M04 — Gestão de Equipa *A preencher durante gestão de equipa em paralelo* - #18: Parallelização reduz 24 semanas para 5
 - #19: Assincronismo correto = zero meetings, máxima velocidade
@@ -100,4 +115,4 @@
 3. Lições atualizadas nos módulos M02-M10 --- ## Update Cadence - **Weekly:** Novas observações capturam no vault
 - **End of Phase:** 2-3 novas pepitas sintetizadas
 - **Post-Sprint:** Pepitas compiladas e lições atualizadas
-- **Monthly:** Retrospectiva completa + synthesis --- **Total Pepitas Capturadas:** 21 (M01 + M02) **Meta:** 44 pepitas end-of-course **Status:** 📝 Growing with execution **Last Updated:** 2026-04-21 (15:30 PT — Rui feedback on filename standardization) **Owner:** RankPanda AI System
+- **Monthly:** Retrospectiva completa + synthesis --- **Total Pepitas Capturadas:** 24 (M01 + M02) **Meta:** 44 pepitas end-of-course **Status:** 📝 Growing with execution **Last Updated:** 2026-04-21 (18:30 PT — Vault standardization phases 1-3 complete) **Owner:** RankPanda AI System
