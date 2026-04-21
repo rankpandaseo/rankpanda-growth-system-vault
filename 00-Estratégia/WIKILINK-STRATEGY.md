@@ -5,6 +5,7 @@ type: reference
 status: draft
 foco: course
 tags: [interlinking, semantic-graph, obsidian-cli, bidirectional]
+wikilinks: [[SOP-VAULT-FORMAT-SPECIFICATION]], [[wikilink-resolver]]
 ---
 
 # Estratégia de Interlinking Semântico — Vault RankPanda **Objetivo:** Transformar vault numa rede semântica robusta (não sequencial linear). --- ## 🎯 Por Que Isto Importa **Sem interlinking semântico:**

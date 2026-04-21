@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Memory/REFERENCE-MEMORY-INDEX.md",
+                "file": "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-02-LOJA-SETUP-7D.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REFERENCE-MEMORY-INDEX"
+              "title": "PILOT-VIBRADORES-02-LOJA-SETUP-7D"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "DETAILED-VAULT-AUDIT.py",
+    "00-Memory/context/REFERENCE-LESSONS.md",
+    "00-Memory/REFERENCE-MEMORY-INDEX.md",
     "fix-corrupted-yaml.py",
     "00-Memory/sessions/REFERENCE-SESSION-2026-04-18.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-00-MASTER-PLAN.md",
@@ -208,7 +211,6 @@
     "add-missing-properties.py",
     "02-SOPs/FASE-2-EXECUTION.md",
     "IMPLEMENTATION-ROADMAP.md",
-    "audit-vault-complete.py",
     "todo.md",
     "02-SOPs/SOP-3-CLUSTERING-COLLECTION-MAPPING.md",
     "05-Curso-45D/M01-Fundamentos/COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais.md",
@@ -216,10 +218,8 @@
     "02-SOPs/CONCEITO-Keyword-Research.md",
     "00-Memory/context/REFERENCE-PEOPLE.md",
     "00-Memory/context/REFERENCE-DECISIONS.md",
-    "00-Memory/context/REFERENCE-LESSONS.md",
     "00-Memory/projects/REFERENCE-PILOT-VIBRADORES.md",
     "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
-    "00-Memory/REFERENCE-MEMORY-INDEX.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-01-KEYWORD-RESEARCH.md"
   ]
 }
