@@ -43,7 +43,7 @@ wikilinks: [[COURSE-00-STRUCTURE]], [[COURSE-STATUS]]
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[CONCEITO-45D-Framework]] — Framework teórico
+- [[REFERENCE-PEOPLE]] — Squad e dinâmicas
 
 ---

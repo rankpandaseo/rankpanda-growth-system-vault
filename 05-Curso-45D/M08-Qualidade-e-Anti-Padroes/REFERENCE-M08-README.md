@@ -45,7 +45,7 @@ compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-LESSONS]] — Lições aprendidas
+- [[REFERENCE-DECISIONS]] — Decisões
 
 ---

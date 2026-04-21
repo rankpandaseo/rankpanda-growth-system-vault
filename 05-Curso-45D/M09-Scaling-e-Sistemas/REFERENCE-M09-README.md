@@ -45,7 +45,7 @@ compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[CONCEITO-45D-Framework]] — Framework
+- [[REFERENCE-PILOT-VIBRADORES]] — Caso piloto
 
 ---

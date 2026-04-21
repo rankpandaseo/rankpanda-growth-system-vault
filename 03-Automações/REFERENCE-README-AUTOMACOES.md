@@ -95,7 +95,7 @@ rankpanda-vault/
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[AUTOMATION-CLAUDE-SCHEDULED-TASKS]] — Tarefas agendadas
+- [[SOP-VAULT-FORMAT-SPECIFICATION]] — Padrão docs
 
 ---

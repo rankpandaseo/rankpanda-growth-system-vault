@@ -45,7 +45,7 @@ Ao final deste módulo, o aluno compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[TEMPLATE-WEEKLY-UPDATE]] — Template reports
+- [[TEMPLATE-BEFORE-AFTER-REPORT]] — Relatórios
 
 ---

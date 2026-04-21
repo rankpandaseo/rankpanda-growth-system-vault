@@ -43,7 +43,7 @@ final deste módulo, o aluno compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-ESTADO-ATUAL]] — Estado
+- [[IMPLEMENTATION-ROADMAP]] — Roadmap
 
 ---

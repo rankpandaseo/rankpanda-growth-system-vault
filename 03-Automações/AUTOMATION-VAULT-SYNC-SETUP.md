@@ -138,7 +138,7 @@ curl http://localhost/api/vault/sync-status
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-VAULT-FORMAT-SPECIFICATION]] — Padrão de documentos
+- [[REFERENCE-ESTADO-ATUAL]] — Estado atual
 
 ---
