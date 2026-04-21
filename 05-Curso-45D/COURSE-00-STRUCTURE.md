@@ -1,112 +1,257 @@
 ---
 name: course-00-structure
-description: Course Structure — PM RankPanda com IA Auto-generated course that
-grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D
-Sprint? (80 min)
+description: Course structure index for PM RankPanda 45D Sprint framework
 type: course
 status: active
 foco: course
-tags: [course, reference]
-wikilinks: []
+tags: [course, structure, index, modules, framework]
+wikilinks: [[COURSE-PEPITAS-DE-OURO]], [[COURSE-STATUS]], [[FASE-0-KICKOFF]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[FASE-3-VALIDATION]]
 ---
 
-# Course Structure — PM RankPanda com IA Auto-generated course that grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D Sprint? (80 min)
+# COURSE — 45-Day Sprint Framework: Complete Curriculum
 
-**Resumo:** Course Structure — PM RankPanda com IA Auto-generated course that
-grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D
-Sprint? (80 min)
+**Resumo:** Índice completo do curso PM RankPanda. 10 módulos + 47 lições (360 min total). Estrutura cresce a cada sprint executado — novos padrões + pepitas são capturados e viram lições.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Conhecimento cresce com prática:** Cada sprint gera 3-5 pepitas de ouro. A cada 45 dias, nova lição. A cada 6 meses, novo módulo. Curso ≠ estático.
+- **Replicabilidade:** Sem documentação estruturada, conhecimento morre com cada pessoa. Com curso, 1000+ pessoas podem aprender e executar 45D sprint identicamente.
+- **Framework wins:** Metodologia documentada vira vantagem competitiva. Agências pagam milhares para ensinar metodologias próprias. Nós temos isto documentado.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Todos os 10 módulos mapeados com lições
+- [ ] Cada lição tem duração estimada + tema claro
+- [ ] Links funcionais a ficheiros reais (não placeholders)
+- [ ] M01 (Fundamentos) — 4 lições ~80 min — COMPLETO
+- [ ] M02-M10 (Especialização) — READMEs + placeholders para futuras lições
+- [ ] Pepitas de Ouro file linkado e atualizado
+- [ ] Status page documentado (% conclusão de cada módulo)
 
 ---
 
 ## 📖 Conteúdo Principal
 
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [1.1](M01-Fundamentos/1.1-O-que-e-45D-Sprint.md) | 20 min | ✅ O que é 45D Sprint e por que funciona |
-| [1.2](M01-Fundamentos/1.2-As-4-fases-em-detalhe.md) | 25 min | ✅ As 4 fases em detalhe (Kickoff, Diagnostic, Execution, Validation) |
-| [1.3](M01-Fundamentos/1.3-Papeis-e-responsabilidades.md) | 15 min | ✅ Papéis e responsabilidades (RankPanda team + cliente) |
-| [1.4](M01-Fundamentos/1.4-Por-que-vence-agencias-tradicionais.md) | 20 min | ✅ Por que este framework vence os 6 meses de agência tradicional | ### M02 — Memória e Contexto: Como Claude Code Sempre Sabe (60 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [2.1](M02-Memoria-e-Contexto/2.1-O-problema-sessao-zero.md) | 12 min | ⏳ O Problema: Cada Sessão Começa do Zero |
-| [2.2](M02-Memoria-e-Contexto/2.2-MEMORY.md-como-DNA.md) | 18 min | ⏳ A Solução: MEMORY.md e Vault de Contexto |
-| [2.3](M02-Memoria-e-Contexto/2.3-Padroes-de-memoria.md) | 15 min | ⏳ Padrões de Memória: Quatro Tipos Que Importam |
-| [2.4](M02-Memoria-e-Contexto/2.4-Evitando-alucinacoes.md) | 15 min | ⏳ Evitando Alucinações com Contexto Estruturado | ### M03 — Integrações: Qual Ferramenta Usar Quando (60 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [3.1](M03-Integrações/3.1-As-6-integrações.md) | 20 min | ⏳ As 6 Integrações RankPanda (mapa mental) |
-| [3.2](M03-Integrações/3.2-ClickUp-tasks-tempo.md) | 15 min | ⏳ ClickUp: Tasks, Tempo, e Estado Real |
-| [3.3](M03-Integrações/3.3-Gmail-Calendar-contexto.md) | 12 min | ⏳ Gmail + Calendar: Contexto de Meetings |
-| [3.4](M03-Integrações/3.4-Discord-Shopify-output.md) | 13 min | ⏳ Discord + Shopify: Output e Monitorização | ### M04 — Gestão de Equipa: Coordenação Paralela (55 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [4.1](M04-Gestao-de-Equipa/4.1-Parallelizacao-4-streams.md) | 18 min | ⏳ Parallelização: 4 Streams, 1 Ritmo |
-| [4.2](M04-Gestao-de-Equipa/4.2-Handoffs-passar-bola.md) | 14 min | ⏳ Handoffs: Quando Passar a Bola |
-| [4.3](M04-Gestao-de-Equipa/4.3-Comunicacao-assincrona.md) | 12 min | ⏳ Comunicação Assíncrona (Discord + ClickUp) |
-| [4.4](M04-Gestao-de-Equipa/4.4-Detectando-bottlenecks.md) | 11 min | ⏳ Detectando Bottlenecks em Tempo Real | ### M05 — Automações e Agents: Claude no Piloto Automático (55 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [5.1](M05-Automacoes-e-Agents/5.1-Scheduled-tasks-syntax.md) | 16 min | ⏳ Scheduled Tasks: Syntax e Patterns |
-| [5.2](M05-Automacoes-e-Agents/5.2-7-automacoes-rankpanda.md) | 14 min | ⏳ 7 Automações RankPanda (Memory, Pepitas, Reports) |
-| [5.3](M05-Automacoes-e-Agents/5.3-Criando-teu-agente.md) | 15 min | ⏳ Criando Teu Próprio Agent (Exemplo: Daily Standup) |
-| [5.4](M05-Automacoes-e-Agents/5.4-Debugging-automations.md) | 10 min | ⏳ Debugging Automations (quando dá erro?) | ### M06 — Vault e Sync: A Realidade Sempre Sincronizada (50 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [6.1](M06-Vault-e-Sync/6.1-Obsidian-git-sync.md) | 14 min | ⏳ Obsidian Git: Sync Automático |
-| [6.2](M06-Vault-e-Sync/6.2-GitHub-source-of-truth.md) | 13 min | ⏳ GitHub como Buffer + Source of Truth |
-| [6.3](M06-Vault-e-Sync/6.3-VPS-webhook-discord.md) | 12 min | ⏳ VPS Webhook + Discord Notifications |
-| [6.4](M06-Vault-e-Sync/6.4-Recovering-disaster.md) | 11 min | ⏳ Recovering from Disaster (Git revert, restore) | ### M07 — Reporting e Dashboards: Contando a História (50 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [7.1](M07-Reporting-e-Dashboards/7.1-Dashboard-vs-report.md) | 12 min | ⏳ Dashboard vs. Report: Filosofia RankPanda |
-| [7.2](M07-Reporting-e-Dashboards/7.2-Before-after-report.md) | 14 min | ⏳ Estrutura do Before/After Report |
-| [7.3](M07-Reporting-e-Dashboards/7.3-Automacao-weekly-status.md) | 13 min | ⏳ Automação: Weekly Status via Claude |
-| [7.4](M07-Reporting-e-Dashboards/7.4-Contando-historia.md) | 11 min | ⏳ Contando a História (dados → narrativa) | ### M08 — Qualidade e Anti-Padrões: O Que Não Fazer (45 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [8.1](M08-Qualidade-e-Anti-Padroes/8.1-5-antipadroes-diagnostic.md) | 13 min | ⏳ 5 Anti-Padrões: Diagnóstico (como identificar) |
-| [8.2](M08-Qualidade-e-Anti-Padroes/8.2-5-antipadroes-execution.md) | 12 min | ⏳ 5 Anti-Padrões: Execução (erros de coordenação) |
-| [8.3](M08-Qualidade-e-Anti-Padroes/8.3-Recuperacao-rapida.md) | 10 min | ⏳ Recuperação Rápida (quando tudo falha) |
-| [8.4](M08-Qualidade-e-Anti-Padroes/8.4-Checklist-qualidade.md) | 10 min | ⏳ Checklist de Qualidade (antes de apresentar cliente) | ### M09 — Scaling e Sistemas: De 1 Sprint para 10 (54 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [9.1](M09-Scaling-e-Sistemas/9.1-De-1-para-3-sprints.md) | 15 min | ⏳ De 1 para 3 Sprints: Quando Expandir |
-| [9.2](M09-Scaling-e-Sistemas/9.2-De-3-para-10-sprints.md) | 16 min | ⏳ De 3 para 10 Sprints: Pessoas, Processos, Systems |
-| [9.3](M09-Scaling-e-Sistemas/9.3-Coordenacao-sprints.md) | 12 min | ⏳ Coordenação de Sprints Sobrepostos |
-| [9.4](M09-Scaling-e-Sistemas/9.4-Dashboard-escalabilidade.md) | 11 min | ⏳ Dashboard de Escalabilidade (métricas de health) | ### M10 — BONUS: De MAC Mini para Servidor (47 min)
-| Lição | Duração | Tema |
-|-------|---------|------|
-| [10.1](M10-Bonus-Infraestrutura/10.1-MAC-vs-VPS.md) | 10 min | ⏳ MAC Local vs. VPS: Trade-offs |
-| [10.2](M10-Bonus-Infraestrutura/10.2-Setup-VPS.md) | 14 min | ⏳ Setup de Servidor Ubuntu + Vault Sync |
-| [10.3](M10-Bonus-Infraestrutura/10.3-Backups-recovery.md) | 12 min | ⏳ Automated Backups + Disaster Recovery |
-| [10.4](M10-Bonus-Infraestrutura/10.4-Monitoring-24-7.md) | 11 min | ⏳ Monitoring 24/7 (health checks, alertas) | ## Pepitas de Ouro File: `pepitas-de-ouro.md` Auto-generated from real sprint execution:
-2. **End of each phase** → Claude synthesizes learnings into lesson drafts
-3. **After complete sprint** → New pepita(s) de ouro created
-4. **Quarterly review** → Course modules updated with new patterns ## Status -
-**M01-M10 Module Structure:** ✅ All created
+### Module Overview
+
+```
+🎓 COURSE CURRICULUM — 360+ Minutes of Training
+Total Modules: 10
+Total Lessons: 47+ (growing)
+Format: Video scripts + diagrams + examples
+Target Audience: RankPanda team + licensed partners + course students
+```
+
+---
+
+### M01 — Fundamentos: O Que É 45D Sprint? (80 min)
+
+**Purpose:** Frame why 45D Sprint exists, how it's different, and the 4-phase model.
+
+**Lessons:**
+
+| # | Título | Duração | Status | Link |
+|---|--------|---------|--------|------|
+| 1.1 | O que é 45D Sprint (e por que funciona) | 20 min | ✅ Complete | [COURSE-M01-1.1-O-Que-E-45D-Sprint.md](M01-Fundamentos/COURSE-M01-1.1-O-Que-E-45D-Sprint.md) |
+| 1.2 | As 4 Fases em Detalhe (Kickoff, Diagnostic, Execution, Validation) | 25 min | ✅ Complete | [COURSE-M01-1.2-As-4-Fases-Em-Detalhe.md](M01-Fundamentos/COURSE-M01-1.2-As-4-Fases-Em-Detalhe.md) |
+| 1.3 | Papéis e Responsabilidades (RankPanda team + cliente) | 15 min | ✅ Complete | [COURSE-M01-1.3-Papeis-E-Responsabilidades.md](M01-Fundamentos/COURSE-M01-1.3-Papeis-E-Responsabilidades.md) |
+| 1.4 | Por que isto vence agências tradicionais (6 meses vs. 45 dias) | 20 min | ✅ Complete | [COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais.md](M01-Fundamentos/COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais.md) |
+
+---
+
+### M02 — Memória e Contexto: Como Claude Sempre Sabe (60 min)
+
+**Purpose:** Explain memory architecture, MEMORY.md, context persistence across sessions.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 2.1 | O Problema: Cada Sessão Começa do Zero | 12 min | 🔄 In Progress |
+| 2.2 | A Solução: MEMORY.md e Vault de Contexto | 18 min | 🔄 In Progress |
+| 2.3 | Padrões de Memória: Quatro Tipos Que Importam | 15 min | 🔄 In Progress |
+| 2.4 | Evitando Alucinações com Contexto Estruturado | 15 min | 🔄 In Progress |
+
+[README](M02-Memoria-e-Contexto/REFERENCE-M02-README.md) | [Start Learning](M02-Memoria-e-Contexto/)
+
+---
+
+### M03 — Integrações: Qual Ferramenta Usar Quando (60 min)
+
+**Purpose:** Map the 9 external APIs (Shopify, GSC, GA4, SE Ranking, ClickUp, GitHub, Discord, Leexi), rate limits, when to call each.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 3.1 | As 9 Integrações RankPanda (mapa mental) | 20 min | 🔄 In Progress |
+| 3.2 | ClickUp: Tasks, Tempo, e Estado Real | 15 min | 🔄 In Progress |
+| 3.3 | Gmail + Calendar: Contexto de Meetings | 12 min | 🔄 In Progress |
+| 3.4 | Discord + Shopify: Output e Monitorização | 13 min | 🔄 In Progress |
+
+[README](M03-Integrações/REFERENCE-M03-README.md) | [Start Learning](M03-Integrações/)
+
+---
+
+### M04 — Gestão de Equipa: Coordenação Paralela (55 min)
+
+**Purpose:** Managing 4 parallel streams (KW research, collections, products, tech) + handoffs.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 4.1 | Parallelização: 4 Streams, 1 Ritmo | 18 min | 🔄 In Progress |
+| 4.2 | Handoffs: Quando Passar a Bola | 14 min | 🔄 In Progress |
+| 4.3 | Comunicação Assíncrona (Discord + ClickUp) | 12 min | 🔄 In Progress |
+| 4.4 | Detectando Bottlenecks em Tempo Real | 11 min | 🔄 In Progress |
+
+[README](M04-Gestao-de-Equipa/REFERENCE-M04-README.md) | [Start Learning](M04-Gestao-de-Equipa/)
+
+---
+
+### M05 — Automações e Agents: Claude no Piloto Automático (55 min)
+
+**Purpose:** Scheduled tasks, 7 RankPanda automations (memory capture, pepita extraction, weekly reports), building custom agents.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 5.1 | Scheduled Tasks: Syntax e Patterns | 16 min | 🔄 In Progress |
+| 5.2 | 7 Automações RankPanda (Memory, Pepitas, Reports) | 14 min | 🔄 In Progress |
+| 5.3 | Criando Teu Próprio Agent (Exemplo: Daily Standup) | 15 min | 🔄 In Progress |
+| 5.4 | Debugging Automations (quando dá erro?) | 10 min | 🔄 In Progress |
+
+[README](M05-Automacoes-e-Agents/REFERENCE-M05-README.md) | [Start Learning](M05-Automacoes-e-Agents/)
+
+---
+
+### M06 — Vault e Sync: A Realidade Sempre Sincronizada (50 min)
+
+**Purpose:** Obsidian vault, git sync, GitHub as source of truth, disaster recovery.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 6.1 | Obsidian Git: Sync Automático | 14 min | 🔄 In Progress |
+| 6.2 | GitHub como Buffer + Source of Truth | 13 min | 🔄 In Progress |
+| 6.3 | VPS Webhook + Discord Notifications | 12 min | 🔄 In Progress |
+| 6.4 | Recovering from Disaster (Git revert, restore) | 11 min | 🔄 In Progress |
+
+[README](M06-Vault-e-Sync/REFERENCE-M06-README.md) | [Start Learning](M06-Vault-e-Sync/)
+
+---
+
+### M07 — Reporting e Dashboards: Contando a História (50 min)
+
+**Purpose:** Philosophy of minimal dashboards, before/after reports, weekly status automation, turning data into narrative.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 7.1 | Dashboard vs. Report: Filosofia RankPanda | 12 min | 🔄 In Progress |
+| 7.2 | Estrutura do Before/After Report (FASE 3) | 14 min | 🔄 In Progress |
+| 7.3 | Automação: Weekly Status via Claude | 13 min | 🔄 In Progress |
+| 7.4 | Contando a História (dados → narrativa) | 11 min | 🔄 In Progress |
+
+[README](M07-Reporting-e-Dashboards/REFERENCE-M07-README.md) | [Start Learning](M07-Reporting-e-Dashboards/)
+
+---
+
+### M08 — Qualidade e Anti-Padrões: O Que Não Fazer (45 min)
+
+**Purpose:** 5 anti-patterns in diagnostic + execution, how to recover, quality checklist.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 8.1 | 5 Anti-Padrões: Diagnóstico (como identificar) | 13 min | 🔄 In Progress |
+| 8.2 | 5 Anti-Padrões: Execução (erros de coordenação) | 12 min | 🔄 In Progress |
+| 8.3 | Recuperação Rápida (quando tudo falha) | 10 min | 🔄 In Progress |
+| 8.4 | Checklist de Qualidade (antes de apresentar cliente) | 10 min | 🔄 In Progress |
+
+[README](M08-Qualidade-e-Anti-Padroes/REFERENCE-M08-README.md) | [Start Learning](M08-Qualidade-e-Anti-Padroes/)
+
+---
+
+### M09 — Scaling e Sistemas: De 1 Sprint para 10 (54 min)
+
+**Purpose:** Expanding from 1 sprint to 3, then 10+ sprints. People, processes, systems changes.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 9.1 | De 1 para 3 Sprints: Quando Expandir | 15 min | 🔄 In Progress |
+| 9.2 | De 3 para 10 Sprints: Pessoas, Processos, Systems | 16 min | 🔄 In Progress |
+| 9.3 | Coordenação de Sprints Sobrepostos | 12 min | 🔄 In Progress |
+| 9.4 | Dashboard de Escalabilidade (métricas de health) | 11 min | 🔄 In Progress |
+
+[README](M09-Scaling-e-Sistemas/REFERENCE-M09-README.md) | [Start Learning](M09-Scaling-e-Sistemas/)
+
+---
+
+### M10 — BONUS: De MAC Mini para Servidor (47 min)
+
+**Purpose:** Local development vs. VPS, server setup, backups, 24/7 monitoring.
+
+**Lessons:**
+
+| # | Título | Duração | Status |
+|---|--------|---------|--------|
+| 10.1 | MAC Local vs. VPS: Trade-offs | 10 min | 🔄 In Progress |
+| 10.2 | Setup de Servidor Ubuntu + Vault Sync | 14 min | 🔄 In Progress |
+| 10.3 | Automated Backups + Disaster Recovery | 12 min | 🔄 In Progress |
+| 10.4 | Monitoring 24/7 (health checks, alertas) | 11 min | 🔄 In Progress |
+
+[README](M10-Bonus-Infraestrutura/REFERENCE-M10-README.md) | [Start Learning](M10-Bonus-Infraestrutura/)
+
+---
+
+### Pepitas de Ouro Integration
+
+```
+📚 GOLDEN NUGGETS OF LEARNING
+
+File: [[COURSE-PEPITAS-DE-OURO]]
+
+How Pepitas Feed Into Course:
+
+1. Real Sprint Execution
+   ↓
+2. Error/Discovery Captured as Pepita
+   ↓
+3. Pepita Reviewed + Approved (# assigned)
+   ↓
+4. Lesson Draft Created (e.g., "8.1 Anti-Padrão: Missing Schema Validation")
+   ↓
+5. Lesson Added to Relevant Module (e.g., M01, M03, M08)
+   ↓
+6. Course Version Incremented + Published
+
+Frequency:
+  • Daily: Pepitas captured
+  • Weekly: Pepitas synthesized into lesson drafts
+  • Monthly: Lessons added to modules
+  • Quarterly: New modules created (if 10+ pepitas on a new topic)
+
+Latest Pepitas: See [[COURSE-PEPITAS-DE-OURO]]
+```
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-PEPITAS-DE-OURO]] — Golden insights that feed into lesson creation
+- [[COURSE-STATUS]] — Current progress by module (% completion)
+- [[FASE-0-KICKOFF]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[FASE-3-VALIDATION]] — Phases described in M01 and referenced throughout course
 
 ---
