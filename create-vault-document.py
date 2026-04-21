@@ -4,6 +4,7 @@
 import sys
 import argparse
 from pathlib import Path
+from vault_parser import VaultParser
 
 VALID_TYPES = ['sop', 'fase', 'conceito', 'template', 'reference', 'automation', 'course', 'skill', 'api']
 VALID_STATUS = ['draft', 'ready', 'active']
@@ -56,7 +57,57 @@ def kebab_to_camel(text):
     parts = text.split('-')
     return ''.join(word.capitalize() for word in parts)
 
-def create_document(doc_type, name, description, foco, vault_root):
+def find_related_documents(vault, doc_type, foco, limit=3):
+    """Find related documents by type and foco for wikilinks suggestions."""
+    candidates = []
+
+    # Find documents of same type or complementary types
+    type_relations = {
+        'sop': ['fase', 'conceito', 'template'],
+        'fase': ['sop', 'conceito'],
+        'conceito': ['sop', 'fase', 'reference'],
+        'template': ['sop', 'automation'],
+        'reference': ['sop', 'conceito'],
+        'automation': ['template', 'reference'],
+        'course': ['sop', 'fase'],
+    }
+
+    related_types = type_relations.get(doc_type, ['sop', 'reference'])
+
+    # Find documents with same foco or operational
+    for related_type in related_types:
+        docs = vault.find_by_type(related_type)
+        for doc in docs:
+            if doc.foco() == foco or doc.foco() == 'operational':
+                candidates.append(doc)
+
+    # Sort by type priority and return top N
+    candidates = candidates[:limit]
+    return [(doc.name(), doc.title) for doc in candidates]
+
+def validate_created_document(filepath):
+    """Validate newly created document."""
+    from vault_parser import VaultDocumentParser
+
+    try:
+        doc = VaultDocumentParser(str(filepath))
+        if doc.is_complete():
+            return True, "✅ Document is complete and valid"
+        else:
+            missing = []
+            if not doc.why():
+                missing.append("'Por Que Isto Importa' section")
+            if not doc.checklist():
+                missing.append("'Quick Checklist' items")
+            if not doc.content():
+                missing.append("'Conteúdo Principal' section")
+            if not doc.related():
+                missing.append("'Relacionados' links")
+            return False, f"⚠️ Document incomplete. Missing: {', '.join(missing)}"
+    except Exception as e:
+        return False, f"❌ Validation error: {e}"
+
+def create_document(doc_type, name, description, foco, vault_root, validate=True, auto_suggest=False):
     """Create a new document with correct filename and frontmatter."""
 
     if doc_type not in VALID_TYPES:
@@ -92,8 +143,22 @@ def create_document(doc_type, name, description, foco, vault_root):
         print(f"❌ File already exists: {target_file}")
         sys.exit(1)
 
-    # Generate content
-    content = TEMPLATE.format(
+    # Generate wikilinks suggestions if requested
+    wikilinks = '[]'
+    if auto_suggest:
+        try:
+            vault = VaultParser(str(Path(vault_root)))
+            vault.load_all()
+            related = find_related_documents(vault, doc_type, foco, limit=3)
+            if related:
+                wikilink_list = ', '.join([f'[[{doc[0]}]]' for doc in related])
+                wikilinks = f'[{wikilink_list}]'
+        except Exception as e:
+            print(f"⚠️ Could not auto-suggest wikilinks: {e}")
+
+    # Generate content with wikilinks
+    template_content = TEMPLATE.replace('wikilinks: []', f'wikilinks: {wikilinks}')
+    content = template_content.format(
         filename=filename_slug,
         description=description,
         type=doc_type,
@@ -107,7 +172,15 @@ def create_document(doc_type, name, description, foco, vault_root):
         f.write(content)
 
     print(f"✅ Created: {target_file.relative_to(target_dir.parent.parent.parent)}")
-    print(f"📝 Edit and commit when ready")
+
+    # Validate if requested
+    if validate:
+        success, msg = validate_created_document(target_file)
+        print(f"{msg}")
+        if not success:
+            print(f"📝 Complete the missing sections before committing")
+    else:
+        print(f"📝 Edit and commit when ready")
 
 def main():
     parser = argparse.ArgumentParser(description='Create a new vault document')
@@ -116,10 +189,14 @@ def main():
     parser.add_argument('--description', required=True, help='One-line description (80 chars max)')
     parser.add_argument('--foco', required=True, help=f'Focus area: {", ".join(VALID_FOCO)}')
     parser.add_argument('--vault-root', default='/Users/rankpanda/Shopify RankPanda APP - Oficial 2026/vault', help='Vault root directory')
+    parser.add_argument('--validate', action='store_true', default=True, help='Validate document on creation (default: True)')
+    parser.add_argument('--no-validate', dest='validate', action='store_false', help='Skip validation')
+    parser.add_argument('--auto-suggest', action='store_true', help='Auto-suggest related wikilinks')
 
     args = parser.parse_args()
 
-    create_document(args.type, args.name, args.description, args.foco, args.vault_root)
+    create_document(args.type, args.name, args.description, args.foco, args.vault_root,
+                    validate=args.validate, auto_suggest=args.auto_suggest)
 
 if __name__ == '__main__':
     main()
