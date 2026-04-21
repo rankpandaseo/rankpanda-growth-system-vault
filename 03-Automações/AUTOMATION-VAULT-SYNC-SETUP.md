@@ -18,10 +18,8 @@ VPS (Server) ↔ GitHub (Source of Truth) --- ## Architecture ```
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+[Context: impacto direto no projeto, porquê isto importa]
+- [Core point]
 
 ---
 

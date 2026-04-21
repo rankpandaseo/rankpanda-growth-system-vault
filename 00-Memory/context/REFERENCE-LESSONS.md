@@ -53,7 +53,7 @@ wikilinks: [[REFERENCE-MEMORY-INDEX]]
 - Como aplicar: Cada FASE tem checklist API claro
 
 **4. Placeholder Content is a Blocker**
-- Erro: Deixar ficheiros com `[Escreve conteúdo aqui]`
+- Erro: Deixar ficheiros com `[content]`
 - Aprendizado: Agents não conseguem processar placeholders
 - Como aplicar: Audit completo antes de passado a agents
 

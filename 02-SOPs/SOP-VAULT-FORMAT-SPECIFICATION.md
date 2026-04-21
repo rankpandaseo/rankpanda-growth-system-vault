@@ -107,9 +107,7 @@ Após Properties `---`, documento segue esta estrutura **rígida:**
 ## 🎯 Por Que Isto Importa
 
 [MANDATORY: 3-5 bullets explicando impacto]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- [Core point]
 
 ---
 

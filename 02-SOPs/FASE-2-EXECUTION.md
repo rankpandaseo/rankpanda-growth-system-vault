@@ -58,7 +58,7 @@ wikilinks: [[FASE-1-DIAGNOSTIC]], [[SOP-2-KEYWORD-RESEARCH-V2]],
 - [ ] Schema.org templates prontos
 - [ ] Liquid templates testadas (se necessário)
 - [ ] IndexNow ativado
-- [ ] GA4 refinement completo ### Gaps Identificados _Se algum gap aparecer durante execução:_ **Gap:** [descrição]
+- [ ] GA4 refinement completo ### Gaps Identificados _Se algum gap aparecer durante execução:_ **Gap:** [description]
 - Daily standup review --- ## Execução: ClickUp Space + Tarefas ### ClickUp Space Structure (FASE 2) **Project:** `[Loja] — 45D Sprint → FASE 2 Execution` **Using Templates:** See `/04-Templates/` for approval-gate-keywords.md, approval-gate-collections.md, approval-gate-products.md, and weekly-update-template.md **Folders:** 1. **KW RESEARCH** - [ ] Coleções target confirmadas - [ ] KW research draft done - [ ] Client review sent - [ ] Client approved - [ ] Learnings documented 2. **COLLECTION OPTIMIZATION** - [ ] Drafts generated for each collection - [ ] Client review sent - [ ] Client approved - [ ] Published to Shopify - [ ] GSC submission done - [ ] Monitoring started 3. **PRODUCT OPTIMIZATION (Batch 1-N)** - [ ] Batch scope defined (products, collection) - [ ] Drafts generated - [ ] Client sampling review sent - [ ] Client approved - [ ] Bulk applied - [ ] QA validation - [ ] GSC submission done 4. **TECHNICAL SETUP** - [ ] Metafields created + tested - [ ] Schema.org templates validated - [ ] Liquid templates updated (if needed) - [ ] IndexNow activated + tested - [ ] GA4 refinement done - [ ] Robots.txt checked 5. **COMMUNICATION & MONITORING** - [ ] Weekly update (Loom/email) - [ ] Client checkpoint calls - [ ] Metrics tracking ### Tarefas Específicas (KW Research) #### Task 1 — Generate KW Research
 
 ---
