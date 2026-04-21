@@ -32,6 +32,13 @@ WIKILINK_MAPPING = {
     'keyword-research': 'PILOT-VIBRADORES-01-KEYWORD-RESEARCH',
     'loja-setup-7d': 'PILOT-VIBRADORES-02-LOJA-SETUP-7D',
     'MASTER-PLAN': 'PILOT-VIBRADORES-00-MASTER-PLAN',
+
+    # Automation files
+    'api_clients': 'AUTOMATION-API-CLIENTS',
+    'claude-scheduled-tasks': 'AUTOMATION-CLAUDE-SCHEDULED-TASKS',
+    'metrics-aggregator': 'AUTOMATION-METRICS-AGGREGATOR',
+    'onboarding-scaffold': 'AUTOMATION-ONBOARDING-SCAFFOLD',
+    'vault-sync-setup': 'AUTOMATION-VAULT-SYNC-SETUP',
 }
 
 def fix_wikilinks_in_file(filepath):
