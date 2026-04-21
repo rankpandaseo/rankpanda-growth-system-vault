@@ -10,30 +10,30 @@ wikilinks: [[FASE-0-KICKOFF]], [[FASE-2-EXECUTION]], [[FASE-3-VALIDATION]],
 [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# REFERENCE — API Registry (Central Integration Hub) **Resumo:** Central registry de todas as APIs externas, credentials, endpoints e padrões de integração. Isto NÃO é documentação de como usar cada API — é um index + quick-start para developers. --- ## 🎯 Propósito deste Registry Quando desenvolvimento precisa chamar uma API:
+# REFERENCE — API Registry (Central Integration Hub)
 
-**Resumo:** REFERENCE — API Registry (Central Integration Hub) **Resumo:**
-Central registry de todas as APIs externas, credentials, endpoints e padrões de
-integração. Isto NÃO é documentação de como usar cada API — é um index +
-quick-start para developers. --- ## 🎯 Propósito deste Registry Quando
-desenvolvimento precisa chamar uma API:
+**Resumo:** Central registry de todas as APIs externas, credentials, endpoints e padrões de integração usados no 45D workflow. Isto NÃO é documentação de como usar cada API — é um index + quick-start para developers.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Zero duplicação, single source:** Cada API tem UM lar (aqui), com credentials, endpoints, rate limits, code examples. Não há 10 scripts dispersos com segredos diferentes.
+- **On-demand integration:** Quando SOP-2 (KW research) precisa de SE Ranking, vem aqui → busca endpoint → copia quick start → 15 min vs 2h de discovery.
+- **Rate limit + error handling:** Cada API tem rate limits documentados e retry logic. Evita "API crashed at 3am" e "called 1000 times em 1 segundo".
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Todas as credenciais no .env.local (não hardcoded em código)
+- [ ] Cada API testada (ping endpoint com credenciais válidas)
+- [ ] Rate limits documentados por API
+- [ ] Retry logic implementado (exponential backoff para 429 errors)
+- [ ] Errors conhecidos e tratados por API
+- [ ] Quick start code pronto (cópia-cola funciona em 5 min)
+- [ ] Integração com 45D sprint documentada (Week 1/3/5)
+- [ ] 2 patterns replicáveis testados (metrics collection, bulk operations)
 
 ---
 
@@ -180,13 +180,15 @@ HTTPError as e: if e.response.status_code == 429: # Too Many Requests wait_time
 after {max_retries} retries")
 ``` **Authentication Error:**
 ```python
-``` --- ## 🔗 Relacionados **SOPs/FASEs que usam APIs:**
+```
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[FASE-0-KICKOFF]] — Validação técnica testa todas as credenciais API
+- [[FASE-2-EXECUTION]] — Bulk operations (Shopify) e aprovações (ClickUp) usam APIs aqui
+- [[FASE-3-VALIDATION]] — GSC, GA4, ClickUp para métricas e relatório final
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] — Sprint completo que integra 9 APIs em paralelo
 
 ---
