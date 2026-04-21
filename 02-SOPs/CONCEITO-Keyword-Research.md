@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: seo
 tags: [keyword-research, methodology, data-sources, analysis, intent-mapping]
-wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # CONCEITO — Keyword Research (Hub Agregador)
@@ -223,7 +223,7 @@ FASE 3 — VALIDATION
 - [[FASE-3-VALIDATION]] → Medição de impacto (novas keywords rankeadas)
 
 **Casos Reais:**
-- [[pilot-vibradores]] → Implementação end-to-end de KW research em projeto piloto
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → Implementação end-to-end de KW research em projeto piloto
 
 **Recursos:**
 - `/vault/04-Templates/approval-gate-keywords.md` — Template de aprovação de keywords

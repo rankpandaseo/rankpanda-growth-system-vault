@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: operacional
 tags: [kickoff, setup, baseline, alignment]
-wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[FASE-1-DIAGNOSTIC]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[FASE-1-DIAGNOSTIC]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP FASE 0 — Kickoff (3-5 dias)
@@ -226,7 +226,7 @@ Dados obrigatórios:
 - ↔ [[SOP-1-STORE-CONTEXT-SETUP]] — pode correr em paralelo com FASE-0 após kickoff inicial
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Kickoff do projeto pilot com vibradores
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Kickoff do projeto pilot com vibradores
 
 ---
 

@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: technical
 tags: [shopify, collections, metafields, schema-org, api, technical-seo]
-wikilinks: [[[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # CONCEITO — Shopify Collections (Hub Agregador)
@@ -354,7 +354,7 @@ FASE-3 — VALIDATION
 - [[FASE-3-VALIDATION]] → Medição de impacto (collections indexed, traffic, conversions)
 
 **Casos Reais:**
-- [[pilot-vibradores]] → Implementação end-to-end de collection optimization
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → Implementação end-to-end de collection optimization
 
 **Recursos:**
 - `/vault/04-Templates/approval-gate-collections.md` — Template de aprovação

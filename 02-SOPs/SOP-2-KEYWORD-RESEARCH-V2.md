@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: seo
 tags: [keyword-research, semrush, dataforseo, api-first]
-wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-1-STORE-CONTEXT-SETUP-v2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]], [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP 2 — Keyword Research v2 (API-First Pipeline)
@@ -550,7 +550,7 @@ vibrador recargável,600,30,comercial,22,easy_quick_win,FASE 1,10.5,"Acessórios
 - [[FASE-1-DIAGNOSTIC]] ↔ **Insights:** Análise competitiva alimenta priorização de keywords gap analysis
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Keywords reais do projeto pilot (vibradores, categorias PT)
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Keywords reais do projeto pilot (vibradores, categorias PT)
 
 ---
 

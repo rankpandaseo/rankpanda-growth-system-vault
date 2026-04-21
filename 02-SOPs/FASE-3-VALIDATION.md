@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: validação
 tags: [validation, metrics, impact-analysis, growth-roadmap, continuity]
-wikilinks: [[[FASE-2-EXECUTION]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5)
@@ -338,7 +338,7 @@ Based on diagnostic + execution learnings:
 - [[FASE-1-DIAGNOSTIC]] ↔ **Conceito Transversal:** Baseline de diagnóstico comparado contra resultados finais
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Validação completa do projeto piloto
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Validação completa do projeto piloto
 
 **Recursos & Templates:**
 - `/vault/04-Templates/before-after-report-template.md` — Template para estruturar relatório

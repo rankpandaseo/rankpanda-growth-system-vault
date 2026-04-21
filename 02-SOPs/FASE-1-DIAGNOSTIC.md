@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: análise
 tags: [diagnostic, gsc-analysis, ga4, competitive, technical-audit]
-wikilinks: [[[FASE-0-KICKOFF]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-0-KICKOFF]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2)
@@ -254,7 +254,7 @@ _Preencher durante FASE 1:_
 - [[FASE-2-EXECUTION]] → **Próximo:** Diagnóstico orienta scope e priorização de execução
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Diagnóstico real do projeto
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Diagnóstico real do projeto
 
 ---
 

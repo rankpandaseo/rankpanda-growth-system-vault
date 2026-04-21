@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: seo
 tags: [clustering, collections, shopify-structure, keyword-mapping]
-wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP 3 — Clustering + Collection Mapping

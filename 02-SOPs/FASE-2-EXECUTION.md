@@ -5,7 +5,7 @@ type: fase
 status: active
 foco: execução
 tags: [execution, keyword-research, collections, products, parallelization]
-wikilinks: [[[FASE-1-DIAGNOSTIC]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-3-VALIDATION]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-1-DIAGNOSTIC]], [[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-3-VALIDATION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP FASE 2 — Execução Cirúrgica (Semana 2-4)
@@ -415,7 +415,7 @@ Semana 4:
 - [[API-REGISTRY]] ↔ **Integração:** Shopify API bulk operations + GSC submissions
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Execução ao vivo com 3 streams paralelos
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Execução ao vivo com 3 streams paralelos
 
 ---
 

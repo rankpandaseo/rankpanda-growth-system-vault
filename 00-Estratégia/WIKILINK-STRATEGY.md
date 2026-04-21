@@ -77,7 +77,7 @@ Cada link deve ter tipo:
 - [[SOP-1]] ← **Input:** Store context recolhido
 - [[SOP-2]] → **Output:** Keywords para cluster em SOP-3
 - [[FASE-0-KICKOFF]] ↔ **Contexto:** Setup paralelo
-- [[pilot-vibradores]] → **Exemplo:** Implementação real
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Exemplo:** Implementação real
 - [[Template-KW-Approval]] → **Validação:** Como aprovar KWs
 ```
 
@@ -95,7 +95,7 @@ Cada link deve ter tipo:
 ### CONCEITO: Collection Structure & Organization
 | Documento | Input | Output | Validação |
 |-----------|-------|--------|-----------|
-| [[SOP-1-STORE-CONTEXT-SETUP]] | [[FASE-0-KICKOFF]] | [[SOP-3]] | [[pilot-vibradores]] |
+| [[SOP-1-STORE-CONTEXT-SETUP]] | [[FASE-0-KICKOFF]] | [[SOP-3]] | [[PILOT-VIBRADORES-00-MASTER-PLAN]] |
 | [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] | [[SOP-2]] | [[FASE-2-EXECUTION]] | [[Template-Collection-Review]] |
 | [[FASE-2-EXECUTION]] | [[FASE-1-DIAGNOSTIC]] | [[FASE-3-VALIDATION]] | [[GSC-Monitoring]] |
 

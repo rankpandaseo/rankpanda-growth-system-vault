@@ -5,7 +5,7 @@ type: reference
 status: active
 foco: technical
 tags: [api, integrations, credentials, endpoints, automation]
-wikilinks: [[[FASE-0-KICKOFF]], [[FASE-2-EXECUTION]], [[FASE-3-VALIDATION]], [[pilot-vibradores]]]
+wikilinks: [[[FASE-0-KICKOFF]], [[FASE-2-EXECUTION]], [[FASE-3-VALIDATION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # REFERENCE — API Registry (Central Integration Hub)

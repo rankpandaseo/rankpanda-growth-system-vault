@@ -5,7 +5,7 @@ type: conceito
 status: active
 foco: operational
 tags: [client-approval, sampling, feedback-loop, decision-gate, governance]
-wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # CONCEITO — Client Approval (Hub Agregador)
@@ -357,7 +357,7 @@ FASE-3 — VALIDATION (cliente vê prova de impacto)
 - `/vault/04-Templates/approval-gate-products.md` — Product approval form
 
 **Casos Reais:**
-- [[pilot-vibradores]] → Exemplo end-to-end de approval workflow real
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → Exemplo end-to-end de approval workflow real
 
 ---
 

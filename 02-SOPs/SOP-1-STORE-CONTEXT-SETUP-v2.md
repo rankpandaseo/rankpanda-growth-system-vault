@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: operacional
 tags: [onboarding, store-context, baseline, phase-0]
-wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-0-KICKOFF]], [[pilot-vibradores]]]
+wikilinks: [[[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-0-KICKOFF]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
 # SOP 1 — Store Context Setup
@@ -602,7 +602,7 @@ CREATE TABLE store_context (
 - [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] ↔ **Conceito Transversal:** Shopify Collections são mapeadas a partir de Target Categories definidas aqui em SOP-1
 
 **Exemplos & Referência:**
-- [[pilot-vibradores]] → **Caso Real:** Implementação concreta de SOP-1 com Adult Wellness vertical, PT market, 5 categorias, €35 AOV
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] → **Caso Real:** Implementação concreta de SOP-1 com Adult Wellness vertical, PT market, 5 categorias, €35 AOV
 
 ---
 
