@@ -1,41 +1,38 @@
 ---
 name: course-m01-1.1-o-que-e-45d-sprint
-description: Aula 1.1 — O que é 45D Sprint e por que funciona > **Nível:**
-Iniciante > **Duração estimada:** 20 minutos > **Pré-requisito:** Nenhum (é a
-primeira aula) > **Status:** Em produção --- ## 🎯 Objetivo da Aula Ao final
-desta aula, o aluno será capaz de: 1. Explicar o que é 45D Sprint e qual é o
-diferencial vs. agências tradicionais
+description: Aula 1.1 — O que é 45D Sprint e por que funciona (Nível iniciante, 20 min)
 type: course
 status: active
 foco: course
-tags: [course, learning]
-wikilinks: []
+tags: [course, learning, 45d-sprint, framework]
+wikilinks: [[COURSE-M01-1.2-As-4-Fases-Em-Detalhe]], [[COURSE-STATUS]], [[COURSE-PEPITAS-DE-OURO]], [[CONCEITO-45D-Framework]]
 ---
 
-# Aula 1.1 — O que é 45D Sprint e por que funciona > **Nível:** Iniciante > **Duração estimada:** 20 minutos > **Pré-requisito:** Nenhum (é a primeira aula) > **Status:** Em produção --- ## 🎯 Objetivo da Aula Ao final desta aula, o aluno será capaz de: 1. Explicar o que é 45D Sprint e qual é o diferencial vs. agências tradicionais
+# Aula 1.1 — O Que É 45D Sprint (e Por Que Funciona)
 
-**Resumo:** Aula 1.1 — O que é 45D Sprint e por que funciona > **Nível:**
-Iniciante > **Duração estimada:** 20 minutos > **Pré-requisito:** Nenhum (é a
-primeira aula) > **Status:** Em produção --- ## 🎯 Objetivo da Aula Ao final
-desta aula, o aluno será capaz de: 1. Explicar o que é 45D Sprint e qual é o
-diferencial vs. agências tradicionais
+**Nível:** Iniciante  
+**Duração estimada:** 20 minutos  
+**Pré-requisito:** Nenhum (primeira aula)  
+**Status:** Em produção
+
+**Resumo:** Introdução ao framework 45D Sprint — o modelo que comprime 6 meses de trabalho de agência tradicional em 45 dias com 85%+ taxa de sucesso. Explica o diferencial, os 3 pilares, e porquê o timeframe é crítico.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Diferenciar modelo:** 90% das agências tradicionais falham porque perdem momentum em 6 meses. Compreender 45D = reconhecer o que funciona vs. o que não.
+- **Timing crítico:** 45 dias não é arbitrário — é o tempo mínimo para diagnostic + execução + validação (30 dias é pouco, 60 dias é demasiado).
+- **Expectativa clara:** Cliente que entra em 45D Sprint sabe exatamente o que esperar — resultados em 3-4 semanas, roadmap em 5, vs. "espera 6 meses".
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Assistir aula até ao final (20 min)
+- [ ] Anotar: qual é o maior problema das agências tradicionais?
+- [ ] Anotar: qual é o diferencial de 45D em 3 pontos
+- [ ] Preparar-se mentalmente: 45D = intenso, mas com resultados reais em semanas, não meses
 
 ---
 
@@ -128,7 +125,9 @@ Semana 4-5: Validação + Roadmap (rápido, com números)
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-M01-1.2-As-4-Fases-Em-Detalhe]] — Próxima aula: as 4 fases em detalhe
+- [[COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais]] — Aprofundamento: porquê 45D vence
+- [[CONCEITO-45D-Framework]] — Documentação operacional do framework
+- [[COURSE-PEPITAS-DE-OURO]] — Golden learnings que alimentam este curso
 
 ---
