@@ -296,5 +296,5 @@ SOP must have:
 ## 🔗 Relacionados
 
 - [[SOP-VAULT-NEW-DOCUMENT]] — Como criar novo documento (passo-a-passo)
-- [[AUTOMATION-VAULT-SYNC-SETUP]] — Como sincronizar vault para GitHub
+- [[AUTOMATION-VAULT-SYNC]] — Como sincronizar vault para GitHub
 - [[SOP-1-STORE-CONTEXT-SETUP-V2]] — Exemplo de SOP bem-formatado
