@@ -9,57 +9,61 @@ tags: [validation, metrics, impact-analysis, growth-roadmap, continuity]
 wikilinks: [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5) **Resumo:** Capturar before/after metrics de GSC, GA4, CWV. Analisar impacto semântico (novas keywords, movimentos de posição). Definir 90D + 6M roadmap. Apresentar 3 opções de continuidade com prescrição clara. --- ## 🎯 Por Que Isto Importa **Impacto no cliente e na credibilidade RankPanda:**
+# SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5)
 
-**Resumo:** SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5) **Resumo:**
-Capturar before/after metrics de GSC, GA4, CWV. Analisar impacto semântico
-(novas keywords, movimentos de posição). Definir 90D + 6M roadmap. Apresentar 3
-opções de continuidade com prescrição clara. --- ## 🎯 Por Que Isto Importa
-**Impacto no cliente e na credibilidade RankPanda:**
+**Resumo:** Capturar before/after metrics de GSC, GA4, CWV. Analisar impacto semântico (novas keywords, movimentos de posição). Definir 90D + 6M roadmap. Apresentar 3 opções de continuidade com prescrição clara.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Proof of impact:** Dados before/after (indexed pages, impressions, clicks, position movements) demonstram ROI concreto. Sem isto, cliente não sabe se funcionou.
+- **Client confidence & continuity:** Com proof forte, continuidade é pedida pelo cliente, não oferecida por nós. Faz a diferença entre "vamos parar" e "vamos continuar 6 meses".
+- **Playbook growth:** Cada FASE 3 captura lições (pepitas de ouro). Patterns replicáveis alimentam o course e os próximos sprints ficam mais rápidos e eficientes.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- ← [[FASE-2-EXECUTION]] — **Input Obrigatório:** Execução completa (collections + products publicados, GSC submissions feitos) --- ## ⚡ Quick Checklist - [ ] GSC before/after data coletado (Week 1 vs Week 5)
+**Pré-validação:**
+- [ ] FASE-2-EXECUTION completa (collections + products publicados, GSC submissions feitos)
+- [ ] Baseline metrics (Week 1) disponíveis no memory
+
+**Metrics Collection:**
+- [ ] GSC before/after data coletado (Week 1 vs Week 5)
 - [ ] GA4 before/after data coletado
 - [ ] Core Web Vitals before/after medidos (LCP, FID, CLS)
+
+**Impact Analysis:**
 - [ ] Indexed pages growth calculado (% change)
 - [ ] Impressions growth calculado (% change)
 - [ ] Clicks growth calculado (% change)
 - [ ] Average position improvement calculada
 - [ ] New keywords ranking identificadas + posições
 - [ ] Keywords position movement documentados
+
+**Growth Roadmap:**
 - [ ] Traffic projection 90D estimada
 - [ ] Revenue impact estimada (sessions × CR × AOV)
 - [ ] 90D roadmap esboçado (próximas oportunidades)
 - [ ] 6M roadmap esboçado (visão a longo prazo)
 - [ ] 3 opções de continuidade apresentadas (À la carte, Auditoria, Self-service)
+
+**Closing:**
 - [ ] Final presentation (Loom ou deck) pronto
-- [ ] Client sign-off obtido + pepitas documentadas
-- [ ] Ready for continuidade ou conclusão --- ## 🔑 Key Principles 1. **Data Transparency:** Every metric backed by GSC/GA4 export. Cliente pode verificar. Confiança imediata.
-- [ ] Indexed pages before/after recolhidas
-- [ ] Impressions before/after recolhidas
-- [ ] Clicks before/after recolhidas
-- [ ] Average position before/after calculada
-- [ ] Core Web Vitals before/after medidos **Impact Analysis:**
-- [ ] New queries que rankeiam identificadas
-- [ ] Keywords que subiram de posição documentadas
-- [ ] Traffic projection 90D calculada
-- [ ] Revenue impact estimada **Continuation Planning:**
-- [ ] 90D roadmap definido
-- [ ] 6M roadmap esboçado
-- [ ] 3 opções de continuidade apresentadas ao cliente
-- [ ] Next steps claros ### Gaps Identified _Se há gaps na execução:_ **Gap:** [descrição]
+- [ ] Client sign-off obtido
+- [ ] Pepitas de ouro documentadas
+- [ ] Ready for continuidade ou conclusão
+
+---
+
+## 🔑 Key Principles
+
+1. **Data Transparency:** Every metric backed by GSC/GA4 export. Cliente pode verificar. Confiança imediata.
+2. **Before/After as Anchor:** "Éramos rank 25, agora 5" é mais poderoso que "otimizámos keywords". Concrete proof.
+3. **90D Roadmap Driven by Insight:** Não propomos "continue como está". Propomos "3 maiores gaps identificados → próximas 90 dias focam naqueles 3".
+4. **Continuity is Upsell, Not Afterthought:** Com proof forte, continuity é pedida pelo cliente, não oferecida por nós.
+5. **Learning Capture:** Cada sprint alimenta biblioteca de pepitas. Playbook cresce. ### Gaps Identified _Se há gaps na execução:_ **Gap:** [descrição]
 - Best for: Clientes com equipa interna, budget limitado --- ## Execução: ClickUp Space + Tarefas ### ClickUp Space Structure (FASE 3) **Project:** `[Loja] — 45D Sprint → FASE 3 Validation` **Using Templates:** See `/04-Templates/` for before-after-report-template.md and pepita-capture-template.md **Folders:** 1. **METRICS COLLECTION** - [ ] GSC before/after data downloaded - [ ] GA4 before/after data downloaded - [ ] Core Web Vitals measured - [ ] Calculations done 2. **BEFORE/AFTER REPORT** - [ ] Indexed pages growth calculated - [ ] Impressions growth calculated - [ ] Clicks growth calculated - [ ] Position movement analyzed - [ ] Visual charts created 3. **SEMANTIC IMPACT** - [ ] New keywords identified - [ ] Keywords position movement tracked - [ ] Traffic projection calculated - [ ] Revenue estimate done 4. **OPPORTUNITY MAPPING** - [ ] 90D roadmap drafted - [ ] 6M roadmap outlined - [ ] Next opportunities identified 5. **CONTINUITY PRESCRIPTION** - [ ] 3 options presented - [ ] Client feedback gathered - [ ] Contract prepared (if applicable) 6. **CLOSING** - [ ] Final presentation done - [ ] Client sign-off obtained - [ ] Celebration 🎉 ### Tarefas Específicas (9 Tasks) #### Task 1 — Collect Metrics
 
 ---
@@ -101,7 +105,7 @@ learnings:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[FASE-2-EXECUTION]] — Pré-requisito: execução completa (collections + products publicados)
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] — Sprint completo (FASE 0-3) do pilot
 
 ---
