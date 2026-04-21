@@ -11,23 +11,24 @@ wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]],
 [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP 1 — Store Context Setup **Fase:** PRÉ-FASE 0 (Onboarding Oficial) **Quando:** Imediatamente após **contrato assinado** **Duração:** 2-4 horas **Proprietário:** Rui + Cliente **Próximo Passo:** [[SOP-2-KEYWORD-RESEARCH-V2]] --- ## 🎯 POR QUE ISTO IMPORTA Este é o **ponta-pé de saída oficial do projecto**. Sem Store Context bem preenchido, tudo o que vem depois falha: ### Para SEO
+# SOP 1 — Store Context Setup
 
-**Resumo:** SOP 1 — Store Context Setup **Fase:** PRÉ-FASE 0 (Onboarding
-Oficial) **Quando:** Imediatamente após **contrato assinado** **Duração:** 2-4
-horas **Proprietário:** Rui + Cliente **Próximo Passo:**
-[[SOP-2-KEYWORD-RESEARCH-V2]] --- ## 🎯 POR QUE ISTO IMPORTA Este é o **ponta-pé
-de saída oficial do projecto**. Sem Store Context bem preenchido, tudo o que vem
-depois falha: ### Para SEO
+**Fase:** PRÉ-FASE 0 (Onboarding Oficial)  
+**Quando:** Imediatamente após contrato assinado  
+**Duração:** 2-4 horas  
+**Proprietário:** Rui + Cliente  
+**Output:** Store context document + SQLite record  
+**Próximo Passo:** [[SOP-2-KEYWORD-RESEARCH-V2]]
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+Este é o **ponta-pé de saída oficial do projecto**. Sem Store Context bem preenchido, tudo o que vem depois falha:
+
+- **Para SEO:** Indústria, categorias, AOV e CR determinam benchmark de keyword difficulty, seasonal trends, e priorização. Sem isto, relevance gates falham.
+- **Para Estratégia:** Brand Context define públic-alvo, diferenciadores, e positioning — essencial para keyword intent matching e content strategy.
+- **Para Execução:** Acesso a Shopify, GSC, GA4, e comunicação preferida são bloqueadores. SOP 1 garante que setup técnico não falha em FASE 0.
 
 ---
 
@@ -45,24 +46,32 @@ depois falha: ### Para SEO
 - [ ] Access & Tools confirmado
 - [ ] Product Catalog (apenas se loja não é nova) Se tudo ✅ → Proceder para SOP 2
 3. **Proceed para [[SOP-2-KEYWORD-RESEARCH-V2]]** (keyword research — 8-12h) ---
-## 📊 CHECKLIST FINAL - [ ] Cliente assinou contrato
-- [ ] SOP 1 fields preenchidos (5 obrigatórios + optional)
-- [ ] Validação passou (qualidade de respostas OK)
-- [ ] Stored em SQLite
-- [ ] RankPanda team tem briefing
-- [ ] ✅ Ready para SOP 2 --- ## 🔗 Links Relacionados **Dependências & Fluxo Sequencial:**
+---
 
 ---
 
 ## 📖 Conteúdo Principal
 
-Contrato Assinado ↓
-[HOJE] SOP 1: Preencher Store Context (2-4h) ↓
-Outputs: SQLite record + Briefing preenchido ↓
-[AMANHÃ] SOP 2: Keyword Research (8-12h) ↓
-SOP 3: Clustering + Collections (6-8h) ↓
+### Fluxo de Execução
+
+```
+Contrato Assinado
+  ↓
+[HOJE] SOP 1: Preencher Store Context (2-4h)
+  ├─ 5 campos obrigatórios
+  ├─ 6 campos opcionais
+  └─ Validação de qualidade
+  ↓
+Outputs: SQLite record + Briefing preenchido
+  ↓
+[AMANHÃ] SOP 2: Keyword Research (8-12h)
+  ↓
+SOP 3: Clustering + Collections (6-8h)
+  ↓
 FASE 0: Kickoff oficial
-``` --- ## 🔧 PARTE A — Campos Obrigatórios (5 campos) ### ⚠️ INSTRUÇÕES GERAIS
+```
+
+### Campos Obrigatórios (5 campos) ### ⚠️ INSTRUÇÕES GERAIS
 > "Este é o nome que apareça em emails, relatórios, e documentação interna. Deve
 ser o nome comercial da marca." --- ### **2️⃣ INDUSTRY / VERTICAL**
 (Obrigatório) **O que é:** Vertical industrial da loja (impacta benchmark de
@@ -243,7 +252,9 @@ preenchido:** 1. **Guardar em SQLite** (1-2 minutos)
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[FASE-0-KICKOFF]] — Setup técnico + baseline metrics (pré-requisito)
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Output de SOP-1 alimenta keyword research
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Clusters mapeados baseados em store context + categorias
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] — Exemplo real: Pilot Vibradores (store context aplicado)
 
 ---
