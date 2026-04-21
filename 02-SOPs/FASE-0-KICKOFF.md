@@ -1,12 +1,57 @@
+---
+name: fase-0-kickoff
+description: Align business context, validate technical setup, capture baseline metrics, prepare for 45D sprint
+type: fase
+status: active
+foco: operacional
+tags: [kickoff, setup, baseline, alignment]
+wikilinks: [[[sop-1-store-context-setup]], [[fase-1-diagnostic]], [[pilot-vibradores]]]
+---
+
 # SOP FASE 0 — Kickoff (3-5 dias)
 
-## 🎯 Objetivo
-
-Alinhar negócio, recolher acessos, desenhar baseline e preparar a loja para sprint de 45 dias.
+**Resumo:** Alinhar negócio com cliente, recolher acessos técnicos, desenhar baseline de métricas, preparar organização (Obsidian, Discord, ClickUp) para sprint.
 
 ---
 
-## CAMADA 1 — AUDITORIA (Weak Points Detection)
+## 🎯 Por Que Isto Importa
+
+**Impacto no sucesso do sprint:**
+- **Alinhamento comercial:** Sem compreensão clara de AOV, sazonalidade, concorrência, gastamos 45 dias a otimizar keywords que não convertem. Kickoff claro = direção certa desde dia 1.
+- **Setup técnico completo:** Falta de GSC, GA4, Shopify API = cegueira durante execução. Não conseguimos medir impacto real das mudanças (SOP 4-5) até FASE 2-3. Validação aqui evita surpresas.
+- **Baseline metrics:** Sem impressões/clicks/posição iniciais em GSC, não temos como provar sucesso em FASE 3. Kickoff captura este snapshot.
+- **Comunicação estruturada:** Cliente sabe o que esperar, prazos, processos. Reduz churn, aumenta confiança, permite feedback rápido durante execução.
+
+**Sem FASE 0 bem feita:** Começamos SOP 1 sem contexto. Resultado: refactoring no meio (dias perdidos), cliente confuso, métricas incompletas, roadmap vago.
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] Kickoff call agendada e concluída (1h)
+- [ ] Briefing form (negócio + técnico) preenchido
+- [ ] Acesso Shopify, GSC, GA4 validado
+- [ ] SE Ranking API key testada
+- [ ] Discord channel criado + cliente convidado
+- [ ] ClickUp space criado com templates
+- [ ] Obsidian vault `/memory/projects/[loja]/` inicializado
+- [ ] Baseline metrics capturados (indexed, impressions, clicks, avg position)
+- [ ] Roadmap visual de 45 dias aprovado com cliente
+- [ ] Go/No-go decision tomada → Pronto para [[fase-1-diagnostic]]
+
+---
+
+## 🔑 Key Principles
+
+1. **Clarity First:** Kickoff não é "vamos fazer SEO". É "implementaremos SOP 1-5 nesta ordem, com aprovações aqui, e esperamos X resultados".
+2. **Technical Validation:** Todos os acessos API testados ANTES de iniciar. Não descobrimos GSC broken na FASE 1.
+3. **Baseline is Truth:** Capturamos snapshot (dia 0) de indexed, impressions, clicks, position. Qualquer análise futura compara contra este baseline.
+4. **Shared Ownership:** Cliente sabe que vai receber relatórios semanais, vai ser consultado em decisões estratégicas, tem propriedade do resultado.
+5. **Operational Excellence:** Obsidian + Discord + ClickUp integrados desde dia 1. Zero fricção para comunicação e documentation.
+
+---
+
+## Operacional: AUDITORIA (Weak Points Detection)
 
 ### Checklist de Audição
 
@@ -43,20 +88,7 @@ _Preencher aqui durante kickoff call:_
 
 ---
 
-## CAMADA 2 — FORMATIVO (How-To / Teaching Module)
-
-### Porque é Importante Kickoff
-
-O kickoff bem estruturado evita:
-- Retrabalho no meio da execução
-- Falta de comunicação com cliente
-- Setup técnico incompleto (acessos missing)
-- Definição vaga de objetivos
-- Desperdício de 45 dias em caminhos errados
-
-**Princípio:** Startup mental para ambos os lados (RankPanda + Cliente)
-
-### Como Estruturar Kickoff Call (1h)
+## Como Estruturar Kickoff Call (1h)
 
 1. **Warm-up (5 min)** — Apresentação da equipa, tom casual, segurança psicológica
 2. **Contexto (10 min)** — Explicar o que é 45D, 4 fases, entregáveis
@@ -92,7 +124,7 @@ Dados obrigatórios:
 
 ---
 
-## CAMADA 3 — TEMPLATE ClickUp (Operational Tasks)
+## Execução: ClickUp Space + Tarefas
 
 ### ClickUp Space Template (FASE 0)
 
@@ -161,7 +193,7 @@ Dados obrigatórios:
 
 ---
 
-## ✅ Entregáveis Fase 0
+## Validação & Entregáveis
 
 1. ✅ Sprint briefing aprovado
 2. ✅ Vault + Discord + ClickUp prontos
@@ -171,6 +203,17 @@ Dados obrigatórios:
 
 ---
 
-**Versão:** 1.0  
-**Última Atualização:** [data]  
-**Owner:** [nome]
+## 🔗 Relacionados
+
+- [[sop-1-store-context-setup]] — Próximo: Recolher context da loja após kickoff
+- [[fase-1-diagnostic]] — Fases seguinte: Análise de keywords + GSC baseline
+- `/vault/01-Clientes/[loja]/` — Project memory para cliente específico
+- `/vault/04-Templates/kickoff-briefing-form.md` — Form de briefing para preencher
+- `/vault/04-Templates/weekly-update-template.md` — Template para comunicação semanal com cliente
+
+---
+
+**Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** [[fase-1-diagnostic]] (após aprovação go/no-go)
