@@ -5,7 +5,7 @@ type: sop
 status: active
 foco: seo
 tags: [clustering, collections, shopify-structure, keyword-mapping]
-wikilinks: [[[sop-2-keyword-research-v2]], [[sop-4-on-page-optimization]]]
+wikilinks: [[[sop-2-keyword-research-v2]], [[sop-1-store-context-setup]], [[fase-2-execution]], [[pilot-vibradores]]]
 ---
 
 # SOP 3 — Clustering + Collection Mapping
@@ -23,6 +23,13 @@ wikilinks: [[[sop-2-keyword-research-v2]], [[sop-4-on-page-optimization]]]
 - **Shopify optimization** — collections têm descrições SEO, meta tags, URLs otimizáveis. Sem clustering claro, isto vira caos e fica impossível de optimizar em SOP 4.
 
 **Sem SOP 3 bem executado:** Chegamos ao SOP 4 (on-page) sem estrutura. Resultado: gastamos 40h em on-page para keywords canibalizadas ou mal-mapeadas.
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de começar SOP-3:
+- ← [[SOP-2-KEYWORD-RESEARCH-V2]] — **Input Obrigatório:** Keywords finalizadas em keywords.json (com scoring, SERP data, revenue potential). Clustering depende 100% deste output.
 
 ---
 
@@ -592,14 +599,17 @@ Vibradores especializados para a estimulação e prazer clitoriano. Todos os nos
 
 ## 🔗 Relacionados
 
-- [[sop-2-keyword-research-v2]] — Input direto (keywords.json)
-- [[sop-4-on-page-optimization]] — Output: aplicar clusters em on-page
-- [[FASE-2-EXECUTION]] — Implementação de collections em Shopify
-- `vault/01-Clientes/pilot-vibradores/` — Projeto live (exemplo)
+**Dependências & Fluxo Sequencial:**
+- [[SOP-2-KEYWORD-RESEARCH-V2]] ← **Input:** Keywords finalizadas em keywords.json
+- [[FASE-2-EXECUTION]] → **Output:** Collections mapeadas são implementadas em Shopify (bulk operations)
+- [[SOP-1-STORE-CONTEXT-SETUP]] ↔ **Conceito Transversal:** Target Categories de SOP-1 alimentam cluster structure de SOP-3
+
+**Referência Estrutural:**
+- `vault/01-Clientes/pilot-vibradores/` → **Caso Real:** Clustering real com 5 categorias + 7 cluster types implementados
 
 ---
 
 **Versão:** 2.0  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
-**Próximo:** [[sop-4-on-page-optimization]]
+**Próximo:** [[FASE-2-EXECUTION]] (implementar collections em Shopify)
