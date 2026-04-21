@@ -181,6 +181,8 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "fix-final-wikilinks.py",
+    "fix-broken-wikilinks.py",
     "00-Memory/sessions/REFERENCE-SESSION-2026-04-18.md",
     "05-Curso-45D/M10-Bonus-Infraestrutura/REFERENCE-M10-README.md",
     "05-Curso-45D/M09-Scaling-e-Sistemas/REFERENCE-M09-README.md",
@@ -211,11 +213,9 @@
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-02-LOJA-SETUP-7D.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-01-KEYWORD-RESEARCH.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-00-MASTER-PLAN.md",
-    "04-Templates/TEMPLATE-APPROVAL-GATE-PRODUCTS.md",
     "filename-validator.py",
     "fix-wikilinks.sh",
     "interlinking-validator.py",
-    "00-Estratégia",
-    "00-Memory/sessions"
+    "00-Estratégia"
   ]
 }
