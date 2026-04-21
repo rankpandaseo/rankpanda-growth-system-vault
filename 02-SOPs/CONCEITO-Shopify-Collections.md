@@ -10,31 +10,30 @@ wikilinks: [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-2-EXECUTION]],
 [[SOP-1-STORE-CONTEXT-SETUP-v2]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# CONCEITO — Shopify Collections (Hub Agregador) **Resumo:** Central hub para toda a implementação técnica de collections em Shopify. Agrupa metafields, schema patterns, API workflows, bulk operations e best practices transversais. --- ## 🎯 Propósito deste Hub Este documento é um **aggregator** para todo o conhecimento de Shopify collections implementation. Quando perguntas:
+# CONCEITO — Shopify Collections (Hub Agregador)
 
-**Resumo:** CONCEITO — Shopify Collections (Hub Agregador) **Resumo:** Central
-hub para toda a implementação técnica de collections em Shopify. Agrupa
-metafields, schema patterns, API workflows, bulk operations e best practices
-transversais. --- ## 🎯 Propósito deste Hub Este documento é um **aggregator**
-para todo o conhecimento de Shopify collections implementation. Quando
-perguntas:
+**Resumo:** Central hub para toda a implementação técnica de collections em Shopify. Agrupa metafields, schema patterns, API workflows, bulk operations e best practices transversais.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **SEO via metafields, não hardcoding:** Liquid templates leem de metafields. Significa atualizações via API (10 collections em 5 min) vs hardcoding no theme (20h manual). Impacto: velocity de execução.
+- **Schema.org automation:** ProductCollection + BreadcrumbList schemas são renderizados automaticamente. Google entende estrutura das collections. Impacto: featured snippets, rich results, semantic ranking.
+- **Bulk operations scale:** Aplicar 100 collections de uma vez (via Shopify bulk API) vs 1 por 1 (admin manual). Impacto: FASE-2 fica 20x mais rápida.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Shopify metafield definitions criadas (seo_title, seo_meta_description, seo_h1, collection_intro)
+- [ ] Liquid template configurado para renderizar metafields
+- [ ] JSON-LD ProductCollection + BreadcrumbList schemas preparados
+- [ ] GraphQL bulk operation mutation pronto (aplicar valores em massa)
+- [ ] Cliente aprovado amostra (5-10 collections com drafts)
+- [ ] Bulk apply executado (todas as collections)
+- [ ] GSC e IndexNow notificados (indexation push)
+- [ ] 3 padrões replicáveis documentados (Simple, Clustered, Dynamic)
 
 ---
 
@@ -142,7 +141,8 @@ Dominate keyword family (pos 1-10 for 60%+ of cluster variations) ### Pattern 3
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Clustering que define quais products → quais collections
+- [[FASE-2-EXECUTION]] — Collection optimization implementa este conceito
+- [[SOP-1-STORE-CONTEXT-SETUP-v2]] — Store context define estrutura de collections inicial
 
 ---
