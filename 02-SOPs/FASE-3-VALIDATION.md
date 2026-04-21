@@ -26,6 +26,13 @@ wikilinks: [[[fase-2-execution]], [[pilot-vibradores]]]
 
 ---
 
+## 📋 Pré-requisitos
+
+Antes de começar FASE-3:
+- ← [[FASE-2-EXECUTION]] — **Input Obrigatório:** Execução completa (collections + products publicados, GSC submissions feitos)
+
+---
+
 ## ⚡ Quick Checklist
 
 - [ ] GSC before/after data coletado (Week 1 vs Week 5)
@@ -326,15 +333,21 @@ Based on diagnostic + execution learnings:
 
 ## 🔗 Relacionados
 
-- [[fase-2-execution]] — Anterior: Execução que gerou resultados
-- [[pilot-vibradores]] — Projeto live (exemplo completo)
-- `/vault/04-Templates/before-after-report-template.md` — Template para relatório
+**Dependências & Fluxo Sequencial:**
+- [[FASE-2-EXECUTION]] ← **Input:** Execução publicada (colecções, produtos, indexação completa)
+- [[FASE-1-DIAGNOSTIC]] ↔ **Conceito Transversal:** Baseline de diagnóstico comparado contra resultados finais
+
+**Exemplos & Referência:**
+- [[pilot-vibradores]] → **Caso Real:** Validação completa do projeto piloto
+
+**Recursos & Templates:**
+- `/vault/04-Templates/before-after-report-template.md` — Template para estruturar relatório
 - `/vault/04-Templates/pepita-capture-template.md` — Template para documentar learnings
-- `/vault/05-Curso-45D/pepitas-de-ouro.md` — Pepitas acumuladas
+- `/vault/05-Curso-45D/pepitas-de-ouro.md` — Biblioteca de pepitas acumuladas
 
 ---
 
 **Versão:** 2.0  
 **Data:** 2026-04-21  
 **Status:** ATIVO  
-**Próximo:** Continuidade (90D roadmap) ou Sprint novo com outro cliente
+**Próximo:** Continuidade (90D roadmap com cliente) ou novo sprint
