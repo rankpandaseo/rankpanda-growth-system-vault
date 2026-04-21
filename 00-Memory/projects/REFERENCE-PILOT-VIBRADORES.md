@@ -1,4 +1,38 @@
+---
+name: reference-pilot-vibradores
+description: Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+type: reference
+status: active
+foco: operational
+tags: [reference, index]
+wikilinks: []
+---
+
 # Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+
+**Resumo:** Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+
+---
+
+## 🎯 Por Que Isto Importa
+
+[Adiciona contexto: impacto direto no projeto, porquê isto importa]
+- Ponto 1
+- Ponto 2
+- Ponto 3
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] Item 1
+- [ ] Item 2
+- [ ] Item 3
+
+---
+
+## 📖 Conteúdo Principal
+
 |-------|-------|
 | **Cliente** | Pilot-Vibradores (Internal Test) |
 | **Data Início** | 2026-04-18 |
@@ -44,11 +78,17 @@
 | Setup Técnico — SE Ranking | ⏳ | Day 3 | Claude |
 | Baseline Metrics Recolhidos | ⏳ | Day 4 | Claude |
 | Approval Gate — Go/No-go FASE 1 | ⏳ | Day 5 | Rui | --- ## Descobertas & Insights ### Sessão [DATA] **Key Findings:**
-- [Insight 1]
-- [Insight 2] **Blockers:**
-- [Blocker 1] --- ## Histórico de FASES | FASE | Timeline | Status | Deliverable |
 |------|----------|--------|-------------|
 | **FASE 0** | Dia 1-5 | ⏳ Em Progresso | Baseline + Approval Gate |
 | **FASE 1** | Dia 6-12 | ⏳ Waiting | Diagnostic Report |
 | **FASE 2** | Dia 13-40 | ⏳ Pending | 4 Streams de Execução |
 | **FASE 3** | Dia 41-45 | ⏳ Pending | ROI + Roadmap 90D | --- **Última atualização:** 2026-04-18 **Próxima revisão:** Dia 2 (setup técnico completado)
+
+---
+
+## 🔗 Relacionados
+
+- [[Related-Doc-1]] — descrição
+- [[Related-Doc-2]] — descrição
+
+---

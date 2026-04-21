@@ -1,6 +1,7 @@
 ---
 name: sop-vault-format-specification
-description: Especificação de formato para documentos no vault (Obsidian Properties)
+description: Especificação de formato para documentos no vault (Obsidian
+Properties)
 type: sop
 status: ready
 foco: operational
@@ -10,7 +11,9 @@ wikilinks: [[SOP-VAULT-NEW-DOCUMENT]]
 
 # SOP — Vault Format Specification (Obsidian Properties)
 
-**Resumo:** Padrão obrigatório de formatação para todos os documentos no vault. Define Properties nativas do Obsidian + estrutura markdown esperada. Garante leitura consistente por agents.
+**Resumo:** Padrão obrigatório de formatação para todos os documentos no vault.
+Define Properties nativas do Obsidian + estrutura markdown esperada. Garante
+leitura consistente por agents.
 
 ---
 
@@ -85,7 +88,8 @@ type: conceito
 status: ready
 foco: seo
 tags: [research, strategy]
-wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]]
+wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]],
+[[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]]
 ---
 ```
 
@@ -201,9 +205,11 @@ Estas funcionalidades estão documentadas para desenvolvimento posterior:
 
 ### TODO 1: Agent Reading Parser
 
-**O quê:** Criar classe Python `VaultDocumentParser` que agents usam para ler documentos.
+**O quê:** Criar classe Python `VaultDocumentParser` que agents usam para ler
+documentos.
 
-**Por quê:** Standardiza forma como agents extraem Properties, seções, wikilinks.
+**Por quê:** Standardiza forma como agents extraem Properties, seções,
+wikilinks.
 
 **Como:**
 ```python
@@ -228,17 +234,21 @@ doc.wikilinks()  # → [['SOP-2-...'], ['FASE-0-...']]
 
 **O quê:** Criar plugin Obsidian que valida Documents em real-time.
 
-**Por quê:** Quando Rui ou agents abrem documento, validator mostra warnings se Properties incompleto ou estrutura errada.
+**Por quê:** Quando Rui ou agents abrem documento, validator mostra warnings se
+Properties incompleto ou estrutura errada.
 
-**Como:** Plugin hooka em `file-open` evento. Valida Properties. Mostra notificação. ✅ Ready / ⚠️ Incomplete / ❌ Invalid.
+**Como:** Plugin hooka em `file-open` evento. Valida Properties. Mostra
+notificação. ✅ Ready / ⚠️ Incomplete / ❌ Invalid.
 
 **Status:** Pending plugin development.
 
 ### TODO 3: Agent Document Generation Template
 
-**O quê:** Expandir `create-vault-document.py` para agnostic template generation.
+**O quê:** Expandir `create-vault-document.py` para agnostic template
+generation.
 
-**Por quê:** Agents conseguem gerar novos documentos dinamicamente durante execução.
+**Por quê:** Agents conseguem gerar novos documentos dinamicamente durante
+execução.
 
 **Funcionalidades futuras:**
 - Generate com template customizado por type
@@ -251,9 +261,11 @@ doc.wikilinks()  # → [['SOP-2-...'], ['FASE-0-...']]
 
 **O quê:** Sistema que resolve wikilinks dinamicamente para agents.
 
-**Por quê:** Agent lê `[[SOP-2-KEYWORD-RESEARCH-V2]]` → sistema resolve para path real → agent carrega arquivo.
+**Por quê:** Agent lê `[[SOP-2-KEYWORD-RESEARCH-V2]]` → sistema resolve para
+path real → agent carrega arquivo.
 
-**Implementação:** Hash map de (name → filepath), atualizado com cada file add/rename.
+**Implementação:** Hash map de (name → filepath), atualizado com cada file
+add/rename.
 
 **Status:** Pending graph system design.
 
@@ -261,7 +273,8 @@ doc.wikilinks()  # → [['SOP-2-...'], ['FASE-0-...']]
 
 **O quê:** Expandir validator para check custom rules per document type.
 
-**Por quê:** Agents conseguem validar que FASE tem "Duração", SOP tem "Checklist", etc.
+**Por quê:** Agents conseguem validar que FASE tem "Duração", SOP tem
+"Checklist", etc.
 
 **Exemplo:**
 ```

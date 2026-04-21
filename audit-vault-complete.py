@@ -19,10 +19,11 @@ def analyze_file(filepath):
         score = 100  # Start at 100, deduct for issues
 
         # 1. Properties check
-        properties_match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+        properties_match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
         if not properties_match:
             issues.append("❌ No Properties found")
             score -= 30
+            body = content
         else:
             yaml_content = properties_match.group(1)
             properties = {}
@@ -37,8 +38,10 @@ def analyze_file(filepath):
                 issues.append(f"⚠️ Missing properties: {missing}")
                 score -= 10 * len(missing)
 
+            # Extract body correctly (everything after frontmatter)
+            body = content[properties_match.end():]
+
         # 2. Structure check (4 mandatory sections)
-        body = content.split('---\n')[-1] if properties_match else content
         required_sections = ['🎯 Por Que Isto Importa', '⚡ Quick Checklist', '📖 Conteúdo Principal', '🔗 Relacionados']
         found_sections = [s for s in required_sections if s in body]
         missing_sections = [s for s in required_sections if s not in body]

@@ -7,10 +7,10 @@ foco: operational
 tags: [vault, documentation, agents]
 wikilinks: []
 ---
-
 # SOP — Criar Novo Documento no Vault
 
-**Resumo:** Protocolo automatizado para criar documentos conformes. Garante YAML correto, nomenclatura padrão, e estrutura validada.
+**Resumo:** Protocolo automatizado para criar documentos conformes. Garante YAML
+correto, nomenclatura padrão, e estrutura validada.
 
 ---
 
@@ -96,7 +96,52 @@ wikilinks: []
 
 ## 📖 Conteúdo Principal
 
-[⬅️ PREENCHER: instruções detalhadas]
+### Passo 1: Preparar Inputs
+
+Precisa de:
+- **Type:** sop, fase, conceito, template, reference, automation, course, skill, api
+- **Name:** Nome legível (ex: "Store Context Setup")
+- **Description:** Uma linha, 80 chars máx (ex: "Criar contexto inicial da loja")
+- **Foco:** seo, technical, operational, course
+
+### Passo 2: Rodar Script
+
+```bash
+cd /Users/rankpanda/Shopify\ RankPanda\ APP\ -\ Oficial\ 2026/vault/
+python3 create-vault-document.py \
+  --type sop \
+  --name "Store Context Setup" \
+  --description "Criar contexto inicial da loja" \
+  --foco seo
+```
+
+**Output:**
+```
+✅ Created: 02-SOPs/SOP-StoreContextSetup.md
+📝 Edit and commit when ready
+```
+
+O ficheiro é criado com:
+- ✅ YAML frontmatter correto
+- ✅ Filename padrão: `[TYPE]-[CamelCaseName].md`
+- ✅ Estrutura base (4 secções obrigatórias)
+- ✅ Placeholders para preenchimento
+
+### Passo 3: Editar Conteúdo
+
+Abre o ficheiro recém-criado e preenche:
+- **"Por Que Isto Importa"** (Obrigatório): Explica impacto direto (métrica, resultado, risco evitado)
+- **"Quick Checklist"** (Obrigatório se SOP/FASE): 3-5 passos práticos
+- **"Conteúdo Principal"** (Obrigatório): Instruções passo-a-passo, contexto, exemplos
+- **"Relacionados"** (Obrigatório): Mínimo 2 wikilinks: pré-requisitos (←) e outputs (→)
+- **tags** (Opcional): Adiciona 2-3 tags semânticas (ex: `[keyword-research, approval, validation]`)
+
+### Passo 4: Validar e Commitar
+
+```bash
+git add 02-SOPs/SOP-StoreContextSetup.md
+git commit -m "docs: Adicionar SOP — Store Context Setup"
+```
 
 ## 🔗 Relacionados
 
@@ -134,36 +179,42 @@ git commit -m "docs: Adicionar SOP — Store Context Setup"
 ## 📋 Tipos de Documentos
 
 ### SOP (Standard Operating Procedure)
+
 - **Quando:** Passo-a-passo operacional
 - **Exemplo:** "How to run GSC analysis"
 - **Local:** `/02-SOPs/`
 - **Estrutura:** Por Que → Checklist → Conteúdo → Relacionados
 
 ### FASE (Project Phase)
+
 - **Quando:** Fase de projeto (FASE-0, FASE-1, etc)
 - **Exemplo:** "FASE-1: Diagnóstico"
 - **Local:** `/02-SOPs/`
 - **Estrutura:** Objetivo → Deliverables → Timeline → Dependencies
 
 ### CONCEITO (Concept Hub)
+
 - **Quando:** Tema agregador (palavra-chave, metodologia, padrão)
 - **Exemplo:** "CONCEITO-Keyword-Research"
 - **Local:** `/02-SOPs/`
 - **Estrutura:** O Que É → Quando Usar → SOPs Relacionadas → Fluxo
 
 ### TEMPLATE
+
 - **Quando:** Template reutilizável (form, checklist, report)
 - **Exemplo:** "TEMPLATE-Weekly-Update"
 - **Local:** `/04-Templates/`
 - **Estrutura:** Propósito → Exemplos → How-To Use
 
 ### AUTOMATION
+
 - **Quando:** Script, webhook, scheduled task
 - **Exemplo:** "AUTOMATION-Vault-Sync"
 - **Local:** `/03-Automações/`
 - **Estrutura:** O Que Faz → Triggers → Config → How to Test
 
 ### REFERENCE
+
 - **Quando:** Documentação de referência (índice, lookup, anexo)
 - **Exemplo:** "REFERENCE-Memory-Index"
 - **Local:** `/00-Memory/`

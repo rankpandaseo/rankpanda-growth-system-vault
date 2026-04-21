@@ -1,6 +1,7 @@
 ---
 name: implementation-roadmap
-description: Plano de implementação sequencial para vault standardization (curto/médio/longo prazo)
+description: Plano de implementação sequencial para vault standardization
+(curto/médio/longo prazo)
 type: reference
 status: active
 foco: operational
@@ -27,7 +28,8 @@ wikilinks: [[SOP-VAULT-FORMAT-SPECIFICATION]], [[audit-vault-complete]]
 | Average readability score | 24/100 | 🔴 CRITICAL |
 | **BLOCKER:** Agents can read vault? | ❌ No | 🔴 Cannot proceed |
 
-**Key Finding:** Vault is not agent-readable right now. Must fix before agents touch it.
+**Key Finding:** Vault is not agent-readable right now. Must fix before agents
+touch it.
 
 ---
 
@@ -66,22 +68,56 @@ Current state: 0/53 files have the 4 sections.
 
 **The 4 Sections:**
 ```markdown
+
 ## 🎯 Por Que Isto Importa
+
 [bullet points explaining impact]
 
 ## ⚡ Quick Checklist
+
 [action items OR summary]
 
 ## 📖 Conteúdo Principal
-[main content here]
+
+### Estratégia: 3 Fases Sequenciais
+
+**Fase 1 (Curto Prazo — 4h):** Estruturar vault para agentes conseguirem ler
+- Add Properties (39 files missing YAML frontmatter)
+- Add 4 mandatory sections (Por Que, Checklist, Conteúdo, Relacionados)
+- Fix spacing/readability issues
+- Result: 100% conformance, vault agent-readable
+
+**Fase 2 (Médio Prazo — 6-8h):** Enable agent reading + document creation
+- Build `vault_parser.py` — Python API for agents to read documents
+- Enhance `create-vault-document.py` with auto-suggest + validation
+- Integration test: agent reads → creates → validates
+- Result: Agents can automate document workflows
+
+**Fase 3 (Longo Prazo — Optional):** Advanced validation + graph building
+- Wikilink resolution graph (detect broken links automatically)
+- Property validation rules (type-specific checks per document type)
+- Obsidian plugin for real-time validation
+- Result: Production-ready knowledge management system
+
+### Critical Success Factor
+
+**Phase 1 is BLOCKING.** Cannot proceed to agent integration until:
+- ✅ All files have valid YAML frontmatter (Properties)
+- ✅ All files have 4 mandatory sections
+- ✅ Agents can parse every document without errors
+- ✅ Average audit score: 70+/100
+
+Current status: 24/100 avg (26% with Properties, 0% with sections) → CRITICAL
 
 ## 🔗 Relacionados
+
 [wikilinks to related docs]
 ```
 
 **How script works:**
 1. Extract existing content (ignore current structure)
-2. Categorize by content type (SOP → has checklist, CONCEITO → has overview, etc)
+2. Categorize by content type (SOP → has checklist, CONCEITO → has overview,
+etc)
 3. Rebuild with 4 mandatory sections
 4. Preserve all original content
 5. Write back to file
@@ -239,7 +275,8 @@ python3 test-agent-integration.py
 - Warns if section missing or properties incomplete
 - Database views (filter by type, status, foco)
 
-**Why later:** Agents don't need this. Humans do. Implement after agents working.
+**Why later:** Agents don't need this. Humans do. Implement after agents
+working.
 
 ---
 
@@ -276,6 +313,7 @@ python3 test-agent-integration.py
 ## 📋 TODOS & Scripts Needed
 
 ### Curto Prazo (URGENT):
+
 - [ ] Create `add-missing-properties.py` (1h)
 - [ ] Create `add-missing-sections.py` (1.5h)
 - [ ] Create `fix-spacing-and-formatting.py` (0.5h)
@@ -283,12 +321,14 @@ python3 test-agent-integration.py
 - [ ] Commit Phase 1 (1h total)
 
 ### Médio Prazo (next week):
+
 - [ ] Create `vault_parser.py` + tests (3h)
 - [ ] Expand `create-vault-document.py` (2h)
 - [ ] Integration test workflow (1.5h)
 - [ ] Commit Phase 2
 
 ### Longo Prazo (optional):
+
 - [ ] Obsidian plugin (Phase 3A)
 - [ ] Wikilink graph (Phase 3B)
 - [ ] Property rules (Phase 3C)

@@ -1,4 +1,42 @@
+---
+name: course-00-structure
+description: Course Structure — PM RankPanda com IA Auto-generated course that
+grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D
+Sprint? (80 min)
+type: course
+status: active
+foco: course
+tags: [course, reference]
+wikilinks: []
+---
+
 # Course Structure — PM RankPanda com IA Auto-generated course that grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D Sprint? (80 min)
+
+**Resumo:** Course Structure — PM RankPanda com IA Auto-generated course that
+grows with every sprint execution. ## Modules ### M01 — Fundamentos: O que é 45D
+Sprint? (80 min)
+
+---
+
+## 🎯 Por Que Isto Importa
+
+[Adiciona contexto: impacto direto no projeto, porquê isto importa]
+- Ponto 1
+- Ponto 2
+- Ponto 3
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] Item 1
+- [ ] Item 2
+- [ ] Item 3
+
+---
+
+## 📖 Conteúdo Principal
+
 | Lição | Duração | Tema |
 |-------|---------|------|
 | [1.1](M01-Fundamentos/1.1-O-que-e-45D-Sprint.md) | 20 min | ✅ O que é 45D Sprint e por que funciona |
@@ -59,13 +97,16 @@
 | [10.2](M10-Bonus-Infraestrutura/10.2-Setup-VPS.md) | 14 min | ⏳ Setup de Servidor Ubuntu + Vault Sync |
 | [10.3](M10-Bonus-Infraestrutura/10.3-Backups-recovery.md) | 12 min | ⏳ Automated Backups + Disaster Recovery |
 | [10.4](M10-Bonus-Infraestrutura/10.4-Monitoring-24-7.md) | 11 min | ⏳ Monitoring 24/7 (health checks, alertas) | ## Pepitas de Ouro File: `pepitas-de-ouro.md` Auto-generated from real sprint execution:
-- "What worked well" learnings
-- "What we'd do differently" insights
-- "Surprising discoveries" during sprints
-- "Time-savers" and shortcuts ## How Course Generation Works 1. **During sprint execution** → Learnings captured in Vault comments
 2. **End of each phase** → Claude synthesizes learnings into lesson drafts
 3. **After complete sprint** → New pepita(s) de ouro created
-4. **Quarterly review** → Course modules updated with new patterns ## Status - **M01-M10 Module Structure:** ✅ All created
-- **M01 Lessons (1.1-1.4):** ✅ All complete (80 min, 10 pepitas)
-- **M02-M10 Lessons (2.1-10.4):** ⏳ Ready to write (57 lessons, 490 min total)
-- **Pepitas de Ouro:** 📝 10 captured from M01, growing with execution **Total Course:** 570 minutes (9.5 hours), 61 lessons across 10 modules --- **Version:** 0.1.0 **Last Updated:** [today] **Owner:** RankPanda AI System
+4. **Quarterly review** → Course modules updated with new patterns ## Status -
+**M01-M10 Module Structure:** ✅ All created
+
+---
+
+## 🔗 Relacionados
+
+- [[Related-Doc-1]] — descrição
+- [[Related-Doc-2]] — descrição
+
+---

@@ -1,4 +1,40 @@
+---
+name: pilot-vibradores-02-loja-setup-7d
+description: CRONOGRAMA 7D — Setup Loja Shopify **Objectivo:** Loja live,
+funcional, otimizada, pronta para 45D Sprint. **Duração:** Máximo 7 dias
+(segunda a domingo) **Recurso:** Rui (PM/owner) + possível ajuda técnica
+**Tooling:** Shopify, Horizon theme, SE Ranking, GSC, GA4 --- ## 📅 DIA 1
+(Segunda) — Keyword Research + Domínio ### Manhã (4h) **Tarefa 1: Pesquisa de
+Keywords (SE Ranking)**
+type: reference
+status: draft
+foco: operational
+tags: [reference]
+wikilinks: []
+---
+
 # CRONOGRAMA 7D — Setup Loja Shopify **Objectivo:** Loja live, funcional, otimizada, pronta para 45D Sprint. **Duração:** Máximo 7 dias (segunda a domingo) **Recurso:** Rui (PM/owner) + possível ajuda técnica **Tooling:** Shopify, Horizon theme, SE Ranking, GSC, GA4 --- ## 📅 DIA 1 (Segunda) — Keyword Research + Domínio ### Manhã (4h) **Tarefa 1: Pesquisa de Keywords (SE Ranking)**
+
+**Resumo:** CRONOGRAMA 7D — Setup Loja Shopify **Objectivo:** Loja live,
+funcional, otimizada, pronta para 45D Sprint. **Duração:** Máximo 7 dias
+(segunda a domingo) **Recurso:** Rui (PM/owner) + possível ajuda técnica
+**Tooling:** Shopify, Horizon theme, SE Ranking, GSC, GA4 --- ## 📅 DIA 1
+(Segunda) — Keyword Research + Domínio ### Manhã (4h) **Tarefa 1: Pesquisa de
+Keywords (SE Ranking)**
+
+---
+
+## 🎯 Por Que Isto Importa
+
+[Adiciona contexto: impacto direto no projeto, porquê isto importa]
+- Ponto 1
+- Ponto 2
+- Ponto 3
+
+---
+
+## ⚡ Quick Checklist
+
 - [ ] Login SE Ranking
 - [ ] Pesquisar 5 seed keywords (vibradores, variações)
 - [ ] Documentar: volume, difficulty, competition
@@ -42,15 +78,6 @@
 - [ ] Mobile responsiveness: testar em telemóvel (site deve funcionar bem)
 - [ ] SSL: verificar se tem certificado (Shopify fornece automático) **Tempo estimado:** 0.5h **Output:** Site tecnicamente sólido --- ## 📅 DIA 3 (Quarta) — Produtos + Metafields ### Manhã (6h) **Tarefa 1: Preparar Dados de Produtos**
 - [ ] Criar spreadsheet (CSV) com estrutura: - Title (50-60 chars, incluir keywords) - Description (200-300 chars, benefits + features) - Price - Category/Collection - Tags (cor, tamanho, material, feature) - Images (URLs ou upload) - Metafields (custom SEO fields, se necessário) **Exemplo de estrutura:**
-```
-Title: "Vibrador Clítoris Premium Recargável — Silicone de Qualidade"
-Description: "Vibrador profissional para clítoris, 8 modos, silicone premium, impermeável. Recargável via USB. Garantia 2 anos."
-Collection: "Vibradores para Clítoris"
-Tags: "clitoriano, recargável, silencioso, premium"
-``` **Meta SEO customizadas (se Shopify suporta via Bulk Operations):**
-- SEO Meta Title (se diferente do product title)
-- SEO Meta Description (155-160 chars)
-- Slug personalizado (se necessário) **Tempo estimado:** 3h **Output:** CSV pronto (mínimo 5-10 produtos por colecção, total 20-40 produtos) **Tarefa 2: Upload Bulk de Produtos**
 - [ ] Shopify Bulk Operations (CSV upload) - Ir a "Products" → "Bulk" - Upload CSV - Mapear campos - Review + confirmar - Processar (pode levar 10-30 minutos) **Tempo estimado:** 1h + processamento **Output:** Produtos importados **Tarefa 3: Verificar e Ajustar Produtos**
 - [ ] Verificar alguns produtos no storefront (imagens, descrições)
 - [ ] Corrigir erros óbvios
@@ -111,6 +138,27 @@ Tags: "clitoriano, recargável, silencioso, premium"
 - [ ] Atualizar MASTER-PLAN com status "LOJA LIVE"
 - [ ] Criar primeira entrada de metrics (baseline.json)
 - [ ] Registar qualquer learnings (que dificuldades teve, o que correu bem) **Tempo estimado:** 1h **Output:** Tudo documentado --- ## ⚡ Checkpoints Críticos | Checkpoint | Dia | Status | Bloqueador? |
+| Domínio registado | 1 | [ ] | SIM |
+| Shopify criado | 1 | [ ] | SIM |
+| Tema Horizon instalado | 2 | [ ] | SIM |
+| Colecções criadas | 2 | [ ] | Não (pode adicionar produtos depois) |
+| Produtos uploadados | 3 | [ ] | Não (mínimo 20, pode expandir) |
+| Analytics rastreando | 2 | [ ] | SIM (baseline crítica) |
+| GSC verificado | 2 | [ ] | SIM (discovery crítica) |
+| Schema válido | 4 | [ ] | Não (pode melhorar pós-launch) |
+| Loja LIVE | 6 | [ ] | SIM | --- ## 📊 Recursos Necessários - **Shopify:** Account + plano (plan básico ~€29/mês)
+
+---
+
+## 📖 Conteúdo Principal
+
+```
+Title: "Vibrador Clítoris Premium Recargável — Silicone de Qualidade"
+Description: "Vibrador profissional para clítoris, 8 modos, silicone premium,
+impermeável. Recargável via USB. Garantia 2 anos."
+Collection: "Vibradores para Clítoris"
+Tags: "clitoriano, recargável, silencioso, premium"
+``` **Meta SEO customizadas (se Shopify suporta via Bulk Operations):**
 |-----------|-----|--------|-------------|
 | Domínio registado | 1 | [ ] | SIM |
 | Shopify criado | 1 | [ ] | SIM |
@@ -121,12 +169,19 @@ Tags: "clitoriano, recargável, silencioso, premium"
 | GSC verificado | 2 | [ ] | SIM (discovery crítica) |
 | Schema válido | 4 | [ ] | Não (pode melhorar pós-launch) |
 | Loja LIVE | 6 | [ ] | SIM | --- ## 📊 Recursos Necessários - **Shopify:** Account + plano (plan básico ~€29/mês)
-- **Domínio:** Registar (~€10-15/ano)
-- **Google Analytics:** FREE (account Google)
-- **Google Search Console:** FREE
-- **SE Ranking:** Acesso Rui (API key)
-- **Imagens:** Precisa de ~50-100 imagens de produtos (stock photos, ou setup fotografia) --- ## 🔄 Handoff para FASE 0 Quando DIA 7 acabar:
 1. Loja LIVE ✓
 2. Baseline métricas recolhidas ✓
 3. Documentação completa ✓
-4. FASE 0 Kickoff pronto para começar **Próximo:** `/vault/01-Clientes/pilot-vibradores/03-45d-sprint-fase-0.md` --- **Versão:** 1.0 **Data:** 2026-04-20 **Status:** PRONTO PARA EXECUTAR **Duração:** 7 dias máximo (segunda-domingo)
+4. FASE 0 Kickoff pronto para começar **Próximo:**
+`/vault/01-Clientes/pilot-vibradores/03-45d-sprint-fase-0.md` --- **Versão:**
+1.0 **Data:** 2026-04-20 **Status:** PRONTO PARA EXECUTAR **Duração:** 7 dias
+máximo (segunda-domingo)
+
+---
+
+## 🔗 Relacionados
+
+- [[Related-Doc-1]] — descrição
+- [[Related-Doc-2]] — descrição
+
+---
