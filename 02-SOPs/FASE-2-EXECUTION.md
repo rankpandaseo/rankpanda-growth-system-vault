@@ -1,12 +1,61 @@
+---
+name: fase-2-execution
+description: Execute keyword research, collection optimization, and product optimization in parallel with client approval gates
+type: fase
+status: active
+foco: execução
+tags: [execution, keyword-research, collections, products, parallelization]
+wikilinks: [[[fase-1-diagnostic]], [[sop-2-keyword-research]], [[sop-3-clustering-collection-mapping]], [[fase-3-validation]]]
+---
+
 # SOP FASE 2 — Execução Cirúrgica (Semana 2-4)
 
-## 🎯 Objetivo
-
-Corrigir essencial para indexação, visibilidade e estrutura semântica. Implementação paralela em 3 streams: KW Research, Collections, Products.
+**Resumo:** Implementar keyword research, otimizar collections e produtos em paralelo (3 streams independentes) com approval gates estruturados e sincronização via ClickUp.
 
 ---
 
-## CAMADA 1 — AUDITORIA (Weak Points Detection)
+## 🎯 Por Que Isto Importa
+
+**Impacto na velocidade e qualidade da implementação:**
+- **Parallelização com guardrails:** 3 streams (KW, Collections, Products) rodam em paralelo, reduzindo 21 dias para 14-18. Sem guardrails = caos, conflitos, retrabalho.
+- **Approval gates:** Cliente aprova amostra (5-10 produtos) antes de aplicarmos 50+. Uma vez aprovado o padrão, aplicamos em bulk com segurança.
+- **Technical foundation:** Schema, metafields, IndexNow ativados em paralelo = quando publicamos (dia 9), Google já está pronto a indexar.
+- **Weekly communication:** Cliente vê progresso (Loom videos, relatórios). Mantém confiança, permite feedback rápido.
+
+**Sem FASE 2 bem estruturada:** Fazemos tudo sequencial, publicamos tudo ao mesmo tempo, descobrimos problemas em mass, 5 dias perdidos em refactoring.
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] KW research draft completo (SE Ranking + GSC + Claude)
+- [ ] KW briefing form aprovado por cliente
+- [ ] Collection drafts gerados (title, meta desc, intro, schema)
+- [ ] Collection approval form aprovado por cliente
+- [ ] Product batches definidos (20-50 produtos por batch)
+- [ ] Product sample (5-10) aprovado por cliente
+- [ ] Metafields Shopify criados e testados
+- [ ] Schema.org templates validados (ProductCollection, Product, BreadcrumbList)
+- [ ] Liquid templates atualizados (se necessário)
+- [ ] IndexNow ativado e testado
+- [ ] Todas as colecções e produtos publicados no Shopify
+- [ ] GSC submissions completos
+- [ ] Monitorização iniciada (impressões, clicks, indexação)
+- [ ] Ready for [[fase-3-validation]]
+
+---
+
+## 🔑 Key Principles
+
+1. **Parallelization with Clarity:** Cada stream é independente, mas dependencies claras em ClickUp. Ninguém fica bloqueado.
+2. **Approval Sampling:** Não pedimos approval em 100 produtos. Aprovamos padrão em 5-10. Depois aplicamos.
+3. **Bulk over Manual:** Shopify API bulk operations (não manual edits). 50 produtos aplicados em 1-2h, não 20h.
+4. **Weekly Beats:** Cliente vê progresso toda a sexta. Zero surpresas. Feedback loop rápido.
+5. **Technical Parallel:** Setup técnico não é blocker. Enquanto fazemos KW, configuramos schema/metafields.
+
+---
+
+## Operacional: AUDITORIA (Weak Points Detection)
 
 ### Checklist de Execução
 
@@ -47,20 +96,7 @@ _Se algum gap aparecer durante execução:_
 
 ---
 
-## CAMADA 2 — FORMATIVO (How-To / Teaching Module)
-
-### Porque Execução Precisa Ser Bem Estruturada
-
-Execução sem estrutura = caos:
-- Conflitos entre streams (ambos tentando escrever products)
-- Client review delays (drafts não prontos no tempo)
-- QA failures (coisas publicadas com erros)
-- Metrics ruins (schema mal implementado)
-- Retrabalho
-
-**Princípio:** Parallelização com guardrails. Cada stream independente, com approval gates claros.
-
-### Como Fazer KW Research (Semana 2)
+## Como Fazer KW Research (Semana 2)
 
 **Inputs necessários:**
 1. Coleções aprovadas (handle + nome)
@@ -173,7 +209,7 @@ Semana 4:
 
 ---
 
-## CAMADA 3 — TEMPLATE ClickUp (Operational Tasks)
+## Execução: ClickUp Space + Tarefas
 
 ### ClickUp Space Structure (FASE 2)
 
@@ -344,17 +380,30 @@ Semana 4:
 
 ---
 
-## ✅ Entregáveis Fase 2
+## Validação & Entregáveis
 
-1. ✅ KW research completo + approved by client
-2. ✅ 5-10 collections optimized + published + indexed
-3. ✅ 50-100+ products optimized + published + indexed
-4. ✅ Technical setup completo (schema, metafields, IndexNow)
-5. ✅ Weekly communication com cliente
-6. ✅ Vault updated com learnings + pepitas de ouro
+- ✅ KW research completo + approved by client
+- ✅ 5-10 collections optimized + published + indexed
+- ✅ 50-100+ products optimized + published + indexed
+- ✅ Technical setup completo (schema, metafields, IndexNow)
+- ✅ Weekly communication com cliente (Loom videos, relatórios)
+- ✅ Vault updated com learnings + pepitas de ouro
 
 ---
 
-**Versão:** 1.0  
-**Última Atualização:** [data]  
-**Owner:** [nome]
+## 🔗 Relacionados
+
+- [[fase-1-diagnostic]] — Anterior: Diagnosis que orienta o scope de FASE 2
+- [[sop-2-keyword-research]] — KW research baseado em insights de FASE 1
+- [[sop-3-clustering-collection-mapping]] — Collection structure referência para otimização
+- [[fase-3-validation]] — Próximo: Validar rankings, tráfego, conversão
+- `/vault/04-Templates/approval-gate-keywords.md` — Template de aprovação KW
+- `/vault/04-Templates/approval-gate-collections.md` — Template de aprovação collections
+- `/vault/04-Templates/approval-gate-products.md` — Template de aprovação products
+
+---
+
+**Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** [[fase-3-validation]] (após indexação estabilizar, ~FASE 3)
