@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-02-LOJA-SETUP-7D.md",
+                "file": "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PILOT-VIBRADORES-02-LOJA-SETUP-7D"
+              "title": "REFERENCE-ESTADO-ATUAL"
             }
           }
         ]
@@ -185,14 +185,20 @@
   },
   "active": "d8bcdf38eed3a056",
   "lastOpenFiles": [
+    "00-Memory/sessions/REFERENCE-SESSION-2026-04-18.md",
+    "00-Memory/REFERENCE-MEMORY-INDEX.md",
+    "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
+    "02-SOPs/CONCEITO-Keyword-Research.md",
+    "AUDIT-ESTRUTURA-COMPLETA.py",
+    "AUDIT-REAL.py",
+    "IMPLEMENTATION-ROADMAP.md",
+    "todo.md",
+    "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-02-LOJA-SETUP-7D.md",
     "DETAILED-VAULT-AUDIT.py",
     "00-Memory/context/REFERENCE-LESSONS.md",
-    "00-Memory/REFERENCE-MEMORY-INDEX.md",
     "fix-corrupted-yaml.py",
-    "00-Memory/sessions/REFERENCE-SESSION-2026-04-18.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-00-MASTER-PLAN.md",
     "00-Estratégia/WIKILINK-STRATEGY.md",
-    "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-02-LOJA-SETUP-7D.md",
     "02-SOPs/FASE-0-KICKOFF.md",
     "VAULT-STANDARDIZATION-COMPLETE.md",
     "audit-content-quality.py",
@@ -206,20 +212,13 @@
     "test-agent-integration.py",
     "02-SOPs/SOP-TestSopDocument.md",
     "vault_parser.py",
-    "fix-spacing-and-formatting.py",
-    "add-missing-sections.py",
-    "add-missing-properties.py",
     "02-SOPs/FASE-2-EXECUTION.md",
-    "IMPLEMENTATION-ROADMAP.md",
-    "todo.md",
     "02-SOPs/SOP-3-CLUSTERING-COLLECTION-MAPPING.md",
     "05-Curso-45D/M01-Fundamentos/COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais.md",
     "05-Curso-45D/M01-Fundamentos/COURSE-M01-1.1-O-Que-E-45D-Sprint.md",
-    "02-SOPs/CONCEITO-Keyword-Research.md",
     "00-Memory/context/REFERENCE-PEOPLE.md",
     "00-Memory/context/REFERENCE-DECISIONS.md",
     "00-Memory/projects/REFERENCE-PILOT-VIBRADORES.md",
-    "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
     "01-Clientes/pilot-vibradores/PILOT-VIBRADORES-01-KEYWORD-RESEARCH.md"
   ]
 }

@@ -1,33 +1,34 @@
 ---
 name: reference-estado-atual
-description: Estado Actual — RankPanda Foundation Build **Data:** 2026-04-18
-**Sessão:** Foundation Build — Session 1 (Context continuation from earlier)
-**Status:** 🟢 COMPLETA --- ## 📊 O Que Foi Feito ### Memory System
+description: Estado Actual — Snapshot do progresso atual e onde ficámos (atualizado a cada sessão)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, state, session]
+wikilinks: [[REFERENCE-MEMORY-INDEX]]
 ---
 
-# Estado Actual — RankPanda Foundation Build **Data:** 2026-04-18 **Sessão:** Foundation Build — Session 1 (Context continuation from earlier) **Status:** 🟢 COMPLETA --- ## 📊 O Que Foi Feito ### Memory System
+# Estado Actual — RankPanda Foundation Build
 
-**Resumo:** Estado Actual — RankPanda Foundation Build **Data:** 2026-04-18
-**Sessão:** Foundation Build — Session 1 (Context continuation from earlier)
-**Status:** 🟢 COMPLETA --- ## 📊 O Que Foi Feito ### Memory System
+**Resumo:** Snapshot do progresso atual, aonde ficámos na última sessão, e próximos passos. Atualizado ao fim de cada sessão.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Session continuity:** Próxima sessão começa exatamente aonde a anterior parou
+- **Quick orientation:** Rui lê isto em 2 minutos e sabe status de tudo
+- **Decision history:** O que foi decidido, implementado, ou bloqueado
+- **Priority alignment:** P0, P1, P2 tarefas organizadas por urgência
 
 ---
 
 ## ⚡ Quick Checklist
+
+- [ ] Atualizar SEMPRE ao fim de cada sessão
+- [ ] Data, sumário do que foi feito, próximos passos
+- [ ] P0/P1/P2 tasks listadas
+- [ ] Bloqueadores ou decisões pendentes documentadas
 
 - [ ] Rui: Create `/vault/credentials/` in GitHub rankpandaseo/rankpanda-vault - [ ] gsc.json (property IDs + API keys) - [ ] ga4.json (measurement IDs + API keys) - [ ] shopify.json (API tokens per store) - [ ] se-ranking.json (project IDs + API keys) ### P1: API Implementation
 - [ ] Claude: Implement OAuth2 + real API calls in `api_clients.py`
@@ -85,7 +86,9 @@ Documentado `memory/context/people.md`:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-MEMORY-INDEX]] — Índice central do sistema
+- [[REFERENCE-DECISIONS]] — Decisões que governam
+- [[REFERENCE-LESSONS]] — Lições aprendidas
+- [[REFERENCE-PEOPLE]] — Squad e dinâmicas
 
 ---

@@ -1,105 +1,90 @@
 ---
 name: pilot-vibradores-00-master-plan
-description: MASTER PLAN — Pilot-Vibradores **Objectivo:** Construir loja
-Shopify de raiz + executar 45D Sprint + documentar como case study.
-**Timeline:** 7D setup + 45D Sprint = 52D total (8 semanas) **Foco:**
-Visibilidade (indexed pages, impressões, TOP 10 posição) --- ## 📋 Estrutura do
-Projecto ```
+description: MASTER PLAN — Pilot-Vibradores (Construir loja + 45D Sprint + case study)
 type: reference
-status: draft
+status: active
 foco: operational
-tags: [reference]
-wikilinks: []
+tags: [pilot, project, 45d-sprint, case-study]
+wikilinks: [[REFERENCE-PILOT-VIBRADORES]], [[FASE-0-KICKOFF]], [[FASE-1-DIAGNOSTIC]], [[CONCEITO-45D-Framework]]
 ---
 
-# MASTER PLAN — Pilot-Vibradores **Objectivo:** Construir loja Shopify de raiz + executar 45D Sprint + documentar como case study. **Timeline:** 7D setup + 45D Sprint = 52D total (8 semanas) **Foco:** Visibilidade (indexed pages, impressões, TOP 10 posição) --- ## 📋 Estrutura do Projecto ```
+# MASTER PLAN — Pilot-Vibradores
 
-**Resumo:** MASTER PLAN — Pilot-Vibradores **Objectivo:** Construir loja Shopify
-de raiz + executar 45D Sprint + documentar como case study. **Timeline:** 7D
-setup + 45D Sprint = 52D total (8 semanas) **Foco:** Visibilidade (indexed
-pages, impressões, TOP 10 posição) --- ## 📋 Estrutura do Projecto ```
+**Resumo:** Plano mestre para projeto piloto: Construir loja Shopify do zero + executar 45D Sprint completo + documentar como case study de validação do modelo. Timeline: 7D setup + 45D Sprint = 52D total.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Model Validation:** Pilot-Vibradores prova que 45D Sprint funciona em produção (não é só teoria)
+- **Case Study Asset:** Após conclusão, documento serve como referência de venda para próximos clientes
+- **Pepita Source:** Cada FASE gera 3-5 insights que alimentam o course (M01-M10)
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Top keywords por volume
-- [ ] Colecções identificadas
-- [ ] Domínio proposto (3 opções)
-- [ ] Evergreen content strategy **APIs:** SE Ranking (keyword research, difficulty, competitor analysis) --- ## 🛍️ ETAPA 2: Setup Shopify (DIA 3-4) **Objectivo:** Loja live e funcional com estrutura base **Checklist:**
-- [ ] Domínio registado + conectado
-- [ ] Tema Horizon instalado + customizado (logo, cores, tipografia)
-- [ ] Estrutura de colecções criada (sem produtos ainda)
-- [ ] Navegação configurada
-- [ ] Páginas base (Home, About, Contacto, FAQ)
-- [ ] Google Analytics 4 conectado
-- [ ] Google Search Console setup
-- [ ] Sitemap gerado e submetido **Deliverable:** Loja funcional (mesmo sem inventário) **APIs:** Shopify (crear collections, pages, settings) --- ## 📊 ETAPA 3: Colecções + Primeiros Produtos (DIA 5-6) **Objectivo:** Estrutura de products pronta para FASE 2 **Checklist:**
-- [ ] Colecções mapeadas (title, description, imagens)
-- [ ] Produtos de exemplo (mínimo 10-20 por colecção)
-- [ ] Metafields estruturados (SEO, custom fields)
-- [ ] Schema markup aplicado (Collection, Product, BreadcrumbList)
-- [ ] URLs slugs otimizadas
-- [ ] Imagens optimizadas (alt text, format) **Deliverable:** Loja com estrutura de conteúdo pronta **APIs:** Shopify (bulk product upload, metafields) --- ## ✅ ETAPA 4: QA + Go-Live (DIA 7) **Checklist:**
-- [ ] Mobile responsiveness (Lighthouse)
-- [ ] Core Web Vitals check
-- [ ] 404s, redirects, duplicates (technical audit)
-- [ ] All pages crawlable (robots.txt, sitemaps)
-- [ ] IndexNow setup (immediate notification)
-- [ ] DNS propagation confirmed
-- [ ] Analytics tracked (GA4, GTM)
-- [ ] Final GSC submission **Deliverable:** Loja live + baseline métricas (impressões = 0 no começo) --- ## 🎯 45D SPRINT (SEMANAS 2-7) Segue estrutura standard RankPanda: ### FASE 0 — Kickoff (3-5D)
+- [ ] SEMANA 1: Setup loja (7 dias) — 4 ETAPAs sequenciais
+- [ ] SEMANA 2-7: Executar 45D Sprint (FASE 0-3)
+- [ ] Documentar discover y + pepitas semanalmente
+- [ ] Coletar baseline antes de começar FASE 1
+- [ ] Validar go/no-go antes de FASE 1 → FASE 2
 
 ---
 
 ## 📖 Conteúdo Principal
 
-SEMANA 1: Setup Loja (7 dias)
-├─ DIA 1-2: Pesquisa de Keywords + Definição Domínio
-├─ DIA 3-4: Setup Shopify (tema Horizon)
-├─ DIA 5-6: Estrutura Colecções + Primeiras Páginas
-└─ DIA 7: QA + Go-Live SEMANAS 2-7: 45D Sprint
-├─ FASE 0 (3-5D): Kickoff formal + baseline
-├─ FASE 1 (7-10D): Diagnostic (sem tráfego ainda, planning)
-├─ FASE 2 (10-14D): Execution (colecções, products, schema)
-└─ FASE 3 (7-10D): Validation + roadmap SEMANAS 8+: Plano 6 Meses
-├─ Evolução estratégica (link building, authority)
-├─ Refinamento contínuo (content, schema, UI/UX)
-└─ Replicação learnings em próximos clientes
-``` --- ## 🔍 ETAPA 1: Pesquisa de Palavras-Chave (DIA 1-2) **Objectivo:** Identificar oportunidades de keyword → definir domínio + colecções **Processo:**
-1. Pesquisa de palavras-chave (volume, difficulty, intent)
-2. Identificar 3-5 colecções principais (topical clusters)
-3. Propor nome de domínio (SEO-friendly, brandável)
-4. Mapear evergreen collections (conteúdo de longo prazo) **Deliverable:**
-`/01-Clientes/pilot-vibradores/01-keyword-research.md`
+### SEMANA 1: Setup Loja (7 dias)
+
+| Etapa | Dias | Objectivo | Deliverable |
+|-------|------|-----------|-------------|
+| ETAPA 1 | 1-2 | Pesquisa KW + Domínio | `01-keyword-research.md` |
+| ETAPA 2 | 3-4 | Setup Shopify | Loja funcional |
+| ETAPA 3 | 5-6 | Colecções + Produtos | Estrutura conteúdo pronta |
+| ETAPA 4 | 7 | QA + Go-Live | Loja live + baseline |
+
+### SEMANAS 2-7: 45D Sprint (FASE 0-3)
+
+| FASE | Dias | Objectivo |
+|------|------|-----------|
+| FASE 0 | 3-5D | Kickoff formal + baseline |
+| FASE 1 | 7-10D | Diagnostic (sem tráfego, planning) |
+| FASE 2 | 10-14D | Execution (KW targeting, content) |
+| FASE 3 | 7-10D | Validation + roadmap 90D |
+
+### Estrutura de Ficheiros Projeto
+
+```
 /vault/01-Clientes/pilot-vibradores/
 ├── 00-MASTER-PLAN.md (este ficheiro)
-├── 01-keyword-research.md (keywords + domínio + colecções)
-├── 02-loja-setup-7d.md (cronograma detalhado, checklists)
-├── 03-45d-sprint-fase-0.md (kickoff protocol)
-├── 04-45d-sprint-fase-1.md (diagnostic template)
-├── 05-45d-sprint-fase-2.md (execution checklist)
-├── 06-45d-sprint-fase-3.md (validation + roadmap)
-├── 07-roadmap-6m.md (evolução 6 meses)
-├── 08-case-study-template.md (como vender isto depois)
-└── metrics/ ├── baseline.json (DIA 7) ├── fase-1.json (DIA 17) ├── fase-2.json
-(DIA 31) └── fase-3.json (DIA 52 — final)
-``` --- ## ⚡ Próximos Passos IMEDIATOS 1. **HOJE:** Pesquisa de palavras-chave completa - SE Ranking: keyword research (volume, difficulty) - Definir colecções baseado em keywords - Propor 3 domínios 2. **AMANHÃ:** Setup Shopify começa - Registar domínio escolhido - Instalar tema Horizon - Criar estrutura de colecções 3. **Resto da semana:** Loja live --- **Versão:** 1.0 **Data:** 2026-04-20 **Status:** PRONTO PARA COMEÇAR **Próxima fase:** Pesquisa de Keywords (HOJE)
+├── 01-keyword-research.md
+├── 02-loja-setup-7d.md
+├── 03-45d-sprint-fase-0.md
+├── ...
+└── metrics/
+    ├── baseline.json
+    ├── fase-1.json
+    └── fase-3.json
+```
+
+### Próximos Passos (Ordem de Execução)
+
+1. Completar pesquisa de keywords (SE Ranking)
+2. Definir domínio + 3-5 colecções principais
+3. Setup Shopify: tema, navegação, páginas base
+4. Colecções + primeiros produtos (10-20 min)
+5. QA técnico: Lighthouse, Core Web Vitals, GSC
+6. Go-live e coletar baseline
+7. Iniciar FASE 0 kickoff formal
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[PILOT-VIBRADORES-01-KEYWORD-RESEARCH]] — Pesquisa KW para ETAPA 1
+- [[PILOT-VIBRADORES-02-LOJA-SETUP-7D]] — Cronograma detalhado setup
+- [[REFERENCE-PILOT-VIBRADORES]] — Índice do projeto + métricas
+- [[FASE-0-KICKOFF]] — Protocolo de kickoff formal
+- [[CONCEITO-45D-Framework]] — Framework teórico do 45D Sprint
 
 ---

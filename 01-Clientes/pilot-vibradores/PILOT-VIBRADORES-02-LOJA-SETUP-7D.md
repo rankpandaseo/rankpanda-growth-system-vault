@@ -181,7 +181,6 @@ máximo (segunda-domingo)
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [Inner doc reference] — [type]
 
 ---

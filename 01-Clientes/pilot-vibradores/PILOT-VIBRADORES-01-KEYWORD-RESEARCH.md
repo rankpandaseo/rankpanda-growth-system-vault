@@ -1,111 +1,83 @@
 ---
 name: pilot-vibradores-01-keyword-research
-description: KEYWORD RESEARCH — Pilot-Vibradores **Objectivo:** Identificar
-oportunidades de keyword → definir domínio + estrutura de colecções **Status:**
-PRONTO PARA EXECUTAR (pesquisa via SE Ranking) --- ## 🎯 Estratégia de Pesquisa
-### 1. Seed Keywords (Começo) Vibradores = mercado adulto, múltiplos
-sub-segmentos:
+description: KEYWORD RESEARCH — Pilot-Vibradores (Estratégia pesquisa KW, domínio, colecções)
 type: reference
-status: draft
+status: active
 foco: operational
-tags: [reference]
-wikilinks: []
+tags: [pilot, keyword-research, seo, content-strategy]
+wikilinks: [[PILOT-VIBRADORES-00-MASTER-PLAN]], [[REFERENCE-PILOT-VIBRADORES]], [[CONCEITO-Keyword-Research]]
 ---
 
-# KEYWORD RESEARCH — Pilot-Vibradores **Objectivo:** Identificar oportunidades de keyword → definir domínio + estrutura de colecções **Status:** PRONTO PARA EXECUTAR (pesquisa via SE Ranking) --- ## 🎯 Estratégia de Pesquisa ### 1. Seed Keywords (Começo) Vibradores = mercado adulto, múltiplos sub-segmentos:
+# KEYWORD RESEARCH — Pilot-Vibradores
 
-**Resumo:** KEYWORD RESEARCH — Pilot-Vibradores **Objectivo:** Identificar
-oportunidades de keyword → definir domínio + estrutura de colecções **Status:**
-PRONTO PARA EXECUTAR (pesquisa via SE Ranking) --- ## 🎯 Estratégia de Pesquisa
-### 1. Seed Keywords (Começo) Vibradores = mercado adulto, múltiplos
-sub-segmentos:
+**Resumo:** Análise de keywords para identificar oportunidades de volume/dificuldade, definir domínio brandável, mapear 3-5 colecções principais. Entrada para ETAPA 1 setup (dias 1-2).
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Volume vs Difficulty Balance:** Escolher keywords que têm volume SEM competição impossível
+- **Domain Naming:** Domínio correto desde dia 1 = SEO signals desde o início (mudar depois é custoso)
+- **Collection Strategy:** Clusters de keywords determinam topical authority dentro da loja
 
 ---
 
 ## ⚡ Quick Checklist
 
-- Desvantagem: Zero SEO na URL, precisa mais link building **Recomendação:** Opção 2 (`vibradorespremium.pt` ou `vibradorescurvados.pt`) --- ## 📋 Checklist — Pesquisa - [ ] SE Ranking: Pesquisa de 5 seed keywords (volume, difficulty, competition)
-- [ ] Identificar 10-15 keywords principais (filtrados por opportunity)
-- [ ] Mapear 4-5 colecções baseado em keyword clusters
-- [ ] Definir estratégia de content hub (blog/FAQ para informacional)
-- [ ] Propor 3 domínios com rationale
-- [ ] Validar intent + competência de top 3 sites
-- [ ] Documentar roadmap de keyword targeting (FASE 1-3) --- ## ⚡ Próximos Passos 1. **HOJE:** Executar pesquisa (SE Ranking) - Preencher este ficheiro com resultados - Propor domínio final - Confirmar 4-5 colecções 2. **AMANHÃ:** Setup Shopify começa - Registar domínio - Instalar Horizon theme - Criar estrutura de colecções (baseada em keywords) --- **Versão:** 1.0 (Template) **Data:** 2026-04-20 **Status:** À ESPERA DE PESQUISA **Próximo:** Domínio registado + Shopify setup
+- [ ] SE Ranking: Pesquisa 5+ seed keywords (volume, difficulty, intent)
+- [ ] Identificar 10-15 keywords principais (high volume + low difficulty)
+- [ ] Mapear 4-5 colecções baseado em keyword clusters temáticos
+- [ ] Propor 3 domínios (brandável + SEO-friendly)
+- [ ] Validar competência dos top 3 sites por keyword
+- [ ] Documentar roadmap de targeting (FASE 1-3)
 
 ---
 
 ## 📖 Conteúdo Principal
 
-```
-Keyword: "vibradores"
-Volume: [pesquisar]
-Difficulty: [pesquisar]
-Intent: Comercial/Informacional
-Competência: [top 3]
-Oportunidade: ✓ Alto volume, provavelmente difícil mas essencial
-``` ### Cluster 2: Tipo de Vibrador
-```
-Keyword: "vibrador clítoris"
-Volume: [pesquisar]
-Difficulty: [pesquisar]
-Intent: Comercial
-Competência: [top 3]
-Oportunidade: [análise] Keyword: "vibrador ponto G"
-Volume: [pesquisar]
-Difficulty: [pesquisar]
-Intent: Comercial
-Competência: [top 3]
-Oportunidade: [análise] [Adicionar mais sub-tipos conforme pesquisa]
-``` ### Cluster 3: Características / Features
-```
-Keyword: "vibrador recargável"
-Volume: [pesquisar]
-Difficulty: [pesquisar]
-Intent: Comercial (busca de feature específica)
-Competência: [top 3]
-Oportunidade: [análise] [Mais: "vibrador impermeável", "vibrador silencioso",
-"vibrador wireless", etc.]
-``` ### Cluster 4: Preço / Budget
-```
-Keyword: "vibrador barato"
-Keyword: "vibrador premium"
-[Pesquisar volume, intent comercial forte]
-``` ### Cluster 5: Informacional (How-To)
-```
-Keyword: "como usar vibrador"
-Keyword: "melhores vibradores 2026"
-Keyword: "vibrador recomendado"
-[Baixo volume talvez, mas intent educacional → blog/faq]
-``` --- ## 🏆 Top Keywords (Após Pesquisa) Rank as 10-15 keywords PRINCIPAIS por:
-1. Volume × Opportunity (High volume + Low difficulty = ouro)
-2. Comercial intent (queremos vendas)
-3. Diferenciador (vibradores tem vários tipos) **Exemplo esperado (fictício):**
-| Keyword | Volume | Difficulty | Intent | Collection |
-|---------|--------|------------|--------|------------|
-| vibradores | 2000 | 45 | Comercial | Homepage |
-| vibrador clítoris | 800 | 35 | Comercial | Colecção #1 |
-| vibrador recargável | 600 | 30 | Comercial | Colecção #2 |
-| melhores vibradores | 500 | 28 | Info+Com | Blog + Category |
-| vibrador silencioso | 400 | 25 | Comercial | Colecção #3 |
-| vibrador ponto G | 300 | 32 | Comercial | Colecção #4 |
-| vibrador wireless | 250 | 35 | Comercial | Feature tag |
-| vibrador barato | 400 | 22 | Comercial | Pricing/Features |
-| [...]| | | | | --- ## 🗂️ Mapeamento de Colecções **Baseado em keywords, proponho:** ### Colecção 1: Vibradores para Clítoris
+### Estratégia de Pesquisa
+
+Mercado de vibradores é fragmentado por múltiplos clusters temáticos. Estruturar pesquisa em 5 categorias principais:
+
+### 1. Cluster Geral: Termo Principal
+- Keyword: "vibradores"
+- Intent: Comercial + Informacional
+- Usar como: Homepage (brand term)
+
+### 2. Cluster Tipo: Segmentação por Categoria
+- "vibrador clítoris", "vibrador ponto G", etc.
+- Intent: Comercial (product discovery)
+- Usar como: Colecções principais
+
+### 3. Cluster Features: Características Específicas
+- "vibrador recargável", "vibrador silencioso", "vibrador wireless"
+- Intent: Comercial (feature search)
+- Usar como: Category tags + filters
+
+### 4. Cluster Preço: Budget/Premium
+- "vibrador barato", "vibrador premium"
+- Intent: Comercial (price-driven)
+- Usar como: Price range categories
+
+### 5. Cluster Informacional: How-To + Guides
+- "como usar vibrador", "melhores vibradores 2026"
+- Intent: Educacional
+- Usar como: Blog/FAQ (long-tail authority)
+
+### Priorização de Keywords
+
+Rank as 10-15 principais por:
+1. **Volume × Difficulty:** High volume + Low difficulty = prioridade
+2. **Intent Comercial:** Keywords que convertem em vendas
+3. **Diferenciadores:** Vibradores tem múltiplos sub-tipos → oportunidade de clustering
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] — Plano mestre (ETAPA 1 setup)
+- [[CONCEITO-Keyword-Research]] — Framework genérico KW research
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Mapeamento colecções baseado KW
+- [[REFERENCE-PILOT-VIBRADORES]] — Índice do projeto com métricas
 
 ---

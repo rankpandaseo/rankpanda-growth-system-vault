@@ -1,33 +1,33 @@
 ---
 name: reference-lessons
-description: Lessons — Erros Que Não Podem Repetir Aprendizados organizacionais
-que devem prevenir regressão. Cada lição documenta:
+description: Lessons — Erros que não podem repetir (organizational learning to prevent regression)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, lessons, learnings]
+wikilinks: [[REFERENCE-MEMORY-INDEX]]
 ---
 
-# Lessons — Erros Que Não Podem Repetir Aprendizados organizacionais que devem prevenir regressão. Cada lição documenta:
+# Lessons — Erros Que Não Podem Repetir
 
-**Resumo:** Lessons — Erros Que Não Podem Repetir Aprendizados organizacionais
-que devem prevenir regressão. Cada lição documenta:
+**Resumo:** Aprendizados organizacionais que devem prevenir regressão. Cada lição documenta ERRO, IMPACTO, COMO EVITAR. Crescem a cada sprint.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Regression prevention:** Erro cometido uma vez nunca mais
+- **Institutional knowledge:** Squad nova não repete erros do sprint anterior
+- **Efficiency:** Tempo não gasto em "vimos isto antes"
+- **Pattern recognition:** Semelhança com erros passados = early warning
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
+- [ ] Ler todas as lições antes de novo trabalho
+- [ ] Se reconheces padrão de erro passado, stop e documentar
+- [ ] Após erro novo, adicionar a esta lista imediatamente
 - [ ] Item 2
 - [ ] Item 3
 
@@ -66,7 +66,9 @@ que devem prevenir regressão. Cada lição documenta:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-MEMORY-INDEX]] — Índice central do sistema
+- [[REFERENCE-DECISIONS]] — Decisões que governam
+- [[REFERENCE-ESTADO-ATUAL]] — Estado e progresso
+- [[COURSE-PEPITAS-DE-OURO]] — Lições que alimentam o course
 
 ---

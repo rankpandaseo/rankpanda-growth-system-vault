@@ -1,33 +1,34 @@
 ---
 name: reference-pilot-vibradores
-description: Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+description: Projeto Pilot-Vibradores — Sprint 001 (45D Sprint execution model validation)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, project, pilot]
+wikilinks: [[REFERENCE-MEMORY-INDEX]], [[COURSE-PEPITAS-DE-OURO]]
 ---
 
-# Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+# Projeto: Pilot-Vibradores — Sprint 001
 
-**Resumo:** Projeto: Pilot-Vibradores | Sprint 001 | Campo | Valor |
+**Resumo:** Projeto piloto que valida o modelo 45D Sprint. Sprint 001 em execução. Task IDs, métricas, estado de cada FASE, descobertas que alimentam o course.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Model validation:** Pilot-Vibradores prova que 45D funciona em produção
+- **Pepita source:** Cada fase gera 3-5 pepitas que alimentam course M01-M10
+- **Reference case:** Próximos clientes = Vibradores + X
+- **Metrics locked:** Baseline, FASE X metrics, comparação antes/depois
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Saber estado de cada FASE (Start date, complete date, metrics)
+- [ ] Listar task IDs em ClickUp
+- [ ] Recolher pepitas semanalmente
+- [ ] Manter métricas atualizadas (GSC, GA4, SE Ranking)
 
 ---
 
@@ -88,7 +89,9 @@ wikilinks: []
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[PILOT-VIBRADORES-00-MASTER-PLAN]] — Plano mestre do projeto
+- [[REFERENCE-ESTADO-ATUAL]] — Estado atual da operação
+- [[CONCEITO-45D-Framework]] — Framework teórico
+- [[COURSE-PEPITAS-DE-OURO]] — Pepitas geradas pelo projeto
 
 ---

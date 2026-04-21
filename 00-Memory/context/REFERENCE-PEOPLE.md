@@ -1,33 +1,25 @@
 ---
 name: reference-people
-description: People — Squad, Dinâmicas, Alertas Mapeamento de pessoas,
-responsabilidades, e padrões de comunicação. Atualiza-se conforme dinâmicas
-evoluem. --- ## 👤 Core Team ### Rui (Founder/PM) **Papel:** Fundador RankPanda,
-PM de Shopify SEO sprints **Responsabilidades:** Strategic direction, client
-relationships, architectural decisions, course content **Timezone:**
-Europe/Lisbon (WET/WEST) **Preferências:**
+description: People — Squad, dinâmicas, alertas (Mapeamento de pessoas e responsabilidades)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, people, team]
+wikilinks: [[REFERENCE-MEMORY-INDEX]]
 ---
 
-# People — Squad, Dinâmicas, Alertas Mapeamento de pessoas, responsabilidades, e padrões de comunicação. Atualiza-se conforme dinâmicas evoluem. --- ## 👤 Core Team ### Rui (Founder/PM) **Papel:** Fundador RankPanda, PM de Shopify SEO sprints **Responsabilidades:** Strategic direction, client relationships, architectural decisions, course content **Timezone:** Europe/Lisbon (WET/WEST) **Preferências:**
+# People — Squad, Dinâmicas, Alertas
 
-**Resumo:** People — Squad, Dinâmicas, Alertas Mapeamento de pessoas,
-responsabilidades, e padrões de comunicação. Atualiza-se conforme dinâmicas
-evoluem. --- ## 👤 Core Team ### Rui (Founder/PM) **Papel:** Fundador RankPanda,
-PM de Shopify SEO sprints **Responsabilidades:** Strategic direction, client
-relationships, architectural decisions, course content **Timezone:**
-Europe/Lisbon (WET/WEST) **Preferências:**
+**Resumo:** Mapeamento de pessoas, responsabilidades, e padrões de comunicação. Atualiza-se conforme dinâmicas evoluem — quem está disponível, com que carga, qual é o padrão de comunicação preferido.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
+- **Communication efficiency:** Saber timezone, preferências, carga de cada pessoa = evitar asynchrony desnecessária
+- **Context for Claude:** IA ajusta tom, timing, delivery conforme pessoa
+- **Team dynamics:** Alertas de conflitos, carga elevada, ou turnover
+- **Handoff clarity:** Quem faz o quê = zero ambiguidade
 - Ponto 2
 - Ponto 3
 
@@ -54,7 +46,9 @@ Europe/Lisbon (WET/WEST) **Preferências:**
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-MEMORY-INDEX]] — Índice central do sistema
+- [[REFERENCE-DECISIONS]] — Decisões que afetam dinâmicas
+- [[REFERENCE-ESTADO-ATUAL]] — Estado e progresso
+- [[REFERENCE-LESSONS]] — Lições aprendidas com squad
 
 ---

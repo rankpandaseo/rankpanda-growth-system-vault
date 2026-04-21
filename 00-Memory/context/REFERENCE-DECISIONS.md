@@ -1,33 +1,33 @@
 ---
 name: reference-decisions
-description: Decisões Arquitecturais — RankPanda Shopify SEO System | Campo | Valor |
+description: Decisões Arquitecturais — Rules that cannot be violated (Zero Duplicação, API-First, etc)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, decisions, architecture]
+wikilinks: [[REFERENCE-MEMORY-INDEX]]
 ---
 
-# Decisões Arquitecturais — RankPanda Shopify SEO System | Campo | Valor |
+# Decisões Arquitecturais — RankPanda Shopify SEO System
 
-**Resumo:** Decisões Arquitecturais — RankPanda Shopify SEO System | Campo | Valor |
+**Resumo:** Decisões permanentes que não podem ser violadas. Zero Duplicação, API-First (zero MCPs), Memory System, Vault Markdown Standard. Cada decisão tem regra, contexto, e impacto.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Consistency:** Decisões documentadas = zero contradição entre sessões
+- **Governance:** Novas iniciativas validadas contra decisões existentes
+- **Scaling:** Padrões provados replicados em novos clientes/projetos
+- **Transparency:** Rui sabe que Claude respeitou as regras
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Ler todas as decisões antes de iniciar trabalho
+- [ ] Se uma decisão é violada, stop e documentar
+- [ ] Propostas de MUDANÇA de decisão = discussion, não implementação
 
 ---
 
@@ -47,7 +47,9 @@ wikilinks: []
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[REFERENCE-MEMORY-INDEX]] — Índice central do sistema de memória
+- [[REFERENCE-LESSONS]] — Erros que não podem repetir
+- [[REFERENCE-PEOPLE]] — Squad e dinâmicas
+- [[REFERENCE-ESTADO-ATUAL]] — Estado atual da operação
 
 ---
