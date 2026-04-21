@@ -1,37 +1,33 @@
 ---
 name: reference-m01-readme
-description: M01 — Fundamentos: O que é 45D Sprint? > O sistema operacional para
-transformar lojas Shopify em máquinas de tráfego orgânico em 45 dias. ##
-Objectivo Ao final deste módulo, o aluno compreende:
+description: M01 — Fundamentos — O que é 45D Sprint (4 aulas, 80 min)
 type: reference
 status: active
 foco: operational
-tags: [reference, index]
-wikilinks: []
+tags: [reference, index, course, framework]
+wikilinks: [[COURSE-00-STRUCTURE]], [[COURSE-STATUS]], [[CONCEITO-45D-Framework]]
 ---
 
-# M01 — Fundamentos: O que é 45D Sprint? > O sistema operacional para transformar lojas Shopify em máquinas de tráfego orgânico em 45 dias. ## Objectivo Ao final deste módulo, o aluno compreende:
+# M01 — Fundamentos: O Que É 45D Sprint?
 
-**Resumo:** M01 — Fundamentos: O que é 45D Sprint? > O sistema operacional para
-transformar lojas Shopify em máquinas de tráfego orgânico em 45 dias. ##
-Objectivo Ao final deste módulo, o aluno compreende:
+**Resumo:** O sistema operacional que transforma lojas Shopify em máquinas de tráfego orgânico em 45 dias. 4 lições completas sobre o framework, as 4 fases, papéis, e diferencial vs. agências tradicionais.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Foundation of everything:** M01 é pré-requisito para todos os outros módulos. Sem compreender 45D framework, M02-M10 não fazem sentido.
+- **Client confidence:** Cliente que compreende 45D framework aceita o ritmo intenso, approva rápido, e continua no retainer.
+- **Replicability:** 45D é o que torna RankPanda replicável. Sem isto documentado, cada sprint seria uma aventura.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Completar as 4 lições (1.1-1.4) — 80 minutos totais
+- [ ] Anotar: O Quê, Como, Quem, Porquê
+- [ ] Compreender os 3 pilares (Diagnóstico, Execução Paralela, Approval Gates)
+- [ ] Estar pronto para M02
 
 ---
 
@@ -47,7 +43,9 @@ Objectivo Ao final deste módulo, o aluno compreende:
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[COURSE-00-STRUCTURE]] — Índice completo
+- [[COURSE-STATUS]] — Status M01 (100% complete)
+- [[CONCEITO-45D-Framework]] — Documentação operacional
+- [[COURSE-PEPITAS-DE-OURO]] — Pepitas M01 (#1-#10)
 
 ---
