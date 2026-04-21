@@ -11,71 +11,59 @@ wikilinks: [[SOP-1-STORE-CONTEXT-SETUP-v2]],
 [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP 2 — Keyword Research v2 (API-First Pipeline) **Resumo:** Transformar Semrush CSV em keyword list limpa, enriquecida com SERP data, content analysis, semantic variations, e revenue potential — pronta para clustering (SOP 3). --- ## 🎯 Por Que Isto Importa **Impacto direto em SEO:**
+# SOP 2 — Keyword Research v2 (API-First Pipeline)
 
-**Resumo:** SOP 2 — Keyword Research v2 (API-First Pipeline) **Resumo:**
-Transformar Semrush CSV em keyword list limpa, enriquecida com SERP data,
-content analysis, semantic variations, e revenue potential — pronta para
-clustering (SOP 3). --- ## 🎯 Por Que Isto Importa **Impacto direto em SEO:**
+**Resumo:** Transformar Semrush CSV em keyword list limpa, enriquecida com SERP data, content analysis, semantic variations, e revenue potential — pronta para clustering (SOP 3).
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Impacto direto em SEO:** Keywords bem priorizadas (por volume, difficulty, intent, revenue potential) determinam onde investir esforço em SOP 3 + FASE 2. Sem isto, esforço é aleatório.
+- **Cost Control:** API-first pipeline filtra com Claude ANTES de chamar APIs caras (DataForSEO, Crawl4AI). Diferença: €5-10 vs €50-100.
+- **Revenue Focus:** Revenue potential (SV × CTR × CR × AOV) garante que keywords com maior impacto em negócio saem em P1, não volume puro.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- ← [[FASE-1-DIAGNOSTIC]] — **Insights Competitivos:** Análise competitiva de keywords que competitors rankeiam (opcional, mas melhora priorização) --- ## ⚡ Quick Checklist - [ ] SOP 1 (Store Context) preenchido completamente
+**Pré-execução:**
+- [ ] SOP 1 (Store Context) preenchido completamente
 - [ ] Semrush CSVs exportados (keywords + SERP data)
 - [ ] Credenciais DataForSEO ativas
 - [ ] Credenciais Crawl4AI ativas (ou alternativa scraping)
+
+**Execução:**
 - [ ] Claude relevance gate executado (threshold: >60% relevante)
 - [ ] DataForSEO SERP fetch completo (apenas keywords filtradas)
 - [ ] Content analysis top 3 páginas por keyword
 - [ ] Revenue potential + effort scoring calculado
 - [ ] Outputs gerados: keywords.json + keywords.csv + clusters_for_sop3.json
-- [ ] Validações passed (>200 keywords, relevance gate <40% rejeição, effort distributed)
-- [ ] Ready for [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] --- ## 🔑 Key Principles 1. **API-First:** Semrush → Claude relevance gate → DataForSEO → Crawl4AI → claude semantic analysis. Cada etapa filtra ou enriquece.
-- [ ] SOP 1 (Store Context) preenchido
-- [ ] Semrush CSVs exportados (keywords + SERP)
-- [ ] Credenciais DataForSEO ativas
-- [ ] Credenciais Crawl4AI ativas (ou alternativa de scraping) ### Execução
-- [ ] Parse Semrush CSVs
-- [ ] Claude relevance gate executado
-- [ ] DataForSEO SERP fetch (apenas keywords filtradas)
-- [ ] Crawl4AI content analysis (top 3 páginas)
-- [ ] Claude semantic extraction
-- [ ] Revenue potential + effort scoring
-- [ ] Output JSON/CSV gerados ### Validação
+
+**Validação:**
 - [ ] Total de keywords output ≥ 200 (mínimo para viabilidade)
 - [ ] Relevance gate rejeitou < 20% (se > 40%, rever store context)
 - [ ] Revenue potential total > 0 (lógica funcionou)
 - [ ] Effort scores distribuídos entre FASE 1, 2, 3
-- [ ] Semantic variations encontradas para 80%+ keywords ### Output Final
-- [ ] `keywords.json` salvo em `/vault/01-Clientes/[cliente]/`
-- [ ] `keywords.csv` importado em ClickUp como task list
-- [ ] `clusters_for_sop3.json` pronto para SOP 3 --- ## PARTE H — API Checklist | API | Endpoint | Frequência | Custo | Alternativa |
+- [ ] Semantic variations encontradas para 80%+ keywords
+
+**Ready for:** [[SOP-3-CLUSTERING-COLLECTION-MAPPING]]
 
 ---
 
 ## 📖 Conteúdo Principal
 
-2. **Cost Control:** Claude gate ANTES de DataForSEO (evita chamar API para
-keywords irrelevantes). Estimativa total: €5-10, não €50-100.
-3. **Revenue-Focused:** Cada keyword tem revenue_potential calculado (SV × CTR ×
-CR × AOV). Priorização baseada em impacto, não em volume.
-4. **Semantic Expansion:** Não paramos em "vibrador clítoris". Encontramos
-variações (vibrador clitoriano, externo) + long-tail (com recargável,
-silencioso, premium).
-5. **SERP Context:** Entendemos o SERP (ecommerce rankings? featured snippet?
-PAA?). Isto molda on-page strategy em SOP 4. --- ## 📖 Processo Completo --- ###
-Etapa 1: Input Structure (Semrush CSV) ### CSV 1: Keyword Base
+### 🔑 Key Principles
+
+1. **API-First:** Semrush → Claude relevance gate → DataForSEO → Crawl4AI → Claude semantic analysis. Cada etapa filtra ou enriquece.
+2. **Cost Control:** Claude gate ANTES de DataForSEO (evita chamar API para keywords irrelevantes). Estimativa total: €5-10, não €50-100.
+3. **Revenue-Focused:** Cada keyword tem revenue_potential calculado (SV × CTR × CR × AOV). Priorização baseada em impacto, não em volume.
+4. **Semantic Expansion:** Não paramos em "vibrador clítoris". Encontramos variações (vibrador clitoriano, externo) + long-tail (com recargável, silencioso, premium).
+5. **SERP Context:** Entendemos o SERP (ecommerce rankings? featured snippet? PAA?). Isto molda on-page strategy em SOP 4.
+
+### 📖 Processo Completo
+
+#### Etapa 1: Input Structure (Semrush CSV) ### CSV 1: Keyword Base
 ```
 keyword,search_volume,keyword_difficulty,intent,trend,cpc_usd
 vibradores,2000,45,comercial,estável,0.85
@@ -223,7 +211,7 @@ interativo --- --- ## 🔗 Relacionados **Dependências & Fluxo Sequencial:**
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-1-STORE-CONTEXT-SETUP-v2]] — Input: Store context obrigatório
+- [[SOP-3-CLUSTERING-COLLECTION-MAPPING]] — Output: Keywords agrupadas por intent
 
 ---
