@@ -1,53 +1,147 @@
 ---
 name: template-approval-gate-products
-description: Approval Gate — Products Optimization Samples Template Client approval form for product metadata optimization samples. Present 5-10 optimized product examples to validate approach before batch implementation. --- ## 🛍️ Product Optimization Samples **Sprint:** _________________ | **Phase:** FASE 2 - Execução | **Date:** ___________ **Total Products in Store:** _____ | **Samples for Review:** _____ (typically 5-10) **Optimization Focus:** Title + Description + SEO Metadata + Metafields (if applicable) --- ## 🎯 Sample Product 1: ___________________________________ ### Current State **Current Title:** ___________________________________ **Current Description (First 160 chars):** ___________________________________________________________________ **Current Tags:** ___________________________________ ### Optimized Version **New Title:** ___________________________________ **New Description (First 160 chars):** ___________________________________________________________________ **New Tags:** ___________________________________ **Metafields Added:** ___________________________________ ### Explanation **Why This Title:** _________________________________________________ **Why This Description:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 2: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 3: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 4: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 5: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 📊 Batch Optimization Summary **Products Requiring Optimization:** _____ (scan of full catalog) **Estimated Optimization Time:** _____ hours (at current batch rate) **Process:**
+description: Approval Gate form template for product optimization samples validation
 type: template
-status: draft
+status: active
 foco: operational
-tags: [template, reusable]
-wikilinks: []
+tags: [template, approval-gate, products, form]
+wikilinks: [[FASE-2-EXECUTION]], [[CONCEITO-Client-Approval]]
 ---
 
-# Approval Gate — Products Optimization Samples Template Client approval form for product metadata optimization samples. Present 5-10 optimized product examples to validate approach before batch implementation. --- ## 🛍️ Product Optimization Samples **Sprint:** _________________ | **Phase:** FASE 2 - Execução | **Date:** ___________ **Total Products in Store:** _____ | **Samples for Review:** _____ (typically 5-10) **Optimization Focus:** Title + Description + SEO Metadata + Metafields (if applicable) --- ## 🎯 Sample Product 1: ___________________________________ ### Current State **Current Title:** ___________________________________ **Current Description (First 160 chars):** ___________________________________________________________________ **Current Tags:** ___________________________________ ### Optimized Version **New Title:** ___________________________________ **New Description (First 160 chars):** ___________________________________________________________________ **New Tags:** ___________________________________ **Metafields Added:** ___________________________________ ### Explanation **Why This Title:** _________________________________________________ **Why This Description:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 2: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 3: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 4: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 5: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 📊 Batch Optimization Summary **Products Requiring Optimization:** _____ (scan of full catalog) **Estimated Optimization Time:** _____ hours (at current batch rate) **Process:**
+# TEMPLATE — Approval Gate: Products Optimization
 
-**Resumo:** Approval Gate — Products Optimization Samples Template Client approval form for product metadata optimization samples. Present 5-10 optimized product examples to validate approach before batch implementation. --- ## 🛍️ Product Optimization Samples **Sprint:** _________________ | **Phase:** FASE 2 - Execução | **Date:** ___________ **Total Products in Store:** _____ | **Samples for Review:** _____ (typically 5-10) **Optimization Focus:** Title + Description + SEO Metadata + Metafields (if applicable) --- ## 🎯 Sample Product 1: ___________________________________ ### Current State **Current Title:** ___________________________________ **Current Description (First 160 chars):** ___________________________________________________________________ **Current Tags:** ___________________________________ ### Optimized Version **New Title:** ___________________________________ **New Description (First 160 chars):** ___________________________________________________________________ **New Tags:** ___________________________________ **Metafields Added:** ___________________________________ ### Explanation **Why This Title:** _________________________________________________ **Why This Description:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 2: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 3: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 4: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 🎯 Sample Product 5: ___________________________________ **Current Title:** ___________________________________ **New Title:** ___________________________________ **Why Changed:** _________________________________________________ **Expected Benefit:** _________________________________________________ --- ## 📊 Batch Optimization Summary **Products Requiring Optimization:** _____ (scan of full catalog) **Estimated Optimization Time:** _____ hours (at current batch rate) **Process:**
+**Resumo:** Google Form para validar amostra de 5-10 produtos otimizados antes de bulk apply a 50-100+ produtos na loja.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Sampling de produtos:** Apresentamos 5-10 produtos como exemplos (title, description, metafields). Cliente valida padrão. Depois aplicamos a todos.
+- **Reduz risco:** Se cliente não aprova estrutura aqui, descobrimos antes de aplicar a 50+ produtos via API.
+- **Batch operations scale:** Aprovação = lock-in → bulk API apply em 1-2h. Sem aprovação = retrabalho de 20h.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- Bulk upload to Shopify via API **Quality Control:** [ ] Manual review of 10% [ ] 100% PM review [ ] Staged rollout --- ## ✅ Client Approval Section **Do you approve this product optimization approach?** [ ] ✅ **APPROVED** — Proceed with batch optimization [ ] ⚠️ **APPROVED WITH CHANGES** — Details below:
-_________________________________________________________ [ ] ❌ **REJECTED** —
-Please revise. Feedback:
-- [ ] 80%+ products indexed in GSC
-- [ ] Average position improvement of 5+ spots
-- [ ] 20%+ increase in impressions (12 weeks)
-- [ ] Client visible in competitor benchmarks --- **Template Version:** 1.0 **Last Updated:** 2026-04-18 **Owner:** RankPanda Growth System
+- [ ] 5-10 produtos selecionados para amostra (mix de categorias)
+- [ ] Claude gerou drafts (title, description, metafields)
+- [ ] Drafts carregados no form (screenshots)
+- [ ] Form enviado ao cliente
+- [ ] Cliente respondeu (turnaround: 48-72h típico)
+- [ ] Aprovação documentada → lock-in padrão
+- [ ] Pronto para bulk apply via Shopify API
 
 ---
 
 ## 📖 Conteúdo Principal
 
-_________________________________________________________
-_________________________________________________________ [ ] ❌ **REJECTED** —
-Please revise. Feedback:
-_________________________________________________________
-_________________________________________________________ --- **Client Name:** _________________________ | **Date:** ___________ **Client Signature/Approval:** _________________________ **RankPanda Manager:** _________________________ | **Date:** ___________ --- ## 📈 Expected Outcomes **Metrics We'll Track (6-12 weeks):**
+### Form Header
+
+```
+TITLE: Aprovação de Otimização de Produtos — [Store Name]
+
+INTRO TEXT:
+Olá [Client Name],
+
+Baseado na keyword research, otimizámos titles e descriptions de vários produtos.
+
+Abaixo estão 5-10 exemplos da amostra. Aprova a abordagem?
+
+Se sim, aplicamos este padrão a [TOTAL] produtos.
+```
+
+### Section 1: Summary
+
+```
+SPRINT: _________________ 
+FASE: 2 — Execução
+DATA: ___________________
+
+Total Produtos na Loja: _____
+Amostra para Revisão: _____ (típico: 5-10)
+Foco: Title + Description + SEO Metafields
+```
+
+### Section 2: Sample Products (5-10 items)
+
+```
+PRODUTO 1: [Product Name]
+
+#### ESTADO ACTUAL:
+Title: ___________________________________ 
+Description (160 chars): ____________________________________________________________
+Tags: ___________________________________
+
+#### VERSÃO OPTIMIZADA:
+New Title (70-80 chars): ___________________________________
+New Description (120-155 chars): ____________________________________________________________
+Metafields Added: ___________________________________
+
+#### POR QUE MUDOU:
+Why Title: _________________________________________________ 
+Why Description: _________________________________________________ 
+Expected Benefit: _________________________________________________
+
+---
+
+[Repeat for Products 2-10 with condensed format:
+PRODUTO 2: [Name] | Current: [X] | New: [Y] | Why: [...] | Benefit: [...]
+]
+```
+
+### Section 3: Batch Summary
+
+```
+RESUMO DA BATCH:
+
+Produtos a Otimizar: _____ (full catalog scan)
+Tempo para Aplicar: _____ horas (via Shopify bulk API, não manual)
+Processo: 
+  1. Aprovação cliente ✓
+  2. Build batch CSV
+  3. Submit Shopify API mutation
+  4. Monitor bulk operation (5-30 min típico)
+
+Quality Control:
+☐ Manual review de 10%
+☐ 100% PM review
+☐ Staged rollout (50% first, monitor, then 100%)
+```
+
+### Section 4: Client Approval
+
+```
+APROVAÇÃO:
+
+Aprova a abordagem de otimização de produtos apresentada?
+
+☐ ✅ APROVADO — Proceder com batch optimization
+☐ ⚠️ APROVADO COM AJUSTES — Detalhes abaixo
+☐ ❌ REJEITADO — Feedback para revisão
+
+[Open text field for comments]
+
+Turnaround esperado: 48-72 horas
+```
+
+### Section 5: Sign-off
+
+```
+CONFIRMAÇÃO:
+
+Nome do Cliente: _________________________
+Data: _______________
+
+Assinatura/Aprovação: _________________________ 
+
+RankPanda Manager: _________________________ 
+Data: _______________
+```
 
 ---
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
-
----
+- [[FASE-2-EXECUTION]] — FASE que executa a otimização
+- [[CONCEITO-Client-Approval]] — Padrões de approval gate
