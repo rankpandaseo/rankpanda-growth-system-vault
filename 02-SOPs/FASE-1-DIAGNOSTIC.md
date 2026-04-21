@@ -1,12 +1,57 @@
+---
+name: fase-1-diagnostic
+description: Analyze GSC, GA4, technical foundation, and competitive landscape to identify highest-impact opportunities
+type: fase
+status: active
+foco: análise
+tags: [diagnostic, gsc-analysis, ga4, competitive, technical-audit]
+wikilinks: [[[fase-0-kickoff]], [[sop-2-keyword-research]], [[fase-2-execution]]]
+---
+
 # SOP FASE 1 — Diagnóstico Estratégico (Semana 1-2)
 
-## 🎯 Objetivo
-
-Descobrir o que está a travar crescimento orgânico e indexação através de análise estruturada (não auditoria completa).
+**Resumo:** Analisar dados de GSC, GA4, performance técnica e landscape competitivo para identificar 3-5 oportunidades de maior impacto. Não é auditoria completa — é diagnóstico focado.
 
 ---
 
-## CAMADA 1 — AUDITORIA (Weak Points Detection)
+## 🎯 Por Que Isto Importa
+
+**Impacto na eficácia do sprint:**
+- **Data-driven prioritization:** Sem diagnóstico, otimizamos ao acaso. Com diagnóstico claro (GSC gaps, GA4 trends, competitive analysis), sabemos exatamente que 3-5 keywords/coleções vão render mais tráfego com menos esforço.
+- **Evita retrabalho:** Se diagnosticamos que problema é indexation (não keywords), focamos em robots.txt/canonical em SOP 4. Se é keywords, focamos em SOP 2-3.
+- **Client confidence:** Apresentar diagnóstico claro = cliente vê que recomendações viêm de dados, não de achismo. Buy-in imediato para FASE 2.
+- **Baseline para prova de ROI:** Capturamos posição atual de top competitors, keywords que rankiam, tráfego que vem. Em FASE 3, comparamos: "éramos rank 25, agora 5. Impressões subiram de X para Y."
+
+**Sem FASE 1 bem feita:** Propomos estratégia sem base. Cliente questiona. Semana perdida.
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] GSC coverage report analisado (indexed vs discovered vs errors)
+- [ ] Indexation gaps por tipo identificados (product, collection, blog)
+- [ ] GA4 organic traffic trends (90 dias) extraídos
+- [ ] Top 10 landing pages (por sessões, conversão, bounce rate) documentadas
+- [ ] Core Web Vitals medidos (LCP, FID, CLS)
+- [ ] Mobile usability testado
+- [ ] Top 5 competitors mapeados
+- [ ] Competitive keywords gap análisado (eles rankiam, nós não)
+- [ ] 3-5 maiores oportunidades identificadas + prioridades
+- [ ] Client presentation aprovada → Ready for [[fase-2-execution]]
+
+---
+
+## 🔑 Key Principles
+
+1. **Data Over Assumption:** Sempre verificar GSC, GA4, PageSpeed. Nunca recomendar baseado em feeling.
+2. **Pareto Focus:** 80% do impacto vem de 20% das oportunidades. Diagnóstico encontra esse 20%.
+3. **Competitive Context:** Entender onde competitors rankiam ajuda-nos a atacar gaps reais.
+4. **Quick Wins First:** FASE 1 identifica o que pode ser fixado em 3 dias (canonical, robots.txt) vs 21 dias (novo conteúdo).
+5. **Documentation for Reuse:** Cada diagnóstico alimenta o playbook. Patterns recorrentes = novos SOPs.
+
+---
+
+## Operacional: ANÁLISE (Weak Points Detection)
 
 ### Checklist de Diagnóstico
 
@@ -50,19 +95,7 @@ _Preencher durante FASE 1:_
 
 ---
 
-## CAMADA 2 — FORMATIVO (How-To / Teaching Module)
-
-### Porque é Diagnóstico Importante
-
-Sem diagnóstico claro:
-- Vamos otimizar coisas erradas
-- Vamos gastar tempo em low-impact fixes
-- Vamos perder oportunidades óbvias
-- Cliente vai desconfiar (why these recommendations?)
-
-**Princípio:** Data-driven decision making. Nunca assumir; sempre verificar.
-
-### Como Fazer GSC Analysis
+## Como Fazer GSC Analysis
 
 1. **Abrir GSC** → "Coverage" report
 2. **Ler gráfico de cobertura:**
@@ -114,7 +147,7 @@ Sem diagnóstico claro:
 
 ---
 
-## CAMADA 3 — TEMPLATE ClickUp (Operational Tasks)
+## Execução: ClickUp Space + Tarefas
 
 ### ClickUp Space Structure (FASE 1)
 
@@ -196,16 +229,26 @@ Sem diagnóstico claro:
 
 ---
 
-## ✅ Entregáveis Fase 1
+## Validação & Entregáveis
 
-1. ✅ Diagnóstico estruturado (GSC, GA4, Technical, Competitive)
-2. ✅ 3-5 oportunidades prioritárias identificadas + documentadas
-3. ✅ Roadmap de execução para FASE 2 (KW research, collections, products)
-4. ✅ Client buy-in (aprovação de estratégia proposta)
-5. ✅ Vault atualizado com learnings
+- ✅ Diagnóstico estruturado (GSC, GA4, Technical, Competitive)
+- ✅ 3-5 oportunidades prioritárias identificadas + documentadas
+- ✅ Roadmap de execução para FASE 2 (KW research, collections, products)
+- ✅ Client buy-in (aprovação de estratégia proposta)
+- ✅ Vault atualizado com learnings + competitive intelligence
 
 ---
 
-**Versão:** 1.0  
-**Última Atualização:** [data]  
-**Owner:** [nome]
+## 🔗 Relacionados
+
+- [[fase-0-kickoff]] — Anterior: Setup e baseline metrics
+- [[sop-2-keyword-research]] — Próximo: Baseado em gaps identificados em diagnóstico
+- [[fase-2-execution]] — Execução: Implementar recomendações de FASE 1
+- `/vault/04-Templates/before-after-report-template.md` — Template de relatorio diagnostic
+
+---
+
+**Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** [[fase-2-execution]] (após client sign-off de diagnóstico)
