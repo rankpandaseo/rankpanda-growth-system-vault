@@ -1,12 +1,64 @@
+---
+name: fase-3-validation
+description: Measure impact (before/after), analyze semantic wins, create 90D/6M roadmap, present continuity options
+type: fase
+status: active
+foco: validação
+tags: [validation, metrics, impact-analysis, growth-roadmap, continuity]
+wikilinks: [[[fase-2-execution]], [[pilot-vibradores]]]
+---
+
 # SOP FASE 3 — Validação + Growth Roadmap (Semana 4-5)
 
-## 🎯 Objetivo
-
-Provar impacto, preparar continuidade, definir prescrição para crescimento pós-sprint.
+**Resumo:** Capturar before/after metrics de GSC, GA4, CWV. Analisar impacto semântico (novas keywords, movimentos de posição). Definir 90D + 6M roadmap. Apresentar 3 opções de continuidade com prescrição clara.
 
 ---
 
-## CAMADA 1 — AUDITORIA (Weak Points Detection)
+## 🎯 Por Que Isto Importa
+
+**Impacto no cliente e na credibilidade RankPanda:**
+- **Proof of ROI:** Cliente vê números: +75% impressões, +167% clicks, 5 novas keywords rankeando. Conversão em confiança para próximos passos.
+- **Data Transparency:** Não é "acreditariam quando quiseram". É "GSC prova que...". Eliminamos dúvida.
+- **Continuity Revenue:** Com proof forte, cliente aceita roadmap 90D/6M. Contrato renovado ou expandido.
+- **Pepitas for Playbook:** Cada sprint ensina algo. Documentar learnings = futuro sprints mais rápidos, mais eficientes.
+
+**Sem FASE 3 bem feita:** Terminamos sprint, cliente não vê proof, dúvida se valeu. Churn no 45D.
+
+---
+
+## ⚡ Quick Checklist
+
+- [ ] GSC before/after data coletado (Week 1 vs Week 5)
+- [ ] GA4 before/after data coletado
+- [ ] Core Web Vitals before/after medidos (LCP, FID, CLS)
+- [ ] Indexed pages growth calculado (% change)
+- [ ] Impressions growth calculado (% change)
+- [ ] Clicks growth calculado (% change)
+- [ ] Average position improvement calculada
+- [ ] New keywords ranking identificadas + posições
+- [ ] Keywords position movement documentados
+- [ ] Traffic projection 90D estimada
+- [ ] Revenue impact estimada (sessions × CR × AOV)
+- [ ] 90D roadmap esboçado (próximas oportunidades)
+- [ ] 6M roadmap esboçado (visão a longo prazo)
+- [ ] 3 opções de continuidade apresentadas (À la carte, Auditoria, Self-service)
+- [ ] Final presentation (Loom ou deck) pronto
+- [ ] Client sign-off obtido + pepitas documentadas
+- [ ] Ready for continuidade ou conclusão
+
+---
+
+## 🔑 Key Principles
+
+1. **Data Transparency:** Every metric backed by GSC/GA4 export. Cliente pode verificar. Confiança imediata.
+2. **Before/After as Anchor:** "Éramos rank 25, agora 5" é mais poderoso que "otimizámos keywords". Concrete proof.
+3. **90D Roadmap Driven by Insight:** Não propomos "continue como está". Propomos "3 maiores gaps identificados → próximas 90 dias focam naqueles 3".
+4. **Continuity is Upsell, Not Afterthought:** Com proof forte, continuity é pedida pelo cliente, não oferecida por nós.
+5. **Learning Capture:** Cada sprint alimenta biblioteca de pepitas. Playbook cresce.
+
+---
+
+## Operacional: AUDITORIA (Weak Points Detection)
 
 ### Checklist de Validação
 
@@ -40,19 +92,7 @@ _Se há gaps na execução:_
 
 ---
 
-## CAMADA 2 — FORMATIVO (How-To / Teaching Module)
-
-### Porque Validação é Crítica
-
-Sem validação clara:
-- Não sabemos se 45D valeu a pena
-- Cliente fica inseguro sobre continuidade
-- Não temos dados para prescrição futura
-- Não capturamos learnings
-
-**Princípio:** Data transparency. Cliente vê antes/after. Credibilidade gerada.
-
-### Como Fazer Before/After Report
+## Como Fazer Before/After Report
 
 **Timeline:** Comparação Dia 1 (Fase 0) vs Dia 35 (Fim Fase 2)
 
@@ -137,7 +177,7 @@ Based on diagnostic + execution learnings:
 
 ---
 
-## CAMADA 3 — TEMPLATE ClickUp (Operational Tasks)
+## Execução: ClickUp Space + Tarefas
 
 ### ClickUp Space Structure (FASE 3)
 
@@ -239,15 +279,15 @@ Based on diagnostic + execution learnings:
 
 ---
 
-## ✅ Entregáveis Fase 3
+## Validação & Entregáveis
 
-1. ✅ Before/After report com métricas claras
-2. ✅ Semantic impact analysis (new keywords, position changes)
-3. ✅ Traffic projection 90D + revenue estimate
-4. ✅ 90D + 6M roadmaps definidos
-5. ✅ 3 opções de continuidade com pricing
-6. ✅ Pepitas de ouro documentadas (learnings for future)
-7. ✅ Client sign-off + celebration
+- ✅ Before/After report com métricas claras (indexed, impressions, clicks, position)
+- ✅ Semantic impact analysis (new keywords, position movements, traffic lift)
+- ✅ Traffic projection 90D + revenue estimate
+- ✅ 90D + 6M roadmaps definidos (com oportunidades prioridades)
+- ✅ 3 opções de continuidade com scope/pricing (À la carte, Auditoria, Self-service)
+- ✅ Pepitas de ouro documentadas (learnings para futuro playbook)
+- ✅ Client sign-off + Sprint celebration
 
 ---
 
@@ -284,6 +324,17 @@ Based on diagnostic + execution learnings:
 
 ---
 
-**Versão:** 1.0  
-**Última Atualização:** [data]  
-**Owner:** [nome]
+## 🔗 Relacionados
+
+- [[fase-2-execution]] — Anterior: Execução que gerou resultados
+- [[pilot-vibradores]] — Projeto live (exemplo completo)
+- `/vault/04-Templates/before-after-report-template.md` — Template para relatório
+- `/vault/04-Templates/pepita-capture-template.md` — Template para documentar learnings
+- `/vault/05-Curso-45D/pepitas-de-ouro.md` — Pepitas acumuladas
+
+---
+
+**Versão:** 2.0  
+**Data:** 2026-04-21  
+**Status:** ATIVO  
+**Próximo:** Continuidade (90D roadmap) ou Sprint novo com outro cliente
