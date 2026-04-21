@@ -10,95 +10,90 @@ wikilinks: [[SOP-2-KEYWORD-RESEARCH-V2]], [[SOP-1-STORE-CONTEXT-SETUP-v2]],
 [[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
 ---
 
-# SOP 3 — Clustering + Collection Mapping **Resumo:** Agrupar keywords por tipo de intenção/conteúdo e mapear para Shopify collections — criar estrutura navegável e implementável. --- ## 🎯 Por Que Isto Importa **Impacto direto em SEO:**
+# SOP 3 — Clustering + Collection Mapping
 
-**Resumo:** SOP 3 — Clustering + Collection Mapping **Resumo:** Agrupar keywords
-por tipo de intenção/conteúdo e mapear para Shopify collections — criar
-estrutura navegável e implementável. --- ## 🎯 Por Que Isto Importa **Impacto
-direto em SEO:**
+**Resumo:** Agrupar keywords por tipo de intenção/conteúdo e mapear para Shopify collections — criar estrutura navegável e implementável.
 
 ---
 
 ## 🎯 Por Que Isto Importa
 
-[Adiciona contexto: impacto direto no projeto, porquê isto importa]
-- Ponto 1
-- Ponto 2
-- Ponto 3
+- **Impacto direto em SEO:** Clusters transformam keywords soltas em estrutura coesa de collections. Sem isto, cada keyword é órfã; com isto, reforçam-se mutuamente (topical authority).
+- **Canibalizações evitadas:** "One Keyword, One Home" = cada keyword mapeia para exatamente uma collection/página. Evita competição interna (cannibalização).
+- **Shopify-ready:** Clusters transformam-se em collections reais, implementáveis 1:1 em Shopify. Não teórico — pronto para launch.
 
 ---
 
 ## ⚡ Quick Checklist
 
-- ← [[SOP-2-KEYWORD-RESEARCH-V2]] — **Input Obrigatório:** Keywords finalizadas em keywords.json (com scoring, SERP data, revenue potential). Clustering depende 100% deste output. --- ## ⚡ Quick Checklist - [ ] keywords.json (SOP 2 output) carregado
+**Pré-execução:**
+- [ ] SOP 2 output (`keywords.json`) disponível
+- [ ] Store context (indústria, categorias, AOV, CR) validado
+- [ ] Timeline e fases (FASE 1, 2, 3) alinhadas com cliente
+
+**Execução:**
 - [ ] Cluster types definidos (7 tipos: categoria, feature, marca, preço, informacional, localização, long-tail)
 - [ ] Claude clustering executado (agrupa keywords em ~20-30 clusters semânticos)
-- [ ] Collection structure esboçado (main + sub-collections)
+- [ ] Validação de coesão de clusters (manual review)
 - [ ] Primary keywords atribuído a cada cluster
 - [ ] Child keywords + variações mapeadas
-- [ ] collection_map.json gerado
-- [ ] shopify_collection_structure.md criado
-- [ ] Validação: 0 canibalizações, cada keyword em 1 cluster apenas
-- [ ] Ready for --- ## 🔑 Key Principles 1. **One Keyword, One Home:** Cada keyword mapeia para EXATAMENTE uma collection/página. Evita cannibalização.
-- [ ] SOP 2 output (`keywords.json`) disponível
-- [ ] Store context (industria, categories, AOV, CR) validado
-- [ ] Timeline e fases (FASE 1, 2, 3) alinhadas com cliente ### Execução
-- [ ] Claude clustering executado
-- [ ] Validação de coesão de clusters (manual review)
-- [ ] Collection mapping decidido
-- [ ] Meta titles e descriptions redigidas
-- [ ] Blog content strategy definida ### Validação
+- [ ] Collection structure esboçado (main + sub-collections)
+
+**Validação:**
 - [ ] 100% de keywords clustered
-- [ ] Nenhum keyword em 2 clusters (exclusividade)
+- [ ] Nenhum keyword em 2 clusters (exclusividade, 0 canibalizações)
 - [ ] Cada cluster tem ≥ 3 keywords (coesão)
 - [ ] Collections viáveis (≥ 3 produtos esperados por collection)
-- [ ] Blog strategy definida (≥ 3 posts informativos) ### Output Final
+- [ ] Blog strategy definida (≥ 3 posts informativos)
+
+**Output Final:**
 - [ ] `collection_map.json` salvo
-- [ ] `shopify_collection_structure.md` pronto para implementação Shopify
-- [ ] Handed off para SOP 4 (On-Page Optimization) --- ## Próximas Etapas 1. **SOP 4:** On-Page Optimization (aplicar keywords em product titles, meta descriptions, H1, body)
+- [ ] `shopify_collection_structure.md` pronto para implementação
+- [ ] Ready for [[SOP-4-ON-PAGE-OPTIMIZATION]] (quando existir)
 
 ---
 
 ## 📖 Conteúdo Principal
 
-2. **Semantic Clustering:** Agrupa não por string matching, mas por intenção de
-utilizador (ex: "vibrador recargável" + "vibrador impermeável" = mesmo cluster
-FEATURE, público = pessoas que querem conveniência).
-3. **Shopify-Native:** Clusters transformam-se em collections reais. Não teórico
-— implementável 1:1 em Shopify.
-4. **Collection Hierarchy:** Main collection (CATEGORIA) pode ter
-sub-collections (FEATURE + PREÇO). Estrutura navigável.
-5. **Reverse Map:** Qual é a "landing page" ideal para "vibrador clítoris"?
-Collection "Vibradores Clítoris" ou artigo "Guia de Vibradores Clítoris"? --- ##
-📖 Cluster Types (Taxonomia) Cada keyword encaixa em UM dos seguintes cluster
-types: ### 1. CATEGORIA (Category)
-**Definição:** Keywords que definem categorias principais de produtos.
-**Exemplo:** "vibrador clítoris", "vibrador ponto G", "masturbadores",
-"vibradores premium"
-**Características:**
-**Definição:** Keywords focadas em atributos específicos.
-**Exemplo:** "vibrador recargável", "vibrador impermeável", "vibrador
-silencioso", "vibrador wireless"
-**Características:**
-**Definição:** Keywords de marca própria ou concorrentes.
-**Exemplo:** "BrandX vibrador", "vibrador similar a BrandX", "alternativa a
-BrandX"
-**Características:**
-**Definição:** Keywords orientadas por preço/budget.
+### 🔑 Key Principles
+
+1. **One Keyword, One Home:** Cada keyword mapeia para EXATAMENTE uma collection/página. Evita cannibalização.
+2. **Semantic Clustering:** Agrupa não por string matching, mas por intenção de utilizador (ex: "vibrador recargável" + "vibrador impermeável" = mesmo cluster FEATURE, público = pessoas que querem conveniência).
+3. **Shopify-Native:** Clusters transformam-se em collections reais. Não teórico — implementável 1:1 em Shopify.
+4. **Collection Hierarchy:** Main collection (CATEGORIA) pode ter sub-collections (FEATURE + PREÇO). Estrutura navigável.
+5. **Reverse Map:** Qual é a "landing page" ideal para "vibrador clítoris"? Collection "Vibradores Clítoris" ou artigo "Guia de Vibradores Clítoris"?
+
+### 📊 Cluster Types (Taxonomia)
+
+Cada keyword encaixa em UM dos seguintes cluster types:
+
+#### 1. CATEGORIA (Category)
+Keywords que definem categorias principais de produtos.  
+**Exemplo:** "vibrador clítoris", "vibrador ponto G", "masturbadores", "vibradores premium"
+
+#### 2. FEATURE (Atributos)
+Keywords focadas em atributos específicos.  
+**Exemplo:** "vibrador recargável", "vibrador impermeável", "vibrador silencioso", "vibrador wireless"
+
+#### 3. MARCA (Brand)
+Keywords de marca própria ou concorrentes.  
+**Exemplo:** "BrandX vibrador", "vibrador similar a BrandX", "alternativa a BrandX"
+
+#### 4. PREÇO (Price)
+Keywords orientadas por preço/budget.  
 **Exemplo:** "vibrador barato", "vibrador premium", "vibrador até €50"
-**Características:**
-**Definição:** Keywords com intent educacional/informacional.
-**Exemplo:** "como usar vibrador", "melhores vibradores 2026", "vibrador
-recomendado", "guia de vibradores"
-**Características:**
-**Definição:** Keywords com componente geográfico.
-**Exemplo:** "vibrador em Lisboa", "comprar vibrador Porto", "loja vibradores
-Portugal"
-**Características:**
-**Definição:** Keywords muito específicas ou conversacionais.
-**Exemplo:** "qual é o melhor vibrador para iniciantes", "vibrador clítoris é
-seguro", "vibrador com mais modos"
-**Características:**
+
+#### 5. INFORMACIONAL (Informational)
+Keywords com intent educacional/informacional.  
+**Exemplo:** "como usar vibrador", "melhores vibradores 2026", "vibrador recomendado", "guia de vibradores"
+
+#### 6. LOCALIZAÇÃO (Location)
+Keywords com componente geográfico (desativado para pilot online).  
+**Exemplo:** "vibrador em Lisboa", "comprar vibrador Porto", "loja vibradores Portugal"
+
+#### 7. LONG-TAIL (Long-tail & Conversational)
+Keywords muito específicas ou conversacionais.  
+**Exemplo:** "qual é o melhor vibrador para iniciantes", "vibrador clítoris é seguro", "vibrador com mais modos"
 Tu és especialista em clustering de keywords para ecommerce de vibradores. Aqui
 estão {N} keywords com metadados (volume, difficulty, semantic variations,
 categoria recomendada): [keywords.json content] Tarefa: Agrupar keywords em
@@ -202,7 +197,7 @@ Relacionados **Dependências & Fluxo Sequencial:**
 
 ## 🔗 Relacionados
 
-- [[Related-Doc-1]] — descrição
-- [[Related-Doc-2]] — descrição
+- [[SOP-2-KEYWORD-RESEARCH-V2]] — Input obrigatório: keywords.json com scoring e revenue potential
+- [[FASE-2-EXECUTION]] — Próxima fase: implementação de collections em Shopify
 
 ---
