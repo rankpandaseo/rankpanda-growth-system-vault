@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
+                "file": "05-Curso-45D/M02-Memoria-e-Contexto/REFERENCE-M02-README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REFERENCE-ESTADO-ATUAL"
+              "title": "REFERENCE-M02-README"
             }
           }
         ]
@@ -183,11 +183,13 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "d8bcdf38eed3a056",
+  "active": "af4ba43dcae75596",
   "lastOpenFiles": [
+    "05-Curso-45D/pepitas-de-ouro/prisma-path-mismatch-fix.md",
+    "05-Curso-45D/pepitas-de-ouro",
+    "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
     "00-Memory/sessions/REFERENCE-SESSION-2026-04-18.md",
     "00-Memory/REFERENCE-MEMORY-INDEX.md",
-    "00-Memory/sessions/REFERENCE-ESTADO-ATUAL.md",
     "02-SOPs/CONCEITO-Keyword-Research.md",
     "AUDIT-ESTRUTURA-COMPLETA.py",
     "AUDIT-REAL.py",
@@ -211,7 +213,6 @@
     "00-Memory/REFERENCE-IntegrationTestReference.md",
     "test-agent-integration.py",
     "02-SOPs/SOP-TestSopDocument.md",
-    "vault_parser.py",
     "02-SOPs/FASE-2-EXECUTION.md",
     "02-SOPs/SOP-3-CLUSTERING-COLLECTION-MAPPING.md",
     "05-Curso-45D/M01-Fundamentos/COURSE-M01-1.4-Por-Que-Vence-Agencias-Tradicionais.md",
