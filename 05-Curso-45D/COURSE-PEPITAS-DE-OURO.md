@@ -113,7 +113,47 @@ Learning: Doing it by hand = 20 hours. Writing script + running = 3 hours. Diffe
 Application: For any task that touches 10+ files identically, consider automation-first.
 Impact: Vault repair compressed to 6 hours vs. estimated 20 hours
 Module: M05-Automações
-Status: ✅ Approved & In Course
+Status: Approved & In Course
+
+---
+
+**Pepita #6: "Numeric decisions that depend on real data → calculate server-side, not LLM-infer"**
+Context: ETAPA 2 prompt asked Claude to infer "tier 1/2/3" from "high search volume + clear intent" — but searchVolume was NEVER passed to Claude (07/05 noite). Result: "vibrador" (6600 vol) fell into tier 2 while "vibrador feminino" (720 vol) was tier 1.
+Learning: LLMs are excellent at language but cannot reason over data they don't see. If the decision depends on numbers (volume, difficulty, click count), calculate server-side with explicit formula. Persist `*_score` and `*_reason` for audit.
+Application: tierCalculator.ts uses `score = log10(SV+1) × intentWeight × difficultyMultiplier` with explicit thresholds. Reproducible, auditable, debuggable.
+Impact: Tier distribution now correlates with real metrics. Same input always produces same tier (vs random Claude output before).
+Module: M05-Automações
+Status: Approved & In Course
+
+---
+
+**Pepita #7: "Claude (Max plan = $0/call) audits ambiguous external API outputs per-shop"**
+Context: Google Knowledge Graph returned brutal false positives for short/ambiguous tokens — `rabbit`→RabbitMQ, `betão`→Concreto, `tipos`→filme "The Bad Guys 2". Scores were HIGH (Wikipedia popular entities) — couldn't filter by threshold.
+Learning: When an external API has high-noise output that depends on context to disambiguate, Claude with businessContext is the cheapest disambiguator. 67% rejection rate validated in production for sex-toy shop. Per-shop validation cache (`Entity{Source}Validation`) means same entity validated once for all keywords.
+Application: For ANY external API integration where output is shown to user (KG, Wikipedia, Google Trends, etc.), add Claude audit layer between API call and UI render. Template in lesson_kg_audit_pattern.md.
+Impact: UI now hides KG matches that are demonstrably wrong (KG ✗ red badge for rejected, no Wiki link). User no longer sees "rabbit → RabbitMQ" garbage.
+Module: M03-Integrações
+Status: Approved & In Course
+
+---
+
+**Pepita #8: "prefetch(1) is non-negotiable in RabbitMQ consumers that spawn heavy processes"**
+Context: VPS hit load avg 143 with 7+ Claude CLI processes paralleling, OOM killed twice in 30min (07/05). Root cause: missing `prefetch(1)` in shared/src/consumer.ts. RabbitMQ delivered all queued messages in burst, async handlers ran in parallel, 7 Claude spawns × ~1GB each = OOM.
+Learning: RabbitMQ default delivery is "as fast as possible". For consumers that spawn external processes (Claude CLI, ffmpeg, etc.), single line `await this.channel.prefetch(1)` after createChannel forces serial processing. Cost: throughput slightly lower. Benefit: OOM impossible.
+Application: All consumers in shared/src/consumer.ts now have prefetch(1). Verify in logs: `[EventConsumer] Connected to RabbitMQ (prefetch=1)`. Same rule applies to ANY consumer that spawns >100MB processes.
+Impact: 1 Claude process running at any time → memory predictable → zero OOM since fix → load avg dropped from 143 to 0.74.
+Module: M05-Automações
+Status: Approved & In Course
+
+---
+
+**Pepita #9: "Polaris TextField uncontrolled in Shopify embedded iframe drops POST value"**
+Context: KG API key field in Settings was silently saving NULL. Form submitted, action ran, INSERT executed — with empty value (07/05). User filled the field, hit save, badge stayed "Não configurado".
+Learning: Polaris TextField in uncontrolled mode (`name="..."` only, no `value`/`onChange`) doesn't always get included in Remix `<Form>` POST when rendered inside Shopify embedded iframe. Mechanism unclear (likely React reconciliation interaction with App Bridge). Fix: state-controlled TextField + `<input type="hidden" name="..." value={state}>` mirror.
+Application: ALL forms in Shopify embedded apps use controlled TextField + hidden mirror pattern. Audit existing forms (SE Ranking, GSC, GA4) when any of them shows similar symptoms.
+Impact: Settings KG API key gravação OK + same pattern protects all future forms.
+Module: M07-Reporting (Shopify UI)
+Status: Approved & In Course
 ```
 
 ---
