@@ -136,20 +136,61 @@ Para 1 research cycle típico (10.000 keywords, vibradores como exemplo):
 | **Total por research cycle** | | **$20.00** |
 
 ### Cenário OPTIMIZADO (após plano abaixo)
+
+Assumindo cycle típico: 8.000 keywords vêm via Semrush CSV (com volume) + 2.000 são descobertas pela app (sintéticas/expansion):
+
 | Operação | Endpoint | Custo |
 |---|---|---|
-| Expansion (100 seeds) | Labs suggestions | $1.00 |
-| Search volume validation 10k keywords (10 batches) | KD search_volume/live (bulk 1000) | $0.75 |
-| SERP analysis top 10 (1k keywords prioritárias, Standard batched) | SERP task_post | $0.60 |
-| **Total por research cycle** | | **$2.35** |
+| Volume das 8k keywords Semrush | **N/A — já vêm no CSV** | **$0.00** |
+| Expansion 100 seeds (descobre ~2k novas) | Labs suggestions | $1.00 |
+| Volume das 2k descobertas (2 batches) | KD search_volume/live | $0.15 |
+| SERP analysis top 10 (1k prioritárias, Standard batched) | SERP task_post | $0.60 |
+| **Total por research cycle** | | **$1.75** |
 
-**Diferença:** **8.5x mais barato** + cobre **3x mais funcionalidade** (expansion + volume validation que hoje nem existem).
+**Diferença vs cenário actual:** **11x mais barato** + cobre **3x mais funcionalidade**. Vs cenário sem skip-existing seria $2.35 — **DF0 (source-aware resolver) poupa adicional $0.60 por cycle (25%).**
 
 ---
 
-## 🛠️ Plano de Optimização (5 passos, ~1.5 dias)
+## 🛠️ Plano de Optimização (6 passos, ~2 dias)
 
 Implementar **antes** de P0 #3 — caso contrário P0 #3 gera tráfego ineficiente desde o dia 1.
+
+### Princípio fundador: dados importados ≠ dados descobertos
+
+**Insight do Rui (07/05/2026):** Quando user importa CSV do Semrush/Ahrefs/SE Ranking, o CSV **já traz `searchVolume`, `difficulty`, `cpc`, `intent`** por keyword. Pagar à DataForSEO para validar esses dados é **dinheiro deitado fora** — o Semrush já cobrou a investigação.
+
+**Regra:** DataForSEO só é chamada para:
+1. Keywords **descobertas pela própria app** (sintéticas do P0 #3, expansion via Labs API, sugestões de autocomplete) — estas NÃO têm volume conhecido
+2. SERP analysis — Semrush não dá top-10 results estruturado
+3. Refresh explícito pelo user (botão "Refresh volumes" em Settings) — se ele suspeitar que dados ficaram velhos
+
+### DF0 — Source-aware data resolver (~½ dia) — TRANSVERSAL, FAZER PRIMEIRO
+
+Este é o **building block** que todos os outros DFs usam. Wrapper único:
+
+```typescript
+// services/dataforseoResolver.server.ts
+async function resolveKeywordVolumes(
+  shop: string,
+  keywords: string[],
+  opts?: { forceRefresh?: boolean }
+): Promise<Map<string, { volume: number | null; source: 'csv' | 'cache' | 'api' }>>
+```
+
+Lógica:
+1. Para cada keyword, fazer query a `KeywordResearch` no DB:
+   - Se `searchVolume IS NOT NULL` E `forceRefresh=false` → marcar como `'csv'`, devolver valor
+   - Se `searchVolume IS NULL` → marcar como pendente
+2. Para as pendentes:
+   - Verificar `KeywordVolumeCache` (TTL 30 dias) → marcar como `'cache'`, devolver
+3. Para as ainda pendentes (verdadeiramente novas):
+   - Chamar `bulkSearchVolume()` (DF2) em batches de 1000
+   - Persistir no `KeywordVolumeCache`
+   - Marcar como `'api'`, devolver
+
+**Resultado:** P0 #3 pode chamar `resolveKeywordVolumes(shop, syntheticKeywords)` sem se preocupar — o resolver garante zero waste.
+
+Idem para `resolveDifficulty()`, `resolveCpc()`, `resolveSerp()` se vier a fazer sentido. SERP fica em `SerpCache` (já existe).
 
 ### DF1 — Migrar SERP para Standard Queue com fallback Live (~½ dia)
 
@@ -160,10 +201,11 @@ Implementar **antes** de P0 #3 — caso contrário P0 #3 gera tráfego ineficien
 
 ### DF2 — Implementar Keywords Data search_volume bulk (~½ dia)
 
-- Novo service `dataforseoVolume.server.ts` com função `bulkSearchVolume(keywords[]): Map<string, number>`
+- Novo service `dataforseoVolume.server.ts` com função primitiva `bulkSearchVolume(keywords[]): Map<string, number>` (chama API directamente)
 - Aceita até 1000 keywords / call; chunks automáticos se mais
-- Cache em `SerpCache` ou nova tabela `KeywordVolumeCache` com TTL 30 dias
-- Endpoint Remix `app.api.keywords.bulk-volume.tsx` para UI consumir
+- Persistência: nova tabela `KeywordVolumeCache (keyword, locationCode, languageCode, volume, fetchedAt)` com TTL 30 dias
+- **Sempre invocada via DF0 resolver** — nunca chamada directamente pelos use cases. Resolver garante skip de keywords que já têm volume.
+- Endpoint Remix `app.api.keywords.bulk-volume.tsx` para UI consumir manualmente (ex: botão "Refresh volumes")
 
 ### DF3 — Implementar Labs API expansion (~¼ dia)
 
