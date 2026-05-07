@@ -8,10 +8,14 @@ foco: seo
 tags: [keyword-research, semrush, dataforseo, api-first]
 wikilinks: [[SOP-1-STORE-CONTEXT-SETUP-v2]],
 [[SOP-3-CLUSTERING-COLLECTION-MAPPING]], [[FASE-1-DIAGNOSTIC]],
-[[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]]]
+[[FASE-2-EXECUTION]], [[PILOT-VIBRADORES-00-MASTER-PLAN]],
+[[ETAPA-2-VALIDATION-MLforSEO-2026-05-07]]]
 ---
 
 # SOP 2 — Keyword Research v2 (API-First Pipeline)
+
+> **📚 Validação contra módulo "Fundamentals of Semantic KW Research" (MLforSEO):**
+> Ver [[ETAPA-2-VALIDATION-MLforSEO-2026-05-07]] — análise comparativa entre as 4 aulas do módulo, este SOP, e a implementação real da ETAPA 2 no código. Inclui 9 gaps priorizados (P0-P2) com plano de execução em ~5-6 dias.
 
 **Resumo:** Transformar Semrush CSV em keyword list limpa, enriquecida com SERP data, content analysis, semantic variations, e revenue potential — pronta para clustering (SOP 3).
 
